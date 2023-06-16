@@ -26,7 +26,7 @@ status-website:
   # baseUrl: /your-repo-name
   # logoUrl: https://raw.githubusercontent.com/seedplicity/upptime/master/assets/seedplicity_logo.svg
   # faviconSvg: https://raw.githubusercontent.com/seedplicity/upptime/master/assets/seedplicity_logo.svg
-  name: ElfHosted 🌱 Status
+  name: ElfHosted Status
   introTitle: "**ElfHosted** is an innovative app hosting platform"
   introMessage: We engineer our platform to be as automated and resilient as possible, but life happens! If something's not right, check here first, or the [#status](https://discord.com/channels/1119115266543075378/1119118485902074016) channel in [Discord](https://discord.elfhosted.com)!
   navbar:
