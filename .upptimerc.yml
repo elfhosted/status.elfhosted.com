@@ -1,31 +1,43 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
+owner: seedplicity # Your GitHub organization or username, where this repository lives
 repo: upptime # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: App Hosting Platform
+    url: https://speed.elfhosted.com
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200    
+  - name: Website / Account Management Platform
+    url: https://elfhosted.com
+    expectedStatusCodes:
+      - 200
+      - 403
+    assignees:
+      - funkypenguin
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
+  status-website:
+    theme: dark  
+  cname: status.elfhosted.com
   # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  # logoUrl: https://raw.githubusercontent.com/seedplicity/upptime/master/assets/seedplicity_logo.svg
+  # faviconSvg: https://raw.githubusercontent.com/seedplicity/upptime/master/assets/seedplicity_logo.svg
+  name: ElfHosted 🌱 Status
+  introTitle: "**ElfHosted** is an innovative app hosting platform"
+  introMessage: We engineer our platform to be as automated and resilient as possible, but life happens! If something's not right, check here first, or the [#status](https://discord.com/channels/1119115266543075378/1119118485902074016) channel in [Discord](https://discord.elfhosted.com)!
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    # - title: Wiki
+    #   href: https://wiki.seedpli.city
+    - title: Discord
+      href: https://discord.elfhosted.com
+    - title: My Subscriptions
+      href: https://elfhosted.com/my-account/subscriptions/
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
