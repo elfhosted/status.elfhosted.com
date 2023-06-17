@@ -4,19 +4,19 @@
     "url": "https://speed.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/speed.elfhosted.com.ico",
     "slug": "app-hosting-platform",
-    "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
-    "time": 457,
-    "timeDay": 457,
-    "timeWeek": 457,
-    "timeMonth": 457,
-    "timeYear": 457,
+    "status": "up",
+    "uptime": "92.35%",
+    "uptimeDay": "92.35%",
+    "uptimeWeek": "92.35%",
+    "uptimeMonth": "92.35%",
+    "uptimeYear": "92.35%",
+    "time": 477,
+    "timeDay": 477,
+    "timeWeek": 477,
+    "timeMonth": 477,
+    "timeYear": 477,
     "dailyMinutesDown": {
-      "2023-06-17": 0
+      "2023-06-17": 69
     }
   },
   {
