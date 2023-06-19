@@ -24,19 +24,19 @@
     "url": "https://elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/elfhosted.com.ico",
     "slug": "website-account-management-platform",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 754,
-    "timeDay": 808,
-    "timeWeek": 754,
-    "timeMonth": 754,
-    "timeYear": 754,
+    "status": "up",
+    "uptime": "99.75%",
+    "uptimeDay": "99.24%",
+    "uptimeWeek": "99.75%",
+    "uptimeMonth": "99.75%",
+    "uptimeYear": "99.75%",
+    "time": 763,
+    "timeDay": 813,
+    "timeWeek": 763,
+    "timeMonth": 763,
+    "timeYear": 763,
     "dailyMinutesDown": {
-      "2023-06-19": 0
+      "2023-06-19": 11
     }
   }
 ]
