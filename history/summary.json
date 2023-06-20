@@ -5,16 +5,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/speed.elfhosted.com.ico",
     "slug": "app-hosting-platform",
     "status": "up",
-    "uptime": "98.41%",
+    "uptime": "98.65%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "98.41%",
-    "uptimeMonth": "98.41%",
-    "uptimeYear": "98.41%",
-    "time": 467,
-    "timeDay": 311,
-    "timeWeek": 467,
-    "timeMonth": 467,
-    "timeYear": 467,
+    "uptimeWeek": "98.65%",
+    "uptimeMonth": "98.65%",
+    "uptimeYear": "98.65%",
+    "time": 462,
+    "timeDay": 421,
+    "timeWeek": 462,
+    "timeMonth": 462,
+    "timeYear": 462,
     "dailyMinutesDown": {
       "2023-06-17": 69
     }
@@ -25,18 +25,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/elfhosted.com.ico",
     "slug": "website-account-management-platform",
     "status": "up",
-    "uptime": "99.75%",
-    "uptimeDay": "99.24%",
-    "uptimeWeek": "99.75%",
-    "uptimeMonth": "99.75%",
-    "uptimeYear": "99.75%",
-    "time": 763,
-    "timeDay": 813,
-    "timeWeek": 763,
-    "timeMonth": 763,
-    "timeYear": 763,
-    "dailyMinutesDown": {
-      "2023-06-19": 11
-    }
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 755,
+    "timeDay": 594,
+    "timeWeek": 755,
+    "timeMonth": 755,
+    "timeYear": 755,
+    "dailyMinutesDown": {}
   }
 ]
