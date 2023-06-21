@@ -32,12 +32,14 @@ status-website:
   navbar:
     - title: Status
       href: /
-    # - title: Wiki
-    #   href: https://wiki.seedpli.city
+    - title: Store
+      href: https://store.elfhosted.com
+    - title: Docs
+      href: https://docs.elfhosted.com
     - title: Discord
       href: https://discord.elfhosted.com
     - title: My Subscriptions
-      href: https://elfhosted.com/my-account/subscriptions/
+      href: https://store.elfhosted.com/my-account/subscriptions/
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
