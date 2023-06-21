@@ -5,16 +5,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/speed.elfhosted.com.ico",
     "slug": "app-hosting-platform",
     "status": "up",
-    "uptime": "98.65%",
+    "uptime": "98.95%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "98.65%",
-    "uptimeMonth": "98.65%",
-    "uptimeYear": "98.65%",
-    "time": 462,
-    "timeDay": 421,
-    "timeWeek": 462,
-    "timeMonth": 462,
-    "timeYear": 462,
+    "uptimeWeek": "98.95%",
+    "uptimeMonth": "98.95%",
+    "uptimeYear": "98.95%",
+    "time": 455,
+    "timeDay": 394,
+    "timeWeek": 455,
+    "timeMonth": 455,
+    "timeYear": 455,
     "dailyMinutesDown": {
       "2023-06-17": 69
     }
@@ -30,11 +30,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 755,
-    "timeDay": 594,
-    "timeWeek": 755,
-    "timeMonth": 755,
-    "timeYear": 755,
+    "time": 757,
+    "timeDay": 774,
+    "timeWeek": 757,
+    "timeMonth": 757,
+    "timeYear": 757,
     "dailyMinutesDown": {}
   }
 ]
