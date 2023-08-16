@@ -32,10 +32,10 @@ status-website:
   navbar:
     - title: Status
       href: /
+    - title: Home
+      href: https://elfhosted.com
     - title: Store
       href: https://store.elfhosted.com
-    - title: Docs
-      href: https://docs.elfhosted.com
     - title: Discord
       href: https://discord.elfhosted.com
     - title: My Subscriptions
