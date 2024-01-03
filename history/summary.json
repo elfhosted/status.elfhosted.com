@@ -30,9 +30,9 @@
     "url": "https://elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/elfhosted.com.ico",
     "slug": "website-account-management-platform",
-    "status": "up",
+    "status": "down",
     "uptime": "99.98%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
@@ -42,6 +42,7 @@
     "timeMonth": 106,
     "timeYear": 185,
     "dailyMinutesDown": {
+      "2024-01-03": 0,
       "2023-09-12": 18,
       "2023-06-23": 29,
       "2023-06-22": 4
