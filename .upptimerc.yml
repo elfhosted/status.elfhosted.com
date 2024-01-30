@@ -9,13 +9,25 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200    
-  - name: Website / Account Management Platform
-    url: https://elfhosted.com
+  - name: Public Torrentio Indexer
+    url: https://torrentio.elfhosted.com
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200          
+  - name: Store / Account Management Platform
+    url: https://store.elfhosted.com
     expectedStatusCodes:
       - 200
       - 403
     assignees:
       - funkypenguin
+  - name: Website / Docs
+    url: https://elfhosted.com
+    expectedStatusCodes:
+      - 200
+    assignees:
+      - funkypenguin      
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
