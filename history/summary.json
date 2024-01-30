@@ -30,19 +30,19 @@
     "url": "https://torrentio.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/torrentio.elfhosted.com.ico",
     "slug": "public-torrentio-indexer",
-    "status": "down",
-    "uptime": "99.98%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "99.98%",
-    "time": 583,
-    "timeDay": 583,
-    "timeWeek": 583,
-    "timeMonth": 583,
-    "timeYear": 583,
+    "status": "up",
+    "uptime": "97.98%",
+    "uptimeDay": "97.98%",
+    "uptimeWeek": "97.98%",
+    "uptimeMonth": "97.98%",
+    "uptimeYear": "97.98%",
+    "time": 559,
+    "timeDay": 559,
+    "timeWeek": 559,
+    "timeMonth": 559,
+    "timeYear": 559,
     "dailyMinutesDown": {
-      "2024-01-30": 0
+      "2024-01-30": 11
     }
   },
   {
