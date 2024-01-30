@@ -30,18 +30,20 @@
     "url": "https://torrentio.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/torrentio.elfhosted.com.ico",
     "slug": "public-torrentio-indexer",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 858,
-    "timeDay": 858,
-    "timeWeek": 858,
-    "timeMonth": 858,
-    "timeYear": 858,
-    "dailyMinutesDown": {}
+    "status": "down",
+    "uptime": "99.98%",
+    "uptimeDay": "99.98%",
+    "uptimeWeek": "99.98%",
+    "uptimeMonth": "99.98%",
+    "uptimeYear": "99.98%",
+    "time": 583,
+    "timeDay": 583,
+    "timeWeek": 583,
+    "timeMonth": 583,
+    "timeYear": 583,
+    "dailyMinutesDown": {
+      "2024-01-30": 0
+    }
   },
   {
     "name": "Store / Account Management Platform",
