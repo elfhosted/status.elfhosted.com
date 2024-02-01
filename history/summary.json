@@ -11,9 +11,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.85%",
     "time": 429,
-    "timeDay": 341,
-    "timeWeek": 447,
-    "timeMonth": 422,
+    "timeDay": 377,
+    "timeWeek": 430,
+    "timeMonth": 420,
     "timeYear": 429,
     "dailyMinutesDown": {
       "2023-11-10": 96,
@@ -31,19 +31,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/torrentio.elfhosted.com.ico",
     "slug": "public-torrentio-indexer",
     "status": "up",
-    "uptime": "99.34%",
-    "uptimeDay": "99.31%",
-    "uptimeWeek": "99.34%",
-    "uptimeMonth": "99.34%",
-    "uptimeYear": "99.34%",
-    "time": 576,
-    "timeDay": 519,
-    "timeWeek": 576,
-    "timeMonth": 576,
-    "timeYear": 576,
-    "dailyMinutesDown": {
-      "2024-01-31": 10
-    }
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 575,
+    "timeDay": 594,
+    "timeWeek": 575,
+    "timeMonth": 575,
+    "timeYear": 575,
+    "dailyMinutesDown": {}
   },
   {
     "name": "Store / Account Management Platform",
@@ -56,11 +54,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 764,
-    "timeDay": 1401,
-    "timeWeek": 764,
-    "timeMonth": 764,
-    "timeYear": 764,
+    "time": 1259,
+    "timeDay": 2250,
+    "timeWeek": 1259,
+    "timeMonth": 1259,
+    "timeYear": 1259,
     "dailyMinutesDown": {}
   },
   {
@@ -74,11 +72,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 78,
-    "timeDay": 114,
-    "timeWeek": 78,
-    "timeMonth": 78,
-    "timeYear": 78,
+    "time": 68,
+    "timeDay": 50,
+    "timeWeek": 68,
+    "timeMonth": 68,
+    "timeYear": 68,
     "dailyMinutesDown": {}
   }
 ]
