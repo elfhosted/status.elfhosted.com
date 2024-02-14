@@ -9,12 +9,19 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200    
-  - name: Public Torrentio Indexer
+  - name: Public Torrentio Indexer / Addon
     url: https://torrentio.elfhosted.com
     assignees:
     - funkypenguin
     expectedStatusCodes:
-      - 200          
+      - 200         
+  - name: Public Annatar Stremio Addon
+    url: https://annatar.elfhosted.com
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200    
+                  
   - name: Store / Account Management Platform
     url: https://store.elfhosted.com
     expectedStatusCodes:
