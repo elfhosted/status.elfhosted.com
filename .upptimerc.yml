@@ -21,12 +21,10 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200    
-                  
   - name: Store / Account Management Platform
     url: https://store.elfhosted.com
     expectedStatusCodes:
       - 200
-      - 403
     assignees:
       - funkypenguin
   - name: Website / Docs
@@ -46,7 +44,7 @@ status-website:
   # logoUrl: https://raw.githubusercontent.com/seedplicity/upptime/master/assets/seedplicity_logo.svg
   # faviconSvg: https://raw.githubusercontent.com/seedplicity/upptime/master/assets/seedplicity_logo.svg
   name: ElfHosted Status
-  introTitle: "**ElfHosted** is an innovative app hosting platform"
+  introTitle: "**ElfHosted** is an open-source PaaS build by and for geeks"
   introMessage: We engineer our platform to be as automated and resilient as possible, but life happens! If something's not right, check here first, or the [#elf-status](https://discord.com/channels/396055506072109067/1119479124684193933) channel in [Discord](https://chat.funkypenguin.co.nz)!
   navbar:
     - title: Status

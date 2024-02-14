@@ -44,26 +44,6 @@
     "dailyMinutesDown": {}
   },
   {
-    "name": "Public Annatar Stremio Addon",
-    "url": "https://annatar.elfhosted.com",
-    "icon": "https://icons.duckduckgo.com/ip3/annatar.elfhosted.com.ico",
-    "slug": "public-annatar-stremio-addon",
-    "status": "up",
-    "uptime": "0.00%",
-    "uptimeDay": "0.00%",
-    "uptimeWeek": "0.00%",
-    "uptimeMonth": "0.00%",
-    "uptimeYear": "0.00%",
-    "time": 519,
-    "timeDay": 519,
-    "timeWeek": 519,
-    "timeMonth": 519,
-    "timeYear": 519,
-    "dailyMinutesDown": {
-      "2024-02-14": 135
-    }
-  },
-  {
     "name": "Store / Account Management Platform",
     "url": "https://store.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/store.elfhosted.com.ico",
