@@ -48,19 +48,19 @@
     "url": "https://annatar.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/annatar.elfhosted.com.ico",
     "slug": "public-annatar-stremio-addon",
-    "status": "down",
-    "uptime": "3.64%",
-    "uptimeDay": "3.64%",
-    "uptimeWeek": "3.64%",
-    "uptimeMonth": "3.64%",
-    "uptimeYear": "3.64%",
-    "time": 452,
-    "timeDay": 452,
-    "timeWeek": 452,
-    "timeMonth": 452,
-    "timeYear": 452,
+    "status": "up",
+    "uptime": "0.08%",
+    "uptimeDay": "0.08%",
+    "uptimeWeek": "0.08%",
+    "uptimeMonth": "0.08%",
+    "uptimeYear": "0.08%",
+    "time": 563,
+    "timeDay": 563,
+    "timeWeek": 563,
+    "timeMonth": 563,
+    "timeYear": 563,
     "dailyMinutesDown": {
-      "2024-02-14": 0
+      "2024-02-14": 135
     }
   },
   {
