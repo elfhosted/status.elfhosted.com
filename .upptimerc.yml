@@ -21,6 +21,12 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200    
+  - name: Public Xtremio Stremio Addon
+    url: https://xtremio.elfhosted.com/configure
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200          
   - name: Store / Account Management Platform
     url: https://store.elfhosted.com
     expectedStatusCodes:
