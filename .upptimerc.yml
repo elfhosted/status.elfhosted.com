@@ -27,6 +27,12 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200          
+  - name: Public MediaFusion Stremio Addon
+    url: https://mediafusion.elfhosted.com
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200                
   - name: Store / Account Management Platform
     url: https://store.elfhosted.com
     expectedStatusCodes:
