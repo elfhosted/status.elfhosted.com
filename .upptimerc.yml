@@ -32,7 +32,19 @@ sites:
     assignees:
     - funkypenguin
     expectedStatusCodes:
-      - 200                
+      - 200   
+  - name: Public Stremio-Jackett Community Addon
+    url: https://stremio-jackett-community.elfhosted.com
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200   
+  - name: Public Stremio-Jackett Cache
+    url: https://stremio-jackett-cacher.elfhosted.com
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200                            
   - name: Store / Account Management Platform
     url: https://store.elfhosted.com
     expectedStatusCodes:
