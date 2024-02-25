@@ -48,18 +48,19 @@
     "url": "https://annatar.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/annatar.elfhosted.com.ico",
     "slug": "public-annatar-stremio-addon",
-    "status": "up",
+    "status": "down",
     "uptime": "99.18%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.18%",
     "uptimeYear": "99.18%",
-    "time": 546,
-    "timeDay": 515,
-    "timeWeek": 548,
-    "timeMonth": 546,
-    "timeYear": 546,
+    "time": 542,
+    "timeDay": 503,
+    "timeWeek": 542,
+    "timeMonth": 542,
+    "timeYear": 542,
     "dailyMinutesDown": {
+      "2024-02-25": 0,
       "2024-02-14": 135
     }
   },
@@ -69,18 +70,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/xtremio.elfhosted.com.ico",
     "slug": "public-xtremio-stremio-addon",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.56%",
+    "uptimeDay": "96.69%",
+    "uptimeWeek": "99.53%",
+    "uptimeMonth": "99.56%",
+    "uptimeYear": "99.56%",
     "time": 512,
     "timeDay": 461,
     "timeWeek": 522,
     "timeMonth": 512,
     "timeYear": 512,
     "dailyMinutesDown": {
-      "2024-02-25": 0
+      "2024-02-25": 48
     }
   },
   {
