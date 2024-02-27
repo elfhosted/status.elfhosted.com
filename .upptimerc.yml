@@ -44,7 +44,13 @@ sites:
     assignees:
     - funkypenguin
     expectedStatusCodes:
-      - 200         
+      - 200     
+  - name: Public Jackettio Stremio Addon
+    url: https://jackettio.elfhosted.com
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200               
   - name: Public Stremio-Jackett Cache
     url: https://stremio-jackett-cacher.elfhosted.com
     assignees:
