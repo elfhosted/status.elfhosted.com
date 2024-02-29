@@ -30,19 +30,19 @@
     "url": "https://torrentio.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/torrentio.elfhosted.com.ico",
     "slug": "public-torrentio-indexer-addon",
-    "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.88%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
-    "time": 739,
-    "timeDay": 712,
-    "timeWeek": 672,
-    "timeMonth": 739,
-    "timeYear": 739,
+    "status": "up",
+    "uptime": "99.68%",
+    "uptimeDay": "95.19%",
+    "uptimeWeek": "99.31%",
+    "uptimeMonth": "99.68%",
+    "uptimeYear": "99.68%",
+    "time": 732,
+    "timeDay": 672,
+    "timeWeek": 662,
+    "timeMonth": 732,
+    "timeYear": 732,
     "dailyMinutesDown": {
-      "2024-02-29": 2
+      "2024-02-29": 69
     }
   },
   {
@@ -51,18 +51,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/annatar.elfhosted.com.ico",
     "slug": "public-annatar-stremio-addon",
     "status": "down",
-    "uptime": "99.36%",
-    "uptimeDay": "99.88%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "99.36%",
-    "uptimeYear": "99.36%",
+    "uptime": "99.02%",
+    "uptimeDay": "94.87%",
+    "uptimeWeek": "99.27%",
+    "uptimeMonth": "99.02%",
+    "uptimeYear": "99.02%",
     "time": 563,
     "timeDay": 656,
     "timeWeek": 568,
     "timeMonth": 563,
     "timeYear": 563,
     "dailyMinutesDown": {
-      "2024-02-29": 2,
+      "2024-02-29": 74,
       "2024-02-14": 135
     }
   },
@@ -92,18 +92,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/mediafusion.elfhosted.com.ico",
     "slug": "public-media-fusion-stremio-addon",
     "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.88%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
+    "uptime": "99.41%",
+    "uptimeDay": "94.88%",
+    "uptimeWeek": "99.27%",
+    "uptimeMonth": "99.41%",
+    "uptimeYear": "99.41%",
     "time": 444,
     "timeDay": 511,
     "timeWeek": 434,
     "timeMonth": 444,
     "timeYear": 444,
     "dailyMinutesDown": {
-      "2024-02-29": 2
+      "2024-02-29": 74
     }
   },
   {
@@ -112,18 +112,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/stremio-jackett-community.elfhosted.com.ico",
     "slug": "public-stremio-jackett-community-addon",
     "status": "down",
-    "uptime": "99.92%",
-    "uptimeDay": "99.37%",
-    "uptimeWeek": "99.91%",
-    "uptimeMonth": "99.92%",
-    "uptimeYear": "99.92%",
+    "uptime": "99.32%",
+    "uptimeDay": "94.37%",
+    "uptimeWeek": "99.20%",
+    "uptimeMonth": "99.32%",
+    "uptimeYear": "99.32%",
     "time": 664,
     "timeDay": 862,
     "timeWeek": 646,
     "timeMonth": 664,
     "timeYear": 664,
     "dailyMinutesDown": {
-      "2024-02-29": 9
+      "2024-02-29": 81
     }
   },
   {
@@ -150,18 +150,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/jackettio.elfhosted.com.ico",
     "slug": "public-jackettio-stremio-addon",
     "status": "down",
-    "uptime": "99.08%",
-    "uptimeDay": "98.31%",
-    "uptimeWeek": "99.08%",
-    "uptimeMonth": "99.08%",
-    "uptimeYear": "99.08%",
+    "uptime": "96.47%",
+    "uptimeDay": "93.31%",
+    "uptimeWeek": "96.47%",
+    "uptimeMonth": "96.47%",
+    "uptimeYear": "96.47%",
     "time": 715,
     "timeDay": 695,
     "timeWeek": 715,
     "timeMonth": 715,
     "timeYear": 715,
     "dailyMinutesDown": {
-      "2024-02-29": 0,
+      "2024-02-29": 72,
       "2024-02-28": 24
     }
   },
