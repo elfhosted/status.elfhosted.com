@@ -33,8 +33,8 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200   
-  - name: Public Stremio-Jackett Community Addon
-    url: https://stremio-jackett-community.elfhosted.com
+  - name: Public Stremio-Jackett Addon
+    url: https://stremio-jackett.elfhosted.com
     assignees:
     - funkypenguin
     expectedStatusCodes:
