@@ -1,7 +1,7 @@
 url: https://jackettio.elfhosted.com
-status: up
-code: 200
-responseTime: 491
-lastUpdated: 2024-04-06T09:54:29.119Z
+status: down
+code: 502
+responseTime: 21433
+lastUpdated: 2024-04-06T20:09:04.562Z
 startTime: 2024-02-27T09:15:08.287Z
 generator: Upptime <https://github.com/upptime/upptime>
