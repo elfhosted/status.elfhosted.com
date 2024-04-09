@@ -45,6 +45,12 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200     
+  - name: Public Stremify Stremio Addon
+    url: https://stremify.elfhosted.com
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200           
   - name: Public Jackettio Stremio Addon
     url: https://jackettio.elfhosted.com
     assignees:
