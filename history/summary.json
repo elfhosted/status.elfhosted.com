@@ -119,19 +119,19 @@
     "url": "https://stremio-jackett.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/stremio-jackett.elfhosted.com.ico",
     "slug": "public-stremio-jackett-addon",
-    "status": "up",
-    "uptime": "99.95%",
-    "uptimeDay": "99.33%",
-    "uptimeWeek": "99.90%",
-    "uptimeMonth": "99.95%",
-    "uptimeYear": "99.95%",
+    "status": "down",
+    "uptime": "100.00%",
+    "uptimeDay": "99.98%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 738,
     "timeDay": 753,
     "timeWeek": 708,
     "timeMonth": 738,
     "timeYear": 738,
     "dailyMinutesDown": {
-      "2024-04-20": 10
+      "2024-04-20": 0
     }
   },
   {
