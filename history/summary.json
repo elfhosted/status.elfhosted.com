@@ -159,19 +159,19 @@
     "url": "https://stremify.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/stremify.elfhosted.com.ico",
     "slug": "public-stremify-stremio-addon",
-    "status": "down",
-    "uptime": "99.81%",
-    "uptimeDay": "97.56%",
-    "uptimeWeek": "99.65%",
-    "uptimeMonth": "99.81%",
-    "uptimeYear": "99.81%",
-    "time": 357,
-    "timeDay": 290,
-    "timeWeek": 344,
-    "timeMonth": 357,
-    "timeYear": 357,
+    "status": "up",
+    "uptime": "99.77%",
+    "uptimeDay": "97.06%",
+    "uptimeWeek": "99.58%",
+    "uptimeMonth": "99.77%",
+    "uptimeYear": "99.77%",
+    "time": 366,
+    "timeDay": 319,
+    "timeWeek": 357,
+    "timeMonth": 366,
+    "timeYear": 366,
     "dailyMinutesDown": {
-      "2024-04-21": 36
+      "2024-04-21": 43
     }
   },
   {
