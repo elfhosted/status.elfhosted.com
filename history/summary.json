@@ -5,18 +5,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/speed.elfhosted.com.ico",
     "slug": "app-hosting-platform",
     "status": "up",
-    "uptime": "99.88%",
-    "uptimeDay": "99.27%",
-    "uptimeWeek": "99.90%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "99.88%",
+    "uptime": "99.89%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "99.89%",
     "time": 427,
     "timeDay": 363,
     "timeWeek": 363,
     "timeMonth": 398,
     "timeYear": 427,
     "dailyMinutesDown": {
-      "2024-04-21": 10,
       "2023-11-10": 96,
       "2023-09-25": 118,
       "2023-09-24": 23,
@@ -159,9 +158,9 @@
     "url": "https://stremify.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/stremify.elfhosted.com.ico",
     "slug": "public-stremify-stremio-addon",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -170,7 +169,9 @@
     "timeWeek": 406,
     "timeMonth": 398,
     "timeYear": 398,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-04-21": 0
+    }
   },
   {
     "name": "Public Jackettio Stremio Addon",
