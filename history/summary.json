@@ -158,19 +158,19 @@
     "url": "https://stremify.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/stremify.elfhosted.com.ico",
     "slug": "public-stremify-stremio-addon",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 380,
-    "timeDay": 302,
-    "timeWeek": 375,
-    "timeMonth": 380,
-    "timeYear": 380,
+    "status": "up",
+    "uptime": "99.94%",
+    "uptimeDay": "99.29%",
+    "uptimeWeek": "99.90%",
+    "uptimeMonth": "99.94%",
+    "uptimeYear": "99.94%",
+    "time": 365,
+    "timeDay": 259,
+    "timeWeek": 350,
+    "timeMonth": 365,
+    "timeYear": 365,
     "dailyMinutesDown": {
-      "2024-04-21": 0
+      "2024-04-21": 10
     }
   },
   {
@@ -201,9 +201,9 @@
     "url": "https://stremio-jackett-cacher.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/stremio-jackett-cacher.elfhosted.com.ico",
     "slug": "public-stremio-jackett-cache",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -212,7 +212,9 @@
     "timeWeek": 347,
     "timeMonth": 387,
     "timeYear": 404,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-04-21": 0
+    }
   },
   {
     "name": "Store / Account Management Platform",
