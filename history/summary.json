@@ -51,9 +51,9 @@
     "url": "https://annatar.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/annatar.elfhosted.com.ico",
     "slug": "public-annatar-stremio-addon",
-    "status": "up",
+    "status": "down",
     "uptime": "98.31%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "98.31%",
@@ -63,6 +63,7 @@
     "timeMonth": 588,
     "timeYear": 1358,
     "dailyMinutesDown": {
+      "2024-04-21": 0,
       "2024-03-10": 1168,
       "2024-03-09": 143,
       "2024-03-05": 31,
@@ -77,18 +78,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/xtremio.elfhosted.com.ico",
     "slug": "public-xtremio-stremio-addon",
     "status": "up",
-    "uptime": "99.93%",
-    "uptimeDay": "99.41%",
-    "uptimeWeek": "99.92%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "99.93%",
+    "uptime": "99.94%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "99.94%",
     "time": 638,
     "timeDay": 493,
     "timeWeek": 520,
     "timeMonth": 677,
     "timeYear": 638,
     "dailyMinutesDown": {
-      "2024-04-21": 8,
       "2024-02-25": 57
     }
   },
@@ -161,18 +161,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/stremify.elfhosted.com.ico",
     "slug": "public-stremify-stremio-addon",
     "status": "up",
-    "uptime": "99.82%",
-    "uptimeDay": "97.74%",
-    "uptimeWeek": "99.68%",
-    "uptimeMonth": "99.82%",
-    "uptimeYear": "99.82%",
+    "uptime": "99.86%",
+    "uptimeDay": "98.22%",
+    "uptimeWeek": "99.75%",
+    "uptimeMonth": "99.86%",
+    "uptimeYear": "99.86%",
     "time": 357,
     "timeDay": 299,
     "timeWeek": 344,
     "timeMonth": 357,
     "timeYear": 357,
     "dailyMinutesDown": {
-      "2024-04-21": 33
+      "2024-04-21": 26
     }
   },
   {
