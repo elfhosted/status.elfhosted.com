@@ -62,7 +62,13 @@ sites:
     assignees:
     - funkypenguin
     expectedStatusCodes:
-      - 200                            
+      - 200               
+  - name: Stremio CyberFlix Addon
+    url: https://cyberflix.elfhosted.com
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200                                  
   - name: Store / Account Management Platform
     url: https://store.elfhosted.com
     expectedStatusCodes:
