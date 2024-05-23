@@ -9,8 +9,8 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200    
-  - name: Public Knightcrawler Stremio Addon
-    url: https://knighcrawler.elfhosted.com/realdebrid=$RD_KEY/stream/movie/tt0023694.json
+  - name: Knightcrawler Stremio Addon
+    url: https://knightcrawler.elfhosted.com/realdebrid=$RD_KEY/stream/movie/tt0023694.json
     __dangerous__body_down_if_text_missing: White Zombie
     assignees:
     - funkypenguin
