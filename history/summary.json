@@ -19,8 +19,8 @@
   },
   {
     "name": "Public Knightcrawler Stremio Addon",
-    "url": "https://knighcrawler.elfhosted.com/realdebrid=$RD_KEY/stream/movie/tt0023694.json",
-    "icon": "https://icons.duckduckgo.com/ip3/knighcrawler.elfhosted.com.ico",
+    "url": "https://knighctrawler.elfhosted.com/realdebrid=$RD_KEY/stream/movie/tt0023694.json",
+    "icon": "https://icons.duckduckgo.com/ip3/knightcrawler.elfhosted.com.ico",
     "slug": "public-knightcrawler-stremio-addon",
     "status": "down",
     "uptime": "6.31%",
