@@ -57,7 +57,7 @@ sites:
       - 200     
   - name: Stremify Stremio Addon
     url: https://stremify.elfhosted.com/stream/movie/tt0023694.json
-    __dangerous__body_down_if_text_missing: White Zombie
+    __dangerous__body_down_if_text_missing: title
     assignees:
     - funkypenguin
     expectedStatusCodes:
