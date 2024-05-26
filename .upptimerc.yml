@@ -23,55 +23,59 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200               
-  - name: Public Annatar Stremio Addon
-    url: https://annatar.elfhosted.com
+  - name: Annatar Stremio Addon
+    url: $ANNATAR_URL
+    __dangerous__body_down_if_text_missing: White Zombie
     assignees:
     - funkypenguin
     expectedStatusCodes:
       - 200    
-  - name: Public Xtremio Stremio Addon
+  - name: Xtremio Stremio Addon
     url: https://xtremio.elfhosted.com/configure
     assignees:
     - funkypenguin
     expectedStatusCodes:
       - 200          
-  - name: Public MediaFusion Stremio Addon
-    url: https://mediafusion.elfhosted.com
+  - name: MediaFusion Stremio Addon
+    url: $MEDIAFUSION_URL
+    __dangerous__body_down_if_text_missing: White Zombie
     assignees:
     - funkypenguin
     expectedStatusCodes:
       - 200   
-  - name: Public Stremio-Jackett Addon
+  - name: Stremio-Jackett Addon
     url: https://stremio-jackett.elfhosted.com
     assignees:
     - funkypenguin
     expectedStatusCodes:
       - 200   
-  - name: Public Shluflix Stremio Addon
+  - name: Shluflix Stremio Addon
     url: https://shluflix.elfhosted.com
     assignees:
     - funkypenguin
     expectedStatusCodes:
       - 200     
-  - name: Public Stremify Stremio Addon
-    url: https://stremify.elfhosted.com
+  - name: Stremify Stremio Addon
+    url: https://stremify.elfhosted.com/stream/movie/tt0023694.json
+    __dangerous__body_down_if_text_missing: White Zombie
     assignees:
     - funkypenguin
     expectedStatusCodes:
       - 200           
-  - name: Public Jackettio Stremio Addon
-    url: https://jackettio.elfhosted.com
+  - name: Jackettio Stremio Addon
+    url: $JACKETTIO_URL
+    __dangerous__body_down_if_text_missing: White Zombie
     assignees:
     - funkypenguin
     expectedStatusCodes:
       - 200  
-  - name: Public Davio Stremio Addon
+  - name: Davio Stremio Addon
     url: https://davio.elfhosted.com
     assignees:
     - funkypenguin
     expectedStatusCodes:
       - 200                     
-  - name: Public Stremio-Jackett Cache
+  - name: Stremio-Jackett Cache
     url: https://stremio-jackett-cacher.elfhosted.com
     assignees:
     - funkypenguin
