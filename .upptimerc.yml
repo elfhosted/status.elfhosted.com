@@ -56,8 +56,7 @@ sites:
     expectedStatusCodes:
       - 200     
   - name: Stremify Stremio Addon
-    url: https://stremify.elfhosted.com/stream/movie/tt0023694.json
-    __dangerous__body_down_if_text_missing: title
+    url: https://stremify.elfhosted.com
     assignees:
     - funkypenguin
     expectedStatusCodes:
