@@ -1,7 +1,7 @@
 url: https://stremify.elfhosted.com/stream/movie/tt0023694.json
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2024-05-28T06:29:48.633Z
+status: up
+code: 200
+responseTime: 3115
+lastUpdated: 2024-05-28T06:41:48.944Z
 startTime: 2024-05-26T07:37:37.132Z
 generator: Upptime <https://github.com/upptime/upptime>
