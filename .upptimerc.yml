@@ -30,6 +30,13 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200    
+  - name: Comet Stremio Addon
+    url: $COMET_URL
+    __dangerous__body_down_if_text_missing: White.Zombie
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200          
   - name: Xtremio Stremio Addon
     url: https://xtremio.elfhosted.com/configure
     assignees:
