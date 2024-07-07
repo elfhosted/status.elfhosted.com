@@ -1,7 +1,7 @@
 url: https://stremio-jackett-cacher.elfhosted.com
-status: down
-code: 503
-responseTime: 534
-lastUpdated: 2024-07-07T10:57:10.380Z
+status: up
+code: 200
+responseTime: 507
+lastUpdated: 2024-07-07T12:33:39.778Z
 startTime: 2024-05-26T07:37:52.140Z
 generator: Upptime <https://github.com/upptime/upptime>
