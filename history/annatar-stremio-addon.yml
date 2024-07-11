@@ -1,7 +1,7 @@
 url: $ANNATAR_URL
-status: up
+status: down
 code: 200
-responseTime: 663
-lastUpdated: 2024-07-11T04:19:38.412Z
+responseTime: 576
+lastUpdated: 2024-07-11T17:55:45.617Z
 startTime: 2024-05-26T07:37:32.316Z
 generator: Upptime <https://github.com/upptime/upptime>
