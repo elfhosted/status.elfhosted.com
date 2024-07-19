@@ -67,7 +67,13 @@ sites:
     assignees:
     - funkypenguin
     expectedStatusCodes:
-      - 200           
+      - 200         
+  - name: Formulio Stremio Addon
+    url: https://formulio.elfhosted.com
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200                 
   - name: Jackettio Stremio Addon
     url: $JACKETTIO_URL
     __dangerous__body_down_if_text_missing: White Zombie
