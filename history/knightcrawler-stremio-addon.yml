@@ -1,7 +1,7 @@
 url: https://knightcrawler.elfhosted.com/realdebrid=$RD_KEY/stream/movie/tt0023694.json
-status: down
-code: 503
-responseTime: 561
-lastUpdated: 2024-07-24T09:54:44.119Z
+status: up
+code: 200
+responseTime: 579
+lastUpdated: 2024-07-24T10:21:08.787Z
 startTime: 2024-05-26T07:37:31.041Z
 generator: Upptime <https://github.com/upptime/upptime>
