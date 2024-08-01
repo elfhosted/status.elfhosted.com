@@ -38,7 +38,7 @@
     "time": 1223,
     "timeDay": 479,
     "timeWeek": 445,
-    "timeMonth": 1066,
+    "timeMonth": 1084,
     "timeYear": 1223,
     "dailyMinutesDown": {
       "2024-08-01": 47,
@@ -63,7 +63,7 @@
     "time": 315,
     "timeDay": 172,
     "timeWeek": 203,
-    "timeMonth": 355,
+    "timeMonth": 348,
     "timeYear": 315,
     "dailyMinutesDown": {}
   },
@@ -73,18 +73,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "annatar-stremio-addon",
     "status": "down",
-    "uptime": "73.06%",
+    "uptime": "73.05%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
-    "uptimeMonth": "41.39%",
-    "uptimeYear": "73.06%",
+    "uptimeMonth": "41.34%",
+    "uptimeYear": "73.05%",
     "time": 1269,
     "timeDay": 547,
     "timeWeek": 547,
-    "timeMonth": 1399,
+    "timeMonth": 1402,
     "timeYear": 1269,
     "dailyMinutesDown": {
-      "2024-08-01": 652,
+      "2024-08-01": 672,
       "2024-07-31": 1440,
       "2024-07-30": 1440,
       "2024-07-29": 1440,
@@ -131,7 +131,7 @@
     "time": 1976,
     "timeDay": 2625,
     "timeWeek": 2035,
-    "timeMonth": 1976,
+    "timeMonth": 1994,
     "timeYear": 1976,
     "dailyMinutesDown": {
       "2024-07-31": 80,
@@ -162,7 +162,7 @@
     "time": 569,
     "timeDay": 395,
     "timeWeek": 424,
-    "timeMonth": 547,
+    "timeMonth": 548,
     "timeYear": 569,
     "dailyMinutesDown": {
       "2024-06-24": 36,
@@ -183,7 +183,7 @@
     "time": 1878,
     "timeDay": 983,
     "timeWeek": 965,
-    "timeMonth": 2196,
+    "timeMonth": 2203,
     "timeYear": 1878,
     "dailyMinutesDown": {
       "2024-07-22": 173,
@@ -210,7 +210,7 @@
     "time": 822,
     "timeDay": 601,
     "timeWeek": 675,
-    "timeMonth": 895,
+    "timeMonth": 900,
     "timeYear": 822,
     "dailyMinutesDown": {
       "2024-07-07": 11,
@@ -234,7 +234,7 @@
     "time": 706,
     "timeDay": 451,
     "timeWeek": 412,
-    "timeMonth": 1350,
+    "timeMonth": 1376,
     "timeYear": 706,
     "dailyMinutesDown": {
       "2024-07-07": 24,
@@ -252,7 +252,7 @@
     "status": "up",
     "uptime": "85.22%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "85.06%",
+    "uptimeWeek": "85.26%",
     "uptimeMonth": "72.03%",
     "uptimeYear": "85.22%",
     "time": 1240,
@@ -321,7 +321,7 @@
     "time": 1134,
     "timeDay": 693,
     "timeWeek": 2207,
-    "timeMonth": 1417,
+    "timeMonth": 1442,
     "timeYear": 1134,
     "dailyMinutesDown": {
       "2024-07-29": 20,
@@ -347,7 +347,7 @@
     "time": 612,
     "timeDay": 593,
     "timeWeek": 583,
-    "timeMonth": 615,
+    "timeMonth": 616,
     "timeYear": 612,
     "dailyMinutesDown": {
       "2024-07-07": 10,
@@ -370,7 +370,7 @@
     "time": 398,
     "timeDay": 302,
     "timeWeek": 353,
-    "timeMonth": 409,
+    "timeMonth": 411,
     "timeYear": 398,
     "dailyMinutesDown": {
       "2024-07-07": 134,
@@ -383,17 +383,17 @@
     "url": "https://cyberflix.elfhosted.com/health",
     "icon": "https://icons.duckduckgo.com/ip3/cyberflix.elfhosted.com.ico",
     "slug": "stremio-cyber-flix-addon",
-    "status": "up",
-    "uptime": "83.17%",
-    "uptimeDay": "39.03%",
-    "uptimeWeek": "46.69%",
-    "uptimeMonth": "62.87%",
-    "uptimeYear": "83.17%",
-    "time": 602,
+    "status": "down",
+    "uptime": "83.72%",
+    "uptimeDay": "40.43%",
+    "uptimeWeek": "46.89%",
+    "uptimeMonth": "64.07%",
+    "uptimeYear": "83.72%",
+    "time": 601,
     "timeDay": 59,
-    "timeWeek": 68,
-    "timeMonth": 318,
-    "timeYear": 602,
+    "timeWeek": 65,
+    "timeMonth": 317,
+    "timeYear": 601,
     "dailyMinutesDown": {
       "2024-08-01": 202,
       "2024-07-31": 867,
@@ -417,7 +417,7 @@
       "2024-07-13": 333,
       "2024-07-12": 726,
       "2024-07-11": 495,
-      "2024-07-10": 1055
+      "2024-07-10": 528
     }
   },
   {
@@ -434,7 +434,7 @@
     "time": 1000,
     "timeDay": 95,
     "timeWeek": 416,
-    "timeMonth": 992,
+    "timeMonth": 1018,
     "timeYear": 1000,
     "dailyMinutesDown": {
       "2024-06-02": 30
@@ -454,7 +454,7 @@
     "time": 138,
     "timeDay": 72,
     "timeWeek": 1185,
-    "timeMonth": 349,
+    "timeMonth": 358,
     "timeYear": 138,
     "dailyMinutesDown": {}
   }
