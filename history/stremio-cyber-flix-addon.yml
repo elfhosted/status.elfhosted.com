@@ -1,7 +1,7 @@
 url: https://cyberflix.elfhosted.com/health
-status: up
+status: down
 code: 200
-responseTime: 19
-lastUpdated: 2024-08-12T22:51:44.994Z
+responseTime: 87
+lastUpdated: 2024-08-12T23:00:39.066Z
 startTime: 2024-05-26T07:37:52.870Z
 generator: Upptime <https://github.com/upptime/upptime>
