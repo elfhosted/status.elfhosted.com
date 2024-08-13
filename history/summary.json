@@ -76,7 +76,7 @@
     "uptime": "62.14%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
-    "uptimeMonth": "3.38%",
+    "uptimeMonth": "3.35%",
     "uptimeYear": "62.14%",
     "time": 1227,
     "timeDay": 609,
@@ -84,7 +84,7 @@
     "timeMonth": 787,
     "timeYear": 1227,
     "dailyMinutesDown": {
-      "2024-08-13": 361,
+      "2024-08-13": 374,
       "2024-08-12": 1440,
       "2024-08-11": 1440,
       "2024-08-10": 1440,
@@ -414,18 +414,19 @@
     "url": "https://cyberflix.elfhosted.com/health",
     "icon": "https://icons.duckduckgo.com/ip3/cyberflix.elfhosted.com.ico",
     "slug": "stremio-cyber-flix-addon",
-    "status": "up",
-    "uptime": "86.80%",
-    "uptimeDay": "50.52%",
-    "uptimeWeek": "38.10%",
-    "uptimeMonth": "65.76%",
-    "uptimeYear": "86.80%",
+    "status": "down",
+    "uptime": "87.15%",
+    "uptimeDay": "51.35%",
+    "uptimeWeek": "38.22%",
+    "uptimeMonth": "66.65%",
+    "uptimeYear": "87.15%",
     "time": 475,
     "timeDay": 44,
     "timeWeek": 58,
     "timeMonth": 188,
     "timeYear": 475,
     "dailyMinutesDown": {
+      "2024-08-13": 0,
       "2024-08-12": 953,
       "2024-08-11": 1111,
       "2024-08-10": 871,
@@ -443,8 +444,7 @@
       "2024-07-29": 676,
       "2024-07-28": 625,
       "2024-07-27": 413,
-      "2024-07-26": 1062,
-      "2024-07-25": 166
+      "2024-07-26": 839
     }
   },
   {
