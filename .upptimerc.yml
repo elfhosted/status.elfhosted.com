@@ -95,7 +95,7 @@ sites:
       - 200               
   - name: Stremio CyberFlix Addon
     url: https://cyberflix.elfhosted.com/health
-    __dangerous__body_down_if_text_missing: OK
+    __dangerous__body_down_if_text_missing: ok
     maxResponseTime: 5000
     assignees:
     - funkypenguin
