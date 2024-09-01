@@ -1,7 +1,7 @@
 url: https://stremify.elfhosted.com
-status: up
-code: 200
-responseTime: 1471
-lastUpdated: 2024-09-01T11:12:50.051Z
+status: down
+code: 429
+responseTime: 1053
+lastUpdated: 2024-09-01T11:33:26.450Z
 startTime: 2024-05-26T07:37:37.132Z
 generator: Upptime <https://github.com/upptime/upptime>
