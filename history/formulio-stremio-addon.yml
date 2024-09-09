@@ -1,7 +1,7 @@
 url: https://formulio.elfhosted.com
-status: up
-code: 200
-responseTime: 785
-lastUpdated: 2024-09-09T15:54:34.858Z
+status: down
+code: 429
+responseTime: 1073
+lastUpdated: 2024-09-09T16:51:33.853Z
 startTime: 2024-07-19T12:50:55.252Z
 generator: Upptime <https://github.com/upptime/upptime>
