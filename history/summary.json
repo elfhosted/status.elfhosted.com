@@ -87,7 +87,7 @@
     "timeMonth": 671,
     "timeYear": 1143,
     "dailyMinutesDown": {
-      "2024-09-12": 561,
+      "2024-09-12": 571,
       "2024-09-11": 1440,
       "2024-09-10": 1440,
       "2024-09-09": 1440,
@@ -491,7 +491,7 @@
     "uptime": "91.87%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "84.85%",
+    "uptimeMonth": "84.88%",
     "uptimeYear": "91.87%",
     "time": 402,
     "timeDay": 62,
@@ -544,19 +544,19 @@
     "url": "https://elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/elfhosted.com.ico",
     "slug": "website-docs",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "up",
+    "uptime": "99.99%",
+    "uptimeDay": "99.30%",
+    "uptimeWeek": "99.90%",
+    "uptimeMonth": "99.98%",
+    "uptimeYear": "99.99%",
     "time": 130,
-    "timeDay": 63,
+    "timeDay": 88,
     "timeWeek": 115,
-    "timeMonth": 99,
+    "timeMonth": 100,
     "timeYear": 130,
     "dailyMinutesDown": {
-      "2024-09-12": 0
+      "2024-09-12": 10
     }
   }
 ]
