@@ -88,7 +88,7 @@
     "timeMonth": 699,
     "timeYear": 1108,
     "dailyMinutesDown": {
-      "2024-10-01": 1034,
+      "2024-10-01": 1046,
       "2024-09-30": 1440,
       "2024-09-29": 1440,
       "2024-09-28": 1440,
@@ -261,7 +261,7 @@
     "uptime": "98.67%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "99.43%",
-    "uptimeMonth": "97.22%",
+    "uptimeMonth": "97.25%",
     "uptimeYear": "98.67%",
     "time": 1594,
     "timeDay": 659,
@@ -294,11 +294,11 @@
     "url": "https://stremio-jackett.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/stremio-jackett.elfhosted.com.ico",
     "slug": "stremio-jackett-addon",
-    "status": "up",
+    "status": "down",
     "uptime": "99.11%",
-    "uptimeDay": "80.40%",
-    "uptimeWeek": "83.62%",
-    "uptimeMonth": "96.23%",
+    "uptimeDay": "80.37%",
+    "uptimeWeek": "83.70%",
+    "uptimeMonth": "96.25%",
     "uptimeYear": "99.11%",
     "time": 838,
     "timeDay": 1825,
@@ -311,7 +311,7 @@
       "2024-09-29": 440,
       "2024-09-28": 365,
       "2024-09-27": 290,
-      "2024-09-26": 43
+      "2024-09-26": 34
     }
   },
   {
@@ -321,7 +321,7 @@
     "slug": "shluflix-stremio-addon",
     "status": "down",
     "uptime": "99.31%",
-    "uptimeDay": "84.17%",
+    "uptimeDay": "85.00%",
     "uptimeWeek": "91.73%",
     "uptimeMonth": "98.10%",
     "uptimeYear": "99.31%",
