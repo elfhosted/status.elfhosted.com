@@ -88,7 +88,7 @@
     "timeMonth": 689,
     "timeYear": 1103,
     "dailyMinutesDown": {
-      "2024-10-04": 412,
+      "2024-10-04": 421,
       "2024-10-03": 1440,
       "2024-10-02": 1440,
       "2024-10-01": 1440,
@@ -297,12 +297,12 @@
     "url": "https://stremio-jackett.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/stremio-jackett.elfhosted.com.ico",
     "slug": "stremio-jackett-addon",
-    "status": "up",
-    "uptime": "99.18%",
-    "uptimeDay": "82.26%",
-    "uptimeWeek": "84.61%",
-    "uptimeMonth": "96.46%",
-    "uptimeYear": "99.18%",
+    "status": "down",
+    "uptime": "99.19%",
+    "uptimeDay": "82.24%",
+    "uptimeWeek": "84.81%",
+    "uptimeMonth": "96.50%",
+    "uptimeYear": "99.19%",
     "time": 818,
     "timeDay": 705,
     "timeWeek": 874,
@@ -314,7 +314,7 @@
       "2024-10-02": 285,
       "2024-10-01": 273,
       "2024-09-30": 302,
-      "2024-09-29": 343
+      "2024-09-29": 323
     }
   },
   {
