@@ -90,7 +90,7 @@
     "timeMonth": 676,
     "timeYear": 1081,
     "dailyMinutesDown": {
-      "2024-10-16": 412,
+      "2024-10-16": 434,
       "2024-10-15": 1440,
       "2024-10-14": 1440,
       "2024-10-13": 1440,
@@ -274,7 +274,7 @@
     "url": "$MEDIAFUSION_URL",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "media-fusion-stremio-addon",
-    "status": "up",
+    "status": "down",
     "uptime": "98.74%",
     "uptimeDay": "95.46%",
     "uptimeWeek": "99.35%",
