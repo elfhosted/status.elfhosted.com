@@ -1,7 +1,7 @@
 url: https://shluflix.elfhosted.com
-status: up
-code: 200
-responseTime: 11940
-lastUpdated: 2024-10-18T17:54:51.200Z
+status: down
+code: 502
+responseTime: 28025
+lastUpdated: 2024-10-18T18:05:09.016Z
 startTime: 2024-05-26T07:37:36.349Z
 generator: Upptime <https://github.com/upptime/upptime>
