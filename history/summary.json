@@ -90,7 +90,7 @@
     "timeMonth": 677,
     "timeYear": 1074,
     "dailyMinutesDown": {
-      "2024-10-21": 1127,
+      "2024-10-21": 1146,
       "2024-10-20": 1440,
       "2024-10-19": 1440,
       "2024-10-18": 1440,
@@ -348,14 +348,14 @@
     "url": "https://shluflix.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/shluflix.elfhosted.com.ico",
     "slug": "shluflix-stremio-addon",
-    "status": "up",
+    "status": "down",
     "uptime": "98.86%",
-    "uptimeDay": "61.65%",
-    "uptimeWeek": "75.89%",
+    "uptimeDay": "62.19%",
+    "uptimeWeek": "75.90%",
     "uptimeMonth": "94.45%",
     "uptimeYear": "98.86%",
     "time": 5076,
-    "timeDay": 6747,
+    "timeDay": 6913,
     "timeWeek": 7134,
     "timeMonth": 6592,
     "timeYear": 5076,
@@ -365,7 +365,7 @@
       "2024-10-19": 425,
       "2024-10-18": 458,
       "2024-10-17": 416,
-      "2024-10-16": 28
+      "2024-10-16": 26
     }
   },
   {
