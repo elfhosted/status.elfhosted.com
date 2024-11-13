@@ -1,7 +1,7 @@
 url: $MEDIAFUSION_URL
-status: down
-code: 520
-responseTime: 2019
-lastUpdated: 2024-11-13T21:14:03.004Z
+status: up
+code: 200
+responseTime: 29015
+lastUpdated: 2024-11-13T22:01:23.629Z
 startTime: 2024-05-26T07:37:34.133Z
 generator: Upptime <https://github.com/upptime/upptime>
