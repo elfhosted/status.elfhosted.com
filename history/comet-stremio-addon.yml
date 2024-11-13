@@ -1,7 +1,7 @@
 url: $COMET_URL
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2024-11-13T20:44:33.838Z
+status: up
+code: 200
+responseTime: 1451
+lastUpdated: 2024-11-13T21:01:12.290Z
 startTime: 2024-07-01T11:03:00.198Z
 generator: Upptime <https://github.com/upptime/upptime>
