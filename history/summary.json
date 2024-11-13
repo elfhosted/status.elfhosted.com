@@ -67,9 +67,9 @@
     "slug": "torrent-io-not-elf-hosted-addon",
     "status": "down",
     "uptime": "99.65%",
-    "uptimeDay": "40.81%",
-    "uptimeWeek": "91.54%",
-    "uptimeMonth": "98.03%",
+    "uptimeDay": "40.19%",
+    "uptimeWeek": "91.46%",
+    "uptimeMonth": "98.01%",
     "uptimeYear": "99.65%",
     "time": 626,
     "timeDay": 65,
@@ -77,7 +77,7 @@
     "timeMonth": 1031,
     "timeYear": 626,
     "dailyMinutesDown": {
-      "2024-11-13": 852,
+      "2024-11-13": 861,
       "2024-10-29": 11
     }
   },
@@ -87,18 +87,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/discussio.elfhosted.com.ico",
     "slug": "discussio-stremio-addon",
     "status": "down",
-    "uptime": "99.19%",
-    "uptimeDay": "96.36%",
-    "uptimeWeek": "99.19%",
-    "uptimeMonth": "99.19%",
-    "uptimeYear": "99.19%",
-    "time": 385,
-    "timeDay": 370,
-    "timeWeek": 385,
-    "timeMonth": 385,
-    "timeYear": 385,
+    "uptime": "99.06%",
+    "uptimeDay": "95.77%",
+    "uptimeWeek": "99.06%",
+    "uptimeMonth": "99.06%",
+    "uptimeYear": "99.06%",
+    "time": 390,
+    "timeDay": 379,
+    "timeWeek": 390,
+    "timeMonth": 390,
+    "timeYear": 390,
     "dailyMinutesDown": {
-      "2024-11-13": 53
+      "2024-11-13": 61
     }
   },
   {
@@ -187,18 +187,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/discussio.elfhosted.com.ico",
     "slug": "discussio-stremio-addon",
     "status": "down",
-    "uptime": "99.19%",
-    "uptimeDay": "96.36%",
-    "uptimeWeek": "99.19%",
-    "uptimeMonth": "99.19%",
-    "uptimeYear": "99.19%",
-    "time": 385,
-    "timeDay": 370,
-    "timeWeek": 385,
-    "timeMonth": 385,
-    "timeYear": 385,
+    "uptime": "99.06%",
+    "uptimeDay": "95.77%",
+    "uptimeWeek": "99.06%",
+    "uptimeMonth": "99.06%",
+    "uptimeYear": "99.06%",
+    "time": 390,
+    "timeDay": 379,
+    "timeWeek": 390,
+    "timeMonth": 390,
+    "timeYear": 390,
     "dailyMinutesDown": {
-      "2024-11-13": 53
+      "2024-11-13": 61
     }
   },
   {
@@ -390,17 +390,17 @@
     "url": "https://cyberflix.elfhosted.com/health",
     "icon": "https://icons.duckduckgo.com/ip3/cyberflix.elfhosted.com.ico",
     "slug": "stremio-cyber-flix-addon",
-    "status": "up",
-    "uptime": "95.45%",
-    "uptimeDay": "88.85%",
-    "uptimeWeek": "98.28%",
+    "status": "down",
+    "uptime": "95.55%",
+    "uptimeDay": "88.82%",
+    "uptimeWeek": "98.27%",
     "uptimeMonth": "99.60%",
-    "uptimeYear": "95.45%",
-    "time": 385,
-    "timeDay": 425,
-    "timeWeek": 329,
-    "timeMonth": 211,
-    "timeYear": 385,
+    "uptimeYear": "95.55%",
+    "time": 386,
+    "timeDay": 431,
+    "timeWeek": 337,
+    "timeMonth": 217,
+    "timeYear": 386,
     "dailyMinutesDown": {
       "2024-11-13": 148,
       "2024-11-12": 27,
@@ -417,7 +417,7 @@
       "2024-08-10": 871,
       "2024-08-09": 430,
       "2024-08-08": 1026,
-      "2024-08-07": 568
+      "2024-08-07": 313
     }
   },
   {
