@@ -63,9 +63,9 @@
     "url": "https://torrentio.strem.fun/realdebrid=$RD_KEY/stream/movie/tt0023694.json",
     "icon": "https://icons.duckduckgo.com/ip3/torrentio.strem.fun.ico",
     "slug": "torrent-io-not-elf-hosted-addon",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.97%",
     "uptimeYear": "100.00%",
@@ -75,6 +75,7 @@
     "timeMonth": 1031,
     "timeYear": 626,
     "dailyMinutesDown": {
+      "2024-11-13": 0,
       "2024-10-29": 11
     }
   },
