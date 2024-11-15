@@ -42,12 +42,6 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200     
-  - name: Discussio Stremio Addon
-    url: https://discussio.elfhosted.com
-    assignees:
-    - funkypenguin
-    expectedStatusCodes:
-      - 200           
   - name: MediaFusion Stremio Addon
     url: $MEDIAFUSION_URL
     __dangerous__body_down_if_text_missing: White Zombie
