@@ -13,7 +13,7 @@
     "time": 587,
     "timeDay": 440,
     "timeWeek": 582,
-    "timeMonth": 552,
+    "timeMonth": 555,
     "timeYear": 587,
     "dailyMinutesDown": {
       "2024-11-13": 21,
@@ -42,7 +42,7 @@
     "time": 1189,
     "timeDay": 376,
     "timeWeek": 1989,
-    "timeMonth": 1055,
+    "timeMonth": 1068,
     "timeYear": 1189,
     "dailyMinutesDown": {
       "2024-11-15": 34,
@@ -76,7 +76,7 @@
     "time": 613,
     "timeDay": 114,
     "timeWeek": 247,
-    "timeMonth": 607,
+    "timeMonth": 620,
     "timeYear": 613,
     "dailyMinutesDown": {
       "2024-11-14": 1154,
@@ -89,19 +89,19 @@
     "url": "https://discussio.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/discussio.elfhosted.com.ico",
     "slug": "discussio-stremio-addon",
-    "status": "down",
-    "uptime": "96.01%",
-    "uptimeDay": "89.55%",
-    "uptimeWeek": "95.14%",
-    "uptimeMonth": "96.01%",
-    "uptimeYear": "96.01%",
+    "status": "up",
+    "uptime": "95.84%",
+    "uptimeDay": "88.62%",
+    "uptimeWeek": "94.93%",
+    "uptimeMonth": "95.84%",
+    "uptimeYear": "95.84%",
     "time": 517,
-    "timeDay": 453,
-    "timeWeek": 521,
+    "timeDay": 452,
+    "timeWeek": 520,
     "timeMonth": 517,
     "timeYear": 517,
     "dailyMinutesDown": {
-      "2024-11-17": 136,
+      "2024-11-17": 158,
       "2024-11-16": 149,
       "2024-11-15": 83,
       "2024-11-14": 54,
@@ -122,7 +122,7 @@
     "time": 2373,
     "timeDay": 538,
     "timeWeek": 2941,
-    "timeMonth": 1662,
+    "timeMonth": 1673,
     "timeYear": 2373,
     "dailyMinutesDown": {
       "2024-11-17": 7,
@@ -182,7 +182,7 @@
     "time": 559,
     "timeDay": 527,
     "timeWeek": 599,
-    "timeMonth": 566,
+    "timeMonth": 568,
     "timeYear": 559,
     "dailyMinutesDown": {
       "2024-11-13": 27,
@@ -205,7 +205,7 @@
     "time": 1811,
     "timeDay": 4993,
     "timeWeek": 4388,
-    "timeMonth": 1673,
+    "timeMonth": 1691,
     "timeYear": 1811,
     "dailyMinutesDown": {
       "2024-11-13": 91,
@@ -252,7 +252,7 @@
     "time": 905,
     "timeDay": 734,
     "timeWeek": 724,
-    "timeMonth": 836,
+    "timeMonth": 839,
     "timeYear": 905,
     "dailyMinutesDown": {
       "2024-11-15": 8,
@@ -304,7 +304,7 @@
     "time": 1497,
     "timeDay": 651,
     "timeWeek": 3651,
-    "timeMonth": 1990,
+    "timeMonth": 2007,
     "timeYear": 1497,
     "dailyMinutesDown": {
       "2024-11-15": 280,
@@ -360,7 +360,7 @@
     "time": 612,
     "timeDay": 565,
     "timeWeek": 574,
-    "timeMonth": 597,
+    "timeMonth": 599,
     "timeYear": 612,
     "dailyMinutesDown": {
       "2024-11-13": 51,
@@ -386,7 +386,7 @@
     "time": 400,
     "timeDay": 368,
     "timeWeek": 463,
-    "timeMonth": 422,
+    "timeMonth": 425,
     "timeYear": 400,
     "dailyMinutesDown": {
       "2024-11-13": 18,
@@ -410,7 +410,7 @@
     "time": 386,
     "timeDay": 89,
     "timeWeek": 406,
-    "timeMonth": 294,
+    "timeMonth": 296,
     "timeYear": 386,
     "dailyMinutesDown": {
       "2024-11-14": 172,
@@ -443,7 +443,7 @@
     "time": 790,
     "timeDay": 114,
     "timeWeek": 380,
-    "timeMonth": 486,
+    "timeMonth": 429,
     "timeYear": 790,
     "dailyMinutesDown": {
       "2024-09-06": 41,
@@ -465,7 +465,7 @@
     "time": 132,
     "timeDay": 76,
     "timeWeek": 81,
-    "timeMonth": 170,
+    "timeMonth": 171,
     "timeYear": 132,
     "dailyMinutesDown": {
       "2024-09-12": 10
