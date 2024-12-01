@@ -93,14 +93,14 @@
     "url": "https://discussio.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/discussio.elfhosted.com.ico",
     "slug": "discussio-stremio-addon",
-    "status": "up",
-    "uptime": "94.97%",
-    "uptimeDay": "85.75%",
+    "status": "down",
+    "uptime": "95.00%",
+    "uptimeDay": "87.08%",
     "uptimeWeek": "91.99%",
-    "uptimeMonth": "94.97%",
-    "uptimeYear": "94.97%",
+    "uptimeMonth": "95.00%",
+    "uptimeYear": "95.00%",
     "time": 478,
-    "timeDay": 435,
+    "timeDay": 440,
     "timeWeek": 459,
     "timeMonth": 478,
     "timeYear": 478,
@@ -119,7 +119,7 @@
       "2024-11-20": 143,
       "2024-11-19": 56,
       "2024-11-18": 124,
-      "2024-11-17": 99
+      "2024-11-17": 90
     }
   },
   {
@@ -130,7 +130,7 @@
     "status": "up",
     "uptime": "94.70%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "33.26%",
+    "uptimeWeek": "33.77%",
     "uptimeMonth": "77.42%",
     "uptimeYear": "94.70%",
     "time": 2328,
