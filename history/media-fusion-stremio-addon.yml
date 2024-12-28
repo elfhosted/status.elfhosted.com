@@ -1,7 +1,7 @@
-url: $MEDIAFUSION_URL
+url: https://mediafusion.elfhosted.com/health
 status: down
-code: 500
-responseTime: 404
-lastUpdated: 2024-11-28T23:06:42.349Z
+code: 200
+responseTime: 970
+lastUpdated: 2024-12-27T23:04:39.602Z
 startTime: 2024-05-26T07:37:34.133Z
 generator: Upptime <https://github.com/upptime/upptime>
