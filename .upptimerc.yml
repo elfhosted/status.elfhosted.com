@@ -47,6 +47,12 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 302   
+  - name: StremThru Stremio Addons
+    url: https://stremthru.elfhosted.com
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200         
   - name: Stremio-Jackett Addon
     url: https://stremio-jackett.elfhosted.com
     assignees:
