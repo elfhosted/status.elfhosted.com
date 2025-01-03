@@ -290,18 +290,20 @@
     "url": "https://stremthru.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/stremthru.elfhosted.com.ico",
     "slug": "strem-thru-stremio-addons",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 446,
-    "timeDay": 544,
-    "timeWeek": 446,
-    "timeMonth": 446,
-    "timeYear": 446,
-    "dailyMinutesDown": {}
+    "time": 433,
+    "timeDay": 442,
+    "timeWeek": 433,
+    "timeMonth": 433,
+    "timeYear": 433,
+    "dailyMinutesDown": {
+      "2025-01-03": 0
+    }
   },
   {
     "name": "Stremio-Jackett Addon",
