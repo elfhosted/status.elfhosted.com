@@ -290,19 +290,19 @@
     "url": "https://stremthru.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/stremthru.elfhosted.com.ico",
     "slug": "strem-thru-stremio-addons",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 433,
-    "timeDay": 442,
-    "timeWeek": 433,
-    "timeMonth": 433,
-    "timeYear": 433,
+    "status": "up",
+    "uptime": "99.66%",
+    "uptimeDay": "98.08%",
+    "uptimeWeek": "99.66%",
+    "uptimeMonth": "99.66%",
+    "uptimeYear": "99.66%",
+    "time": 424,
+    "timeDay": 413,
+    "timeWeek": 424,
+    "timeMonth": 424,
+    "timeYear": 424,
     "dailyMinutesDown": {
-      "2025-01-03": 0
+      "2025-01-03": 28
     }
   },
   {
