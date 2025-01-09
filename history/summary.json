@@ -138,17 +138,17 @@
     "url": "https://comet.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/comet.elfhosted.com.ico",
     "slug": "comet-stremio-addon",
-    "status": "up",
-    "uptime": "95.70%",
-    "uptimeDay": "99.06%",
+    "status": "down",
+    "uptime": "95.71%",
+    "uptimeDay": "99.04%",
     "uptimeWeek": "99.51%",
     "uptimeMonth": "99.41%",
-    "uptimeYear": "95.70%",
-    "time": 2530,
-    "timeDay": 966,
-    "timeWeek": 3457,
-    "timeMonth": 3687,
-    "timeYear": 2530,
+    "uptimeYear": "95.71%",
+    "time": 2523,
+    "timeDay": 770,
+    "timeWeek": 3238,
+    "timeMonth": 3629,
+    "timeYear": 2523,
     "dailyMinutesDown": {
       "2025-01-09": 14,
       "2025-01-07": 8,
@@ -213,8 +213,7 @@
       "2024-07-19": 16,
       "2024-07-16": 7,
       "2024-07-11": 31,
-      "2024-07-07": 39,
-      "2024-07-06": 12
+      "2024-07-07": 39
     }
   },
   {
