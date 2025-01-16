@@ -35,12 +35,30 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200          
-  - name: Xtremio Stremio Addon
-    url: https://xtremio.elfhosted.com/configure
+  - name: YourIPTV Stremio Addon (not ElfHosted)
+    url: https://youriptv.hayd.uk/configure
     assignees:
     - funkypenguin
     expectedStatusCodes:
       - 200     
+  - name: Stremify Stremio Addon (not ElfHosted)
+    url: https://stremify.hayd.uk/configure
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200     
+  - name: Formulio Stremio Addon (not ElfHosted)
+    url: https://formulio.hayd.uk/
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200   
+  - name: EasyNews+ Stremio Addon
+    url: https://easynewsplus.elfhosted.com/configure
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200                       
   - name: MediaFusion Stremio Addon
     url: https://mediafusion.elfhosted.com/health
     assignees:
