@@ -221,19 +221,19 @@
     "url": "https://youriptv.hayd.uk/configure",
     "icon": "https://icons.duckduckgo.com/ip3/youriptv.hayd.uk.ico",
     "slug": "your-iptv-stremio-addon-not-elf-hosted",
-    "status": "down",
-    "uptime": "99.98%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "99.98%",
-    "time": 660,
-    "timeDay": 701,
-    "timeWeek": 660,
-    "timeMonth": 660,
-    "timeYear": 660,
+    "status": "up",
+    "uptime": "99.59%",
+    "uptimeDay": "99.35%",
+    "uptimeWeek": "99.59%",
+    "uptimeMonth": "99.59%",
+    "uptimeYear": "99.59%",
+    "time": 703,
+    "timeDay": 766,
+    "timeWeek": 703,
+    "timeMonth": 703,
+    "timeYear": 703,
     "dailyMinutesDown": {
-      "2025-01-18": 0
+      "2025-01-18": 9
     }
   },
   {
