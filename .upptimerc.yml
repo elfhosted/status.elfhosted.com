@@ -129,7 +129,7 @@ sites:
     assignees:
       - funkypenguin
   - name: Website / Docs
-    url: https://elfhosted.com
+    url: https://docs.elfhosted.com
     expectedStatusCodes:
       - 200
     assignees:
@@ -146,8 +146,8 @@ status-website:
   navbar:
     - title: Status
       href: /
-    - title: Home
-      href: https://elfhosted.com
+    - title: Docs
+      href: https://docs.elfhosted.com
     - title: Store
       href: https://store.elfhosted.com
     - title: Discord
