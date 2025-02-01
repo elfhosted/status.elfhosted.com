@@ -1,6 +1,6 @@
-url: https://mediafusion.elfhosted.com/configure
-status: down
-code: 503
+url: https://mediafusion.elfhosted.com/health
+status: up
+code: 200
 responseTime: 600
 lastUpdated: 2025-02-01T22:15:14.091Z
 startTime: 2024-05-26T07:37:34.133Z

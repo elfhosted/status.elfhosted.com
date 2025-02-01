@@ -60,12 +60,12 @@ sites:
     expectedStatusCodes:
       - 200                       
   - name: MediaFusion Stremio Addon
-    # url: https://mediafusion.elfhosted.com/health
-    url: https://mediafusion.elfhosted.com/configure
+    url: https://mediafusion.elfhosted.com/health
     assignees:
     - funkypenguin
     expectedStatusCodes:
       - 302   
+      - 200
   - name: StremThru Stremio Addons
     url: https://stremthru.elfhosted.com
     assignees:
