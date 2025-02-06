@@ -122,7 +122,14 @@ sites:
     assignees:
     - funkypenguin
     expectedStatusCodes:
-      - 200                                  
+      - 200            
+  - name: Stremio TMDB Addon
+    url: https://tmdb.elfhosted.com/configure
+    maxResponseTime: 5000
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200      
   - name: Store / Account Management Platform
     url: https://store.elfhosted.com
     expectedStatusCodes:
