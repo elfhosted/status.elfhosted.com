@@ -23,12 +23,13 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200               
-  - name: Discussio Stremio Addon
-    url: https://discussio.elfhosted.com
-    assignees:
-    - funkypenguin
-    expectedStatusCodes:
-      - 200    
+  # not stable
+  # - name: Discussio Stremio Addon
+  #   url: https://discussio.elfhosted.com
+  #   assignees:
+  #   - funkypenguin
+  #   expectedStatusCodes:
+  #     - 200    
   - name: Comet Stremio Addon
     url: https://comet.elfhosted.com
     assignees:
@@ -129,7 +130,21 @@ sites:
     assignees:
     - funkypenguin
     expectedStatusCodes:
-      - 200      
+      - 200   
+  - name: Speed Test Endpoint US-WA
+    url: https://eagle02-speed.elfhosted.cc/empty.php
+    maxResponseTime: 5000
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200   
+  - name: Speed Test Endpoint DE-FSN
+    url: https://fairy01-speed.elfhosted.com/empty.php
+    maxResponseTime: 5000
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200                  
   - name: Store / Account Management Platform
     url: https://store.elfhosted.com
     expectedStatusCodes:
