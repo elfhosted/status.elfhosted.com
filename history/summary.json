@@ -102,12 +102,12 @@
     "slug": "comet-stremio-addon",
     "status": "up",
     "uptime": "95.93%",
-    "uptimeDay": "99.39%",
+    "uptimeDay": "100.00%",
     "uptimeWeek": "99.91%",
     "uptimeMonth": "99.96%",
     "uptimeYear": "95.93%",
     "time": 2302,
-    "timeDay": 489,
+    "timeDay": 627,
     "timeWeek": 603,
     "timeMonth": 863,
     "timeYear": 2302,
@@ -459,12 +459,12 @@
     "uptime": "97.69%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "99.74%",
-    "uptimeMonth": "98.94%",
+    "uptimeMonth": "98.96%",
     "uptimeYear": "97.69%",
     "time": 1543,
     "timeDay": 509,
     "timeWeek": 1384,
-    "timeMonth": 1420,
+    "timeMonth": 1436,
     "timeYear": 1543,
     "dailyMinutesDown": {
       "2025-02-21": 9,
@@ -652,9 +652,9 @@
     "url": "https://eagle02-speed.elfhosted.cc/empty.php",
     "icon": "https://icons.duckduckgo.com/ip3/eagle02-speed.elfhosted.cc.ico",
     "slug": "speed-test-endpoint-us-wa",
-    "status": "up",
+    "status": "down",
     "uptime": "99.89%",
-    "uptimeDay": "98.55%",
+    "uptimeDay": "98.50%",
     "uptimeWeek": "99.79%",
     "uptimeMonth": "99.89%",
     "uptimeYear": "99.89%",
@@ -664,7 +664,7 @@
     "timeMonth": 257,
     "timeYear": 257,
     "dailyMinutesDown": {
-      "2025-02-26": 21
+      "2025-02-26": 22
     }
   },
   {
