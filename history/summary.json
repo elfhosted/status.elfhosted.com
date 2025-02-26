@@ -652,19 +652,19 @@
     "url": "https://eagle02-speed.elfhosted.cc/empty.php",
     "icon": "https://icons.duckduckgo.com/ip3/eagle02-speed.elfhosted.cc.ico",
     "slug": "speed-test-endpoint-us-wa",
-    "status": "down",
-    "uptime": "99.84%",
-    "uptimeDay": "97.89%",
-    "uptimeWeek": "99.70%",
-    "uptimeMonth": "99.84%",
-    "uptimeYear": "99.84%",
-    "time": 252,
-    "timeDay": 234,
-    "timeWeek": 254,
-    "timeMonth": 252,
-    "timeYear": 252,
+    "status": "up",
+    "uptime": "99.80%",
+    "uptimeDay": "97.35%",
+    "uptimeWeek": "99.62%",
+    "uptimeMonth": "99.80%",
+    "uptimeYear": "99.80%",
+    "time": 251,
+    "timeDay": 232,
+    "timeWeek": 252,
+    "timeMonth": 251,
+    "timeYear": 251,
     "dailyMinutesDown": {
-      "2025-02-26": 31
+      "2025-02-26": 38
     }
   },
   {
