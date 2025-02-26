@@ -459,7 +459,7 @@
     "uptime": "97.68%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "99.74%",
-    "uptimeMonth": "97.03%",
+    "uptimeMonth": "97.14%",
     "uptimeYear": "97.68%",
     "time": 1543,
     "timeDay": 509,
@@ -652,10 +652,10 @@
     "url": "https://eagle02-speed.elfhosted.cc/empty.php",
     "icon": "https://icons.duckduckgo.com/ip3/eagle02-speed.elfhosted.cc.ico",
     "slug": "speed-test-endpoint-us-wa",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 258,
@@ -663,7 +663,9 @@
     "timeWeek": 270,
     "timeMonth": 258,
     "timeYear": 258,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-02-26": 1
+    }
   },
   {
     "name": "Speed Test Endpoint DE-FSN",
