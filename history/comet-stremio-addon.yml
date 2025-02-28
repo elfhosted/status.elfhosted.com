@@ -1,7 +1,7 @@
 url: https://comet.elfhosted.com
-status: up
-code: 200
-responseTime: 832
-lastUpdated: 2025-02-28T22:52:40.260Z
+status: down
+code: 503
+responseTime: 459
+lastUpdated: 2025-02-28T23:02:06.048Z
 startTime: 2024-07-01T11:03:00.198Z
 generator: Upptime <https://github.com/upptime/upptime>
