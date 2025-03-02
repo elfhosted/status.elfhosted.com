@@ -384,13 +384,13 @@
     "slug": "stremio-jackett-addon",
     "status": "up",
     "uptime": "99.56%",
-    "uptimeDay": "96.48%",
-    "uptimeWeek": "98.47%",
+    "uptimeDay": "98.01%",
+    "uptimeWeek": "98.67%",
     "uptimeMonth": "98.94%",
     "uptimeYear": "99.56%",
     "time": 1072,
-    "timeDay": 7997,
-    "timeWeek": 4936,
+    "timeDay": 10415,
+    "timeWeek": 5195,
     "timeMonth": 3122,
     "timeYear": 1072,
     "dailyMinutesDown": {
@@ -683,10 +683,10 @@
     "url": "https://fairy01-speed.elfhosted.com/empty.php",
     "icon": "https://icons.duckduckgo.com/ip3/fairy01-speed.elfhosted.com.ico",
     "slug": "speed-test-endpoint-de-fsn",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 420,
@@ -694,7 +694,9 @@
     "timeWeek": 416,
     "timeMonth": 420,
     "timeYear": 420,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-03-02": 1
+    }
   },
   {
     "name": "Store / Account Management Platform",
