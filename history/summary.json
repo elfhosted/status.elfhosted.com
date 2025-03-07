@@ -674,10 +674,10 @@
     "url": "https://eagle02-speed.elfhosted.cc/empty.php",
     "icon": "https://icons.duckduckgo.com/ip3/eagle02-speed.elfhosted.cc.ico",
     "slug": "speed-test-endpoint-us-wa",
-    "status": "up",
+    "status": "down",
     "uptime": "99.88%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "99.88%",
     "uptimeYear": "99.88%",
     "time": 249,
@@ -686,6 +686,7 @@
     "timeMonth": 249,
     "timeYear": 249,
     "dailyMinutesDown": {
+      "2025-03-07": 1,
       "2025-02-26": 38
     }
   },
