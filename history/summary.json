@@ -615,19 +615,19 @@
     "url": "https://cyberflix.elfhosted.com/health",
     "icon": "https://icons.duckduckgo.com/ip3/cyberflix.elfhosted.com.ico",
     "slug": "stremio-cyber-flix-addon",
-    "status": "up",
-    "uptime": "99.69%",
-    "uptimeDay": "94.46%",
+    "status": "down",
+    "uptime": "99.70%",
+    "uptimeDay": "94.42%",
     "uptimeWeek": "97.91%",
     "uptimeMonth": "98.10%",
-    "uptimeYear": "99.69%",
+    "uptimeYear": "99.70%",
     "time": 364,
     "timeDay": 224,
     "timeWeek": 153,
     "timeMonth": 374,
     "timeYear": 364,
     "dailyMinutesDown": {
-      "2025-03-16": 80,
+      "2025-03-16": 81,
       "2025-03-14": 8,
       "2025-03-13": 23,
       "2025-03-12": 64,
@@ -662,7 +662,7 @@
       "2024-11-14": 172,
       "2024-11-13": 169,
       "2024-11-12": 27,
-      "2024-08-20": 47
+      "2024-08-20": 36
     }
   },
   {
