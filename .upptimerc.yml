@@ -144,7 +144,21 @@ sites:
     assignees:
     - funkypenguin
     expectedStatusCodes:
-      - 200                  
+      - 200      
+  - name: FNKY Link Shortener
+    url: https://fnky.nz
+    maxResponseTime: 5000
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 302
+  - name: Debrid.News
+    url: https://debrid.news
+    maxResponseTime: 5000
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200                            
   - name: Store / Account Management Platform
     url: https://store.elfhosted.com
     expectedStatusCodes:
