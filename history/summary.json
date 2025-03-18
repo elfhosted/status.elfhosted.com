@@ -480,11 +480,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "jackettio-stremio-addon",
     "status": "up",
-    "uptime": "97.83%",
+    "uptime": "97.84%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.85%",
-    "uptimeYear": "97.83%",
+    "uptimeYear": "97.84%",
     "time": 1539,
     "timeDay": 568,
     "timeWeek": 605,
@@ -616,10 +616,10 @@
     "url": "https://cyberflix.elfhosted.com/health",
     "icon": "https://icons.duckduckgo.com/ip3/cyberflix.elfhosted.com.ico",
     "slug": "stremio-cyber-flix-addon",
-    "status": "up",
+    "status": "down",
     "uptime": "99.70%",
-    "uptimeDay": "99.39%",
-    "uptimeWeek": "97.05%",
+    "uptimeDay": "99.35%",
+    "uptimeWeek": "97.04%",
     "uptimeMonth": "98.15%",
     "uptimeYear": "99.70%",
     "time": 363,
@@ -628,7 +628,7 @@
     "timeMonth": 393,
     "timeYear": 363,
     "dailyMinutesDown": {
-      "2025-03-18": 2,
+      "2025-03-18": 3,
       "2025-03-17": 80,
       "2025-03-16": 111,
       "2025-03-14": 8,
@@ -663,7 +663,7 @@
       "2024-12-22": 10,
       "2024-12-10": 12,
       "2024-11-14": 172,
-      "2024-11-13": 133
+      "2024-11-13": 96
     }
   },
   {
