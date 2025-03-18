@@ -152,6 +152,7 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 302
+      - 200
   - name: Debrid.News
     url: https://debrid.news
     maxResponseTime: 5000
