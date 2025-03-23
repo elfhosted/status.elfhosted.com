@@ -396,15 +396,15 @@
     "url": "https://stremio-jackett.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/stremio-jackett.elfhosted.com.ico",
     "slug": "stremio-jackett-addon",
-    "status": "up",
+    "status": "down",
     "uptime": "99.59%",
-    "uptimeDay": "80.33%",
-    "uptimeWeek": "96.45%",
+    "uptimeDay": "85.46%",
+    "uptimeWeek": "96.58%",
     "uptimeMonth": "97.95%",
     "uptimeYear": "99.59%",
     "time": 1184,
-    "timeDay": 1102,
-    "timeWeek": 1035,
+    "timeDay": 1256,
+    "timeWeek": 1048,
     "timeMonth": 2907,
     "timeYear": 1184,
     "dailyMinutesDown": {
@@ -456,8 +456,7 @@
       "2024-11-08": 13,
       "2024-11-05": 28,
       "2024-10-25": 22,
-      "2024-10-22": 11,
-      "2024-10-20": 12
+      "2024-10-22": 11
     }
   },
   {
@@ -622,13 +621,13 @@
     "slug": "stremio-cyber-flix-addon",
     "status": "up",
     "uptime": "99.71%",
-    "uptimeDay": "95.49%",
-    "uptimeWeek": "96.16%",
+    "uptimeDay": "97.12%",
+    "uptimeWeek": "97.25%",
     "uptimeMonth": "97.96%",
     "uptimeYear": "99.71%",
     "time": 358,
-    "timeDay": 119,
-    "timeWeek": 137,
+    "timeDay": 134,
+    "timeWeek": 115,
     "timeMonth": 339,
     "timeYear": 358,
     "dailyMinutesDown": {
