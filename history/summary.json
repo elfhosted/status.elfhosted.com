@@ -396,10 +396,10 @@
     "url": "https://stremio-jackett.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/stremio-jackett.elfhosted.com.ico",
     "slug": "stremio-jackett-addon",
-    "status": "up",
+    "status": "down",
     "uptime": "99.61%",
-    "uptimeDay": "80.63%",
-    "uptimeWeek": "93.79%",
+    "uptimeDay": "81.97%",
+    "uptimeWeek": "93.78%",
     "uptimeMonth": "97.37%",
     "uptimeYear": "99.61%",
     "time": 1180,
@@ -446,8 +446,7 @@
       "2024-12-13": 26,
       "2024-12-11": 24,
       "2024-12-10": 10,
-      "2024-12-06": 21,
-      "2024-11-27": 17
+      "2024-12-06": 21
     }
   },
   {
