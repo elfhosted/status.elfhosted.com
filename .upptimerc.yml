@@ -31,7 +31,8 @@ sites:
   #   expectedStatusCodes:
   #     - 200    
   - name: Comet Stremio Addon
-    url: https://comet.elfhosted.com
+    url: https://comet.elfhosted.com/stream/movie/tt0023694.json
+    __dangerous__body_down_if_text_missing: White Zombie
     assignees:
     - funkypenguin
     expectedStatusCodes:
