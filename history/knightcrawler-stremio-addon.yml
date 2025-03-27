@@ -1,7 +1,7 @@
 url: https://knightcrawler.elfhosted.com/stream/movie/tt0023694.json
-status: down
-code: 503
-responseTime: 379
-lastUpdated: 2025-03-27T21:34:19.178Z
+status: up
+code: 200
+responseTime: 600
+lastUpdated: 2025-03-27T21:43:16.475Z
 startTime: 2024-05-26T07:37:31.041Z
 generator: Upptime <https://github.com/upptime/upptime>
