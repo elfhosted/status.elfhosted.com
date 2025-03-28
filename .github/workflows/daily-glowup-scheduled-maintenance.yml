@@ -2,7 +2,7 @@ name: Daily Issue Creator
 
 on:
   schedule:
-    - cron: "50 8 * * *" # Runs daily at 8:50 UTC
+    - cron: "50 8 * * *" # Runs daily at 8:50 UTC (9:50 AM NZDT)
 
   workflow_dispatch: # Allows manual triggering
 
@@ -12,7 +12,6 @@ jobs:
 
     steps:
       - name: Calculate Timestamps
-        id: timestamps
         run: |
           START_TIME=$(date -u -d "+10 minutes" +"%Y-%m-%dT%H:%M:%S.%3NZ")
           END_TIME=$(date -u -d "+1 hour" +"%Y-%m-%dT%H:%M:%S.%3NZ")
@@ -22,25 +21,29 @@ jobs:
           echo "END_TIME=$END_TIME" >> $GITHUB_ENV
           echo "TODAY_DATE=$TODAY_DATE" >> $GITHUB_ENV
 
+          # Create issue content file
+          cat <<EOF > issue-body.md
+          <!--
+          start: $START_TIME
+          end: $END_TIME
+          -->
+
+          🌟 **ElfHosted's Daily Glowup!** 🌟
+
+          Every day, we take some time to refresh and enhance ElfHosted services. This is our scheduled maintenance period where we apply **OS and app updates** to keep everything running smoothly.
+
+          🔧 **Scheduled Time:**
+          - **Start:** \`$START_TIME\`
+          - **End:** \`$END_TIME\`
+
+          If you notice any temporary disruptions, don't worry—it's just a part of the glowup! For more details or to chat with the community, visit our [friendly Discord server](https://discord.elfhosted.com)
+
+          Thanks for being part of ElfHosted! ✨
+          EOF
+
       - name: Create GitHub Issue
-        uses: peter-evans/create-issue@v5
+        uses: peter-evans/create-issue-from-file@v5
         with:
-          title: ElfHosted Glowup - ${{ env.TODAY_DATE }}
-          body: |
-            <!--
-            start: ${{ env.START_TIME }}
-            end: ${{ env.END_TIME }}
-            -->
-
-            🌟 **ElfHosted's Daily Glowup!** 🌟
-
-            Every day, we take some time to refresh and enhance ElfHosted services. This is our scheduled maintenance period where we apply **OS and app updates** to keep everything running smoothly.
-
-            🔧 **Scheduled Time:**
-            - **Start:** `${{ env.START_TIME }}`
-            - **End:** `${{ env.END_TIME }}`
-
-            If you notice any temporary disruptions, don't worry—it's just a part of the glowup! For more details or to chat with the community, visit our Discord: [discord.elfhosted.com](https://discord.elfhosted.com)
-
-            Thanks for being part of ElfHosted! ✨
+          title: "ElfHosted Glowup - ${{ env.TODAY_DATE }}"
+          content-filepath: issue-body.md
           token: ${{ secrets.GITHUB_TOKEN }}
