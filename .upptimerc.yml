@@ -117,14 +117,14 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200               
-  - name: Stremio CyberFlix Addon
-    url: https://cyberflix.elfhosted.com/health
-    __dangerous__body_down_if_text_missing: ok
-    maxResponseTime: 5000
-    assignees:
-    - funkypenguin
-    expectedStatusCodes:
-      - 200            
+  # - name: Stremio CyberFlix Addon
+  #   url: https://cyberflix.elfhosted.com/health
+  #   __dangerous__body_down_if_text_missing: ok
+  #   maxResponseTime: 5000
+  #   assignees:
+  #   - funkypenguin
+  #   expectedStatusCodes:
+  #     - 200            
   - name: Stremio TMDB Addon
     url: https://tmdb.elfhosted.com/configure
     maxResponseTime: 5000
