@@ -1,8 +1,8 @@
-name: Daily Maintenance Issue Creator
+name: Daily Issue Creator
 
 on:
   schedule:
-    - cron: "50 8 * * *" # Runs daily at 20:50 UTC
+    - cron: "50 8 * * *" # Runs daily at 8:50 UTC
 
   workflow_dispatch: # Allows manual triggering
 
@@ -16,15 +16,17 @@ jobs:
         run: |
           START_TIME=$(date -u -d "+10 minutes" +"%Y-%m-%dT%H:%M:%S.%3NZ")
           END_TIME=$(date -u -d "+1 hour" +"%Y-%m-%dT%H:%M:%S.%3NZ")
+          TODAY_DATE=$(date -u +"%Y-%m-%d")
 
           echo "START_TIME=$START_TIME" >> $GITHUB_ENV
           echo "END_TIME=$END_TIME" >> $GITHUB_ENV
+          echo "TODAY_DATE=$TODAY_DATE" >> $GITHUB_ENV
 
       - name: Create GitHub Issue
-        uses: peter-evans/create-issue-from-file@v5
+        uses: peter-evans/create-issue@v5
         with:
-          title: "ElfHosted Daily Glowup - $(date -u +"%Y-%m-%d")"
-          content: |
+          title: ElfHosted Glowup - ${{ env.TODAY_DATE }}
+          body: |
             <!--
             start: ${{ env.START_TIME }}
             end: ${{ env.END_TIME }}
