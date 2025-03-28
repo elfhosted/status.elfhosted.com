@@ -1,0 +1,44 @@
+name: Daily Maintenance Issue Creator
+
+on:
+  schedule:
+    - cron: "50 8 * * *" # Runs daily at 20:50 UTC
+
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  create-issue:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Calculate Timestamps
+        id: timestamps
+        run: |
+          START_TIME=$(date -u -d "+10 minutes" +"%Y-%m-%dT%H:%M:%S.%3NZ")
+          END_TIME=$(date -u -d "+1 hour" +"%Y-%m-%dT%H:%M:%S.%3NZ")
+
+          echo "START_TIME=$START_TIME" >> $GITHUB_ENV
+          echo "END_TIME=$END_TIME" >> $GITHUB_ENV
+
+      - name: Create GitHub Issue
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "ElfHosted Daily Glowup - $(date -u +"%Y-%m-%d")"
+          content: |
+            <!--
+            start: ${{ env.START_TIME }}
+            end: ${{ env.END_TIME }}
+            -->
+
+            🌟 **ElfHosted's Daily Glowup!** 🌟
+
+            Every day, we take some time to refresh and enhance ElfHosted services. This is our scheduled maintenance period where we apply **OS and app updates** to keep everything running smoothly.
+
+            🔧 **Scheduled Time:**
+            - **Start:** `${{ env.START_TIME }}`
+            - **End:** `${{ env.END_TIME }}`
+
+            If you notice any temporary disruptions, don't worry—it's just a part of the glowup! For more details or to chat with the community, visit our Discord: [discord.elfhosted.com](https://discord.elfhosted.com)
+
+            Thanks for being part of ElfHosted! ✨
+          token: ${{ secrets.GITHUB_TOKEN }}
