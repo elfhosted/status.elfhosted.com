@@ -710,18 +710,20 @@
     "url": "https://debrid.news",
     "icon": "https://icons.duckduckgo.com/ip3/debrid.news.ico",
     "slug": "debrid-news",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 739,
-    "timeDay": 1355,
-    "timeWeek": 762,
-    "timeMonth": 739,
-    "timeYear": 739,
-    "dailyMinutesDown": {}
+    "time": 723,
+    "timeDay": 899,
+    "timeWeek": 730,
+    "timeMonth": 723,
+    "timeYear": 723,
+    "dailyMinutesDown": {
+      "2025-03-31": 0
+    }
   },
   {
     "name": "Store / Account Management Platform",
