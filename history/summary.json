@@ -710,19 +710,19 @@
     "url": "https://debrid.news",
     "icon": "https://icons.duckduckgo.com/ip3/debrid.news.ico",
     "slug": "debrid-news",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 723,
-    "timeDay": 899,
-    "timeWeek": 730,
-    "timeMonth": 723,
-    "timeYear": 723,
+    "status": "up",
+    "uptime": "99.95%",
+    "uptimeDay": "99.38%",
+    "uptimeWeek": "99.91%",
+    "uptimeMonth": "99.95%",
+    "uptimeYear": "99.95%",
+    "time": 716,
+    "timeDay": 797,
+    "timeWeek": 717,
+    "timeMonth": 716,
+    "timeYear": 716,
     "dailyMinutesDown": {
-      "2025-03-31": 0
+      "2025-03-31": 9
     }
   },
   {
