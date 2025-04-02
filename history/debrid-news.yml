@@ -1,7 +1,7 @@
 url: https://debrid.news
-status: up
-code: 200
-responseTime: 424
-lastUpdated: 2025-04-02T04:24:31.580Z
+status: down
+code: 503
+responseTime: 458
+lastUpdated: 2025-04-02T21:19:01.931Z
 startTime: 2025-03-18T21:59:25.420Z
 generator: Upptime <https://github.com/upptime/upptime>
