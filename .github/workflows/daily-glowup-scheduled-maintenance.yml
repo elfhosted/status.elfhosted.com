@@ -2,7 +2,7 @@ name: Daily Issue Creator
 
 on:
   schedule:
-    - cron: "50 8 * * *" # Runs daily at 8:50 UTC (9:50 AM NZDT)
+    - cron: "50 9 * * *" # Runs daily at 8:50 UTC (9:50 AM NZDT)
 
   workflow_dispatch: # Allows manual triggering
 
