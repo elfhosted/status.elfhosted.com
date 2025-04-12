@@ -231,18 +231,20 @@
     "url": "https://formulio.hayd.uk/",
     "icon": "https://icons.duckduckgo.com/ip3/formulio.hayd.uk.ico",
     "slug": "formulio-stremio-addon-not-elf-hosted",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 629,
-    "timeDay": 1002,
-    "timeWeek": 775,
-    "timeMonth": 705,
-    "timeYear": 629,
-    "dailyMinutesDown": {}
+    "time": 628,
+    "timeDay": 785,
+    "timeWeek": 749,
+    "timeMonth": 701,
+    "timeYear": 628,
+    "dailyMinutesDown": {
+      "2025-04-12": 0
+    }
   },
   {
     "name": "EasyNews+ Stremio Addon",
