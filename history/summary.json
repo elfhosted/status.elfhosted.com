@@ -109,11 +109,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/comet.elfhosted.com.ico",
     "slug": "comet-stremio-addon",
     "status": "up",
-    "uptime": "96.50%",
+    "uptime": "96.51%",
     "uptimeDay": "95.99%",
     "uptimeWeek": "87.11%",
     "uptimeMonth": "97.03%",
-    "uptimeYear": "96.50%",
+    "uptimeYear": "96.51%",
     "time": 2031,
     "timeDay": 354,
     "timeWeek": 416,
@@ -411,9 +411,9 @@
     "url": "https://stremio-jackett.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/stremio-jackett.elfhosted.com.ico",
     "slug": "stremio-jackett-addon",
-    "status": "up",
+    "status": "down",
     "uptime": "99.65%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.80%",
     "uptimeYear": "99.65%",
@@ -423,6 +423,7 @@
     "timeMonth": 1792,
     "timeYear": 1227,
     "dailyMinutesDown": {
+      "2025-05-01": 0,
       "2025-04-18": 8,
       "2025-04-15": 18,
       "2025-04-12": 10,
@@ -461,8 +462,7 @@
       "2025-02-06": 10,
       "2025-02-04": 8,
       "2025-02-03": 21,
-      "2025-01-31": 8,
-      "2025-01-21": 10
+      "2025-01-31": 8
     }
   },
   {
