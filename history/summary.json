@@ -108,17 +108,17 @@
     "url": "https://comet.elfhosted.com/stream/movie/tt0023694.json",
     "icon": "https://icons.duckduckgo.com/ip3/comet.elfhosted.com.ico",
     "slug": "comet-stremio-addon",
-    "status": "up",
+    "status": "down",
     "uptime": "96.55%",
-    "uptimeDay": "92.92%",
-    "uptimeWeek": "86.67%",
+    "uptimeDay": "92.89%",
+    "uptimeWeek": "86.66%",
     "uptimeMonth": "96.93%",
     "uptimeYear": "96.55%",
-    "time": 2002,
-    "timeDay": 257,
-    "timeWeek": 329,
-    "timeMonth": 525,
-    "timeYear": 2002,
+    "time": 1998,
+    "timeDay": 249,
+    "timeWeek": 321,
+    "timeMonth": 517,
+    "timeYear": 1998,
     "dailyMinutesDown": {
       "2025-05-01": 58,
       "2025-04-30": 45,
@@ -179,7 +179,7 @@
       "2024-08-27": 16,
       "2024-08-18": 103,
       "2024-08-17": 38,
-      "2024-08-15": 49
+      "2024-08-15": 38
     }
   },
   {
