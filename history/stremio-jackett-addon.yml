@@ -1,7 +1,7 @@
 url: https://stremio-jackett.elfhosted.com
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2025-05-10T17:21:11.472Z
+status: up
+code: 200
+responseTime: 637
+lastUpdated: 2025-05-10T17:30:48.550Z
 startTime: 2024-05-26T07:37:35.389Z
 generator: Upptime <https://github.com/upptime/upptime>
