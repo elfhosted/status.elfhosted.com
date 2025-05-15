@@ -1,7 +1,7 @@
 url: https://stremthru.elfhosted.com
-status: up
-code: 200
-responseTime: 404
-lastUpdated: 2025-05-15T22:42:13.928Z
+status: down
+code: 503
+responseTime: 409
+lastUpdated: 2025-05-15T22:51:09.824Z
 startTime: 2024-12-28T10:15:32.469Z
 generator: Upptime <https://github.com/upptime/upptime>
