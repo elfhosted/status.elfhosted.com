@@ -48,7 +48,13 @@ sites:
     assignees:
     - funkypenguin
     expectedStatusCodes:
-      - 200     
+      - 200   
+  - name: Webstreamr Stremio Addon (not ElfHosted)
+    url: https://webstreamr.hayd.uk/configure
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200           
   - name: Formulio Stremio Addon (not ElfHosted)
     url: https://formulio.hayd.uk/
     assignees:
