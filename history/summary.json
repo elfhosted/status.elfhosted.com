@@ -391,12 +391,12 @@
     "status": "up",
     "uptime": "99.67%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "90.37%",
+    "uptimeWeek": "90.91%",
     "uptimeMonth": "96.08%",
     "uptimeYear": "99.67%",
     "time": 1270,
     "timeDay": 720,
-    "timeWeek": 1788,
+    "timeWeek": 1800,
     "timeMonth": 1487,
     "timeYear": 1270,
     "dailyMinutesDown": {
@@ -430,10 +430,10 @@
     "url": "$JACKETTIO_URL",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "jackettio-stremio-addon",
-    "status": "up",
+    "status": "down",
     "uptime": "95.91%",
-    "uptimeDay": "97.70%",
-    "uptimeWeek": "51.70%",
+    "uptimeDay": "97.66%",
+    "uptimeWeek": "54.64%",
     "uptimeMonth": "78.15%",
     "uptimeYear": "95.91%",
     "time": 1635,
@@ -442,7 +442,7 @@
     "timeMonth": 2125,
     "timeYear": 1635,
     "dailyMinutesDown": {
-      "2025-05-19": 33,
+      "2025-05-19": 34,
       "2025-05-15": 1392,
       "2025-05-14": 1440,
       "2025-05-13": 1440,
@@ -528,8 +528,7 @@
       "2024-09-06": 241,
       "2024-09-04": 24,
       "2024-09-03": 7,
-      "2024-08-30": 65,
-      "2024-08-28": 9
+      "2024-08-30": 65
     }
   },
   {
@@ -596,12 +595,12 @@
     "status": "up",
     "uptime": "99.79%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "99.65%",
+    "uptimeWeek": "99.77%",
     "uptimeMonth": "99.92%",
     "uptimeYear": "99.79%",
     "time": 623,
     "timeDay": 527,
-    "timeWeek": 592,
+    "timeWeek": 594,
     "timeMonth": 612,
     "timeYear": 623,
     "dailyMinutesDown": {
