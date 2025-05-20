@@ -389,11 +389,11 @@
     "url": "https://stremio-jackett.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/stremio-jackett.elfhosted.com.ico",
     "slug": "stremio-jackett-addon",
-    "status": "up",
+    "status": "down",
     "uptime": "99.67%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "95.82%",
-    "uptimeMonth": "96.08%",
+    "uptimeDay": "99.92%",
+    "uptimeWeek": "95.81%",
+    "uptimeMonth": "96.10%",
     "uptimeYear": "99.67%",
     "time": 1269,
     "timeDay": 718,
@@ -401,11 +401,12 @@
     "timeMonth": 1485,
     "timeYear": 1269,
     "dailyMinutesDown": {
+      "2025-05-20": 1,
       "2025-05-14": 338,
       "2025-05-13": 481,
       "2025-05-12": 472,
       "2025-05-11": 407,
-      "2025-05-10": 17
+      "2025-05-10": 9
     }
   },
   {
@@ -431,10 +432,10 @@
     "url": "$JACKETTIO_URL",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "jackettio-stremio-addon",
-    "status": "up",
+    "status": "down",
     "uptime": "95.99%",
-    "uptimeDay": "86.05%",
-    "uptimeWeek": "66.76%",
+    "uptimeDay": "86.01%",
+    "uptimeWeek": "66.88%",
     "uptimeMonth": "77.69%",
     "uptimeYear": "95.99%",
     "time": 1806,
@@ -443,7 +444,7 @@
     "timeMonth": 3335,
     "timeYear": 1806,
     "dailyMinutesDown": {
-      "2025-05-20": 159,
+      "2025-05-20": 160,
       "2025-05-19": 75,
       "2025-05-15": 1392,
       "2025-05-14": 1440,
@@ -522,8 +523,7 @@
       "2024-10-05": 13,
       "2024-10-02": 10,
       "2024-09-26": 15,
-      "2024-09-25": 19,
-      "2024-09-23": 8
+      "2024-09-25": 19
     }
   },
   {
