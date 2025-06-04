@@ -1,7 +1,7 @@
 url: https://mediafusion.elfhosted.com/health
-status: down
-code: 503
-responseTime: 446
-lastUpdated: 2025-06-04T22:49:20.252Z
+status: up
+code: 200
+responseTime: 301
+lastUpdated: 2025-06-04T23:05:22.641Z
 startTime: 2024-05-26T07:37:34.133Z
 generator: Upptime <https://github.com/upptime/upptime>
