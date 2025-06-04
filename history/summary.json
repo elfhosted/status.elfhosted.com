@@ -388,11 +388,11 @@
     "url": "https://stremio-jackett.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/stremio-jackett.elfhosted.com.ico",
     "slug": "stremio-jackett-addon",
-    "status": "up",
+    "status": "down",
     "uptime": "99.66%",
-    "uptimeDay": "88.24%",
-    "uptimeWeek": "97.37%",
-    "uptimeMonth": "95.81%",
+    "uptimeDay": "88.20%",
+    "uptimeWeek": "97.36%",
+    "uptimeMonth": "95.83%",
     "uptimeYear": "99.65%",
     "time": 1303,
     "timeDay": 892,
@@ -409,7 +409,7 @@
       "2025-05-14": 338,
       "2025-05-13": 481,
       "2025-05-12": 472,
-      "2025-05-11": 236
+      "2025-05-11": 228
     }
   },
   {
