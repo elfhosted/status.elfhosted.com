@@ -336,11 +336,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/stremthru.elfhosted.com.ico",
     "slug": "strem-thru-stremio-addons",
     "status": "up",
-    "uptime": "99.40%",
+    "uptime": "99.41%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "98.81%",
-    "uptimeYear": "99.40%",
+    "uptimeYear": "99.41%",
     "time": 353,
     "timeDay": 593,
     "timeWeek": 536,
@@ -388,11 +388,11 @@
     "url": "https://stremio-jackett.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/stremio-jackett.elfhosted.com.ico",
     "slug": "stremio-jackett-addon",
-    "status": "up",
-    "uptime": "99.67%",
-    "uptimeDay": "99.49%",
+    "status": "down",
+    "uptime": "99.68%",
+    "uptimeDay": "99.45%",
     "uptimeWeek": "98.97%",
-    "uptimeMonth": "96.00%",
+    "uptimeMonth": "96.03%",
     "uptimeYear": "99.67%",
     "time": 1305,
     "timeDay": 861,
@@ -400,6 +400,7 @@
     "timeMonth": 1729,
     "timeYear": 1311,
     "dailyMinutesDown": {
+      "2025-06-04": 1,
       "2025-06-03": 7,
       "2025-05-30": 45,
       "2025-05-29": 51,
@@ -408,7 +409,7 @@
       "2025-05-14": 338,
       "2025-05-13": 481,
       "2025-05-12": 472,
-      "2025-05-11": 319
+      "2025-05-11": 302
     }
   },
   {
