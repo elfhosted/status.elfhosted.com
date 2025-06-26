@@ -54,7 +54,13 @@ sites:
     assignees:
     - funkypenguin
     expectedStatusCodes:
-      - 200           
+      - 200     
+  - name: NuvioStreams Stremio Addon (not ElfHosted)
+    url: https://nuviostreams.hayd.uk/configure
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200                 
   - name: Formulio Stremio Addon (not ElfHosted)
     url: https://formulio.hayd.uk/
     assignees:
@@ -86,12 +92,6 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200               
-  - name: Stremio-Jackett Addon
-    url: https://stremio-jackett.elfhosted.com
-    assignees:
-    - funkypenguin
-    expectedStatusCodes:
-      - 200   
   - name: Zilean
     url: https://zilean.elfhosted.com/healthchecks/ping
     assignees:
@@ -104,27 +104,7 @@ sites:
     assignees:
     - funkypenguin
     expectedStatusCodes:
-      - 200  
-  - name: Davio Stremio Addon
-    url: https://davio.elfhosted.com
-    assignees:
-    - funkypenguin
-    expectedStatusCodes:
-      - 200                     
-  - name: Stremio-Jackett Cache
-    url: https://stremio-jackett-cacher.elfhosted.com
-    assignees:
-    - funkypenguin
-    expectedStatusCodes:
-      - 200               
-  # - name: Stremio CyberFlix Addon
-  #   url: https://cyberflix.elfhosted.com/health
-  #   __dangerous__body_down_if_text_missing: ok
-  #   maxResponseTime: 5000
-  #   assignees:
-  #   - funkypenguin
-  #   expectedStatusCodes:
-  #     - 200            
+      - 200         
   - name: Stremio TMDB Addon
     url: https://tmdb.elfhosted.com/configure
     maxResponseTime: 5000
