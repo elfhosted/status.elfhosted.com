@@ -1,7 +1,7 @@
-url: https://torrentio.strem.fun/stream/movie/tt0023694.json
-status: up
-code: 200
-responseTime: 659
-lastUpdated: 2025-07-01T00:17:26.606Z
+url: https://torrentio.strem.fun?cachebuster=1
+status: down
+code: 502
+responseTime: 8502
+lastUpdated: 2025-07-01T02:15:30.360Z
 startTime: 2025-06-27T05:02:52.634Z
 generator: Upptime <https://github.com/upptime/upptime>
