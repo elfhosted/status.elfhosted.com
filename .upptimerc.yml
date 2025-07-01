@@ -17,7 +17,7 @@ sites:
     expectedStatusCodes:
       - 200       
   - name: TorrentIO (not ElfHosted) Addon
-    url: https://torrentio.strem.fun?cachebuster=1
+    url: https://torrentio.strem.fun/stream/movie/tt0023694.json
     __dangerous__body_down_if_text_missing: White Zombie
     assignees:
     - funkypenguin
