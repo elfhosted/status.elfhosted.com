@@ -1,7 +1,7 @@
 url: $JACKETTIO_URL
-status: up
+status: down
 code: 200
-responseTime: 930
-lastUpdated: 2025-07-08T08:43:59.457Z
+responseTime: 1035
+lastUpdated: 2025-07-08T10:39:22.386Z
 startTime: 2025-06-27T05:03:02.445Z
 generator: Upptime <https://github.com/upptime/upptime>
