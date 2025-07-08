@@ -111,7 +111,14 @@ sites:
     assignees:
     - funkypenguin
     expectedStatusCodes:
-      - 200            
+      - 200         
+  - name: Stremio Rating Aggregator Addon
+    url: https://rating-aggregator.elfhosted.com
+    maxResponseTime: 5000
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200                  
   - name: Speed Test Endpoint US-WA
     url: https://eagle02-speed.elfhosted.cc/empty.php
     maxResponseTime: 5000
