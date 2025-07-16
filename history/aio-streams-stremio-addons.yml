@@ -1,7 +1,7 @@
 url: https://aiostreams.elfhosted.com
-status: up
-code: 200
-responseTime: 1623
-lastUpdated: 2025-07-15T23:05:21.071Z
+status: down
+code: 502
+responseTime: 607
+lastUpdated: 2025-07-16T21:31:15.644Z
 startTime: 2025-06-27T05:03:01.107Z
 generator: Upptime <https://github.com/upptime/upptime>
