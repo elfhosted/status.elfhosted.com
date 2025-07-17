@@ -30,31 +30,31 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200          
-  - name: YourIPTV Stremio Addon (not ElfHosted)
+  - name: YourIPTV Stremio Addon
     url: https://youriptv.hayd.uk/configure
     assignees:
     - funkypenguin
     expectedStatusCodes:
       - 200     
-  - name: Stremify Stremio Addon (not ElfHosted)
+  - name: Stremify Stremio Addon
     url: https://stremify.hayd.uk/configure
     assignees:
     - funkypenguin
     expectedStatusCodes:
       - 200   
-  - name: Webstreamr Stremio Addon (not ElfHosted)
+  - name: Webstreamr Stremio Addon
     url: https://webstreamr.hayd.uk/configure
     assignees:
     - funkypenguin
     expectedStatusCodes:
       - 200     
-  - name: NuvioStreams Stremio Addon (not ElfHosted)
-    url: https://nuviostreams.hayd.uk/configure
+  - name: NuvioStreams Stremio Addon
+    url: https://nuviostreams.hayd.uk
     assignees:
     - funkypenguin
     expectedStatusCodes:
       - 200                 
-  - name: Formulio Stremio Addon (not ElfHosted)
+  - name: Formulio Stremio Addon
     url: https://formulio.hayd.uk/
     assignees:
     - funkypenguin
