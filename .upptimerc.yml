@@ -93,7 +93,6 @@ sites:
       - 200
   - name: Jackettio Stremio Addon
     url: $JACKETTIO_URL
-    __dangerous__body_down_if_text_missing: White Zombie
     assignees:
     - funkypenguin
     expectedStatusCodes:
