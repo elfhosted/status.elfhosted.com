@@ -119,14 +119,21 @@ sites:
     expectedStatusCodes:
       - 200                  
   - name: Speed Test Endpoint US-WA
-    url: https://eagle02-speed.elfhosted.cc/empty.php
+    url: https://speed-backend.elfhosted.cc/empty.php
     maxResponseTime: 5000
     assignees:
     - funkypenguin
     expectedStatusCodes:
       - 200   
+  - name: Speed Test Endpoint US-PA
+    url: https://speed-backend.elfhosted.party/empty.php
+    maxResponseTime: 5000
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200     
   - name: Speed Test Endpoint DE-FSN
-    url: https://fairy01-speed.elfhosted.com/empty.php
+    url: https://speed-backend.elfhosted.com/empty.php
     maxResponseTime: 5000
     assignees:
     - funkypenguin
