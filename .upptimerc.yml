@@ -54,7 +54,19 @@ sites:
     assignees:
     - funkypenguin
     expectedStatusCodes:
-      - 200                 
+      - 200       
+  - name: TvVoo Stremio Addon
+    url: https://tvvoo.hayd.uk
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200      
+  - name: StreamVix Stremio Addon
+    url: https://streamvix.hayd.uk
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200                              
   - name: Formulio Stremio Addon
     url: https://formulio.hayd.uk/
     assignees:
