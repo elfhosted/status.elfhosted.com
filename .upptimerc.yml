@@ -158,8 +158,8 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200      
-  - name: Demo - Booklore
-    url: https://demo-booklore.elfhosted.com/api/v1/setup/status
+  - name: Demo - Storyteller
+    url: https://demo-storyteller.elfhosted.com
     maxResponseTime: 5000
     assignees:
     - funkypenguin
