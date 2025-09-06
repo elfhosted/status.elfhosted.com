@@ -9,14 +9,14 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200       
-  - name: TorrentIO (not ElfHosted) Addon
-    maxResponseTime: 1000 # alert on slow responses
-    url: https://torrentio.strem.fun/stream/movie/tt0023694.json
-    __dangerous__body_down_if_text_missing: White Zombie
-    assignees:
-    - funkypenguin
-    expectedStatusCodes:
-      - 200               
+  # - name: TorrentIO (not ElfHosted) Addon
+  #   maxResponseTime: 1000 # alert on slow responses
+  #   url: https://torrentio.strem.fun/stream/movie/tt0023694.json
+  #   __dangerous__body_down_if_text_missing: White Zombie
+  #   assignees:
+  #   - funkypenguin
+  #   expectedStatusCodes:
+  #     - 200               
   # not stable
   # - name: Discussio Stremio Addon
   #   url: https://discussio.elfhosted.com
