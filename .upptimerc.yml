@@ -105,6 +105,12 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200
+  - name: Sootio Stremio Addons
+    url: https://sootio.elfhosted.com
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200      
       
   - name: Video Hosting Platform
     url: https://video.elfhosted.com
