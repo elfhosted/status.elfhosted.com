@@ -111,7 +111,7 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200    
-  - name: AIOMetadata Stremio Addons
+  - name: AIOMetadata Stremio Addon
     url: https://aiometadata.elfhosted.com
     assignees:
     - funkypenguin
