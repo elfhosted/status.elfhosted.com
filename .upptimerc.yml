@@ -110,7 +110,13 @@ sites:
     assignees:
     - funkypenguin
     expectedStatusCodes:
-      - 200      
+      - 200    
+  - name: AIOMetadata Stremio Addons
+    url: https://aiometadata.elfhosted.com
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200            
       
   - name: Video Hosting Platform
     url: https://video.elfhosted.com
