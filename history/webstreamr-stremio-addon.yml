@@ -1,7 +1,7 @@
 url: https://webstreamr.hayd.uk/configure
-status: up
-code: 200
-responseTime: 807
-lastUpdated: 2025-10-16T23:05:13.427Z
+status: down
+code: 502
+responseTime: 618
+lastUpdated: 2025-10-17T16:01:56.697Z
 startTime: 2025-07-17T03:45:47.388Z
 generator: Upptime <https://github.com/upptime/upptime>
