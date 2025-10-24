@@ -642,19 +642,19 @@
     "url": "https://tmdb.elfhosted.com/configure",
     "icon": "https://icons.duckduckgo.com/ip3/tmdb.elfhosted.com.ico",
     "slug": "stremio-tmdb-addon",
-    "status": "up",
+    "status": "down",
     "uptime": "99.04%",
-    "uptimeDay": "96.65%",
-    "uptimeWeek": "97.23%",
+    "uptimeDay": "96.60%",
+    "uptimeWeek": "97.22%",
     "uptimeMonth": "97.09%",
     "uptimeYear": "99.04%",
     "time": 702,
-    "timeDay": 611,
-    "timeWeek": 639,
-    "timeMonth": 700,
+    "timeDay": 610,
+    "timeWeek": 638,
+    "timeMonth": 699,
     "timeYear": 702,
     "dailyMinutesDown": {
-      "2025-10-24": 20,
+      "2025-10-24": 21,
       "2025-10-23": 28,
       "2025-10-21": 11,
       "2025-10-20": 139,
@@ -689,7 +689,7 @@
       "2025-09-14": 9,
       "2025-09-13": 60,
       "2025-09-12": 28,
-      "2025-08-31": 41
+      "2025-08-31": 31
     }
   },
   {
