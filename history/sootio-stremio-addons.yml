@@ -1,7 +1,7 @@
 url: https://sootio.elfhosted.com
-status: up
-code: 200
-responseTime: 705
-lastUpdated: 2025-10-29T05:32:13.192Z
+status: down
+code: 502
+responseTime: 496
+lastUpdated: 2025-10-29T16:13:13.980Z
 startTime: 2025-10-10T18:08:12.809Z
 generator: Upptime <https://github.com/upptime/upptime>
