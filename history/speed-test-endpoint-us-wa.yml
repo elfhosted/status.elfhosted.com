@@ -1,7 +1,7 @@
 url: https://speed-backend.elfhosted.cc/empty.php
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2025-11-10T10:11:45.567Z
+status: up
+code: 200
+responseTime: 228
+lastUpdated: 2025-11-10T11:00:50.172Z
 startTime: 2025-06-27T05:03:04.942Z
 generator: Upptime <https://github.com/upptime/upptime>
