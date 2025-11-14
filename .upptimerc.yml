@@ -66,7 +66,19 @@ sites:
     assignees:
     - funkypenguin
     expectedStatusCodes:
-      - 200                            
+      - 200      
+  - name: Stremio PPTV Addon
+    url: https://pptv.hayd.uk
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200    
+  - name: Stremio TVGardenio Addon
+    url: https://tvgardenio.hayd.uk
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200                                        
   - name: Stremify Stremio Addon
     url: https://stremify.hayd.uk/configure
     assignees:
@@ -156,7 +168,21 @@ sites:
     assignees:
     - funkypenguin
     expectedStatusCodes:
-      - 200                  
+      - 200     
+  - name: Stremio Statusio Addon
+    url: https://statusio.elfhosted.com
+    maxResponseTime: 5000
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200
+  - name: Stremio Submaker Addon
+    url: https://submaker.elfhosted.com
+    maxResponseTime: 5000
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200                
   - name: Speed Test Endpoint US-WA
     url: https://speed-backend.elfhosted.cc/empty.php
     maxResponseTime: 5000
