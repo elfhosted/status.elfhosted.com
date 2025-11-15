@@ -61,37 +61,37 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200         
-  - name: StreamVix Stremio Addon
+  - name: StreamVix Stremio Addon (Hayduk)
     url: https://streamvix.hayd.uk
     assignees:
     - funkypenguin
     expectedStatusCodes:
       - 200      
-  - name: Stremio PPTV Addon
-    url: https://pptv.hayd.uk
+  - name: Stremio PPTV Addon (Hayduk)
+    url: https://pptv.hayd.uk/manifest.json
     assignees:
     - funkypenguin
     expectedStatusCodes:
       - 200    
-  - name: Stremio TVGardenio Addon
-    url: https://tvgardenio.hayd.uk
+  - name: Stremio TVGardenio Addon (Hayduk)
+    url: https://tvgardenio.hayd.uk/manifest.json
     assignees:
     - funkypenguin
     expectedStatusCodes:
       - 200                                        
-  - name: Stremify Stremio Addon
+  - name: Stremify Stremio Addon (Hayduk)
     url: https://stremify.hayd.uk/configure
     assignees:
     - funkypenguin
     expectedStatusCodes:
       - 200   
-  - name: TvVoo Stremio Addon
+  - name: TvVoo Stremio Addon (Hayduk)
     url: https://tvvoo.hayd.uk
     assignees:
     - funkypenguin
     expectedStatusCodes:
       - 200      
-  - name: Webstreamr Stremio Addon
+  - name: Webstreamr Stremio Addon (Hayduk)
     url: https://webstreamr.hayd.uk/configure
     assignees:
     - funkypenguin
