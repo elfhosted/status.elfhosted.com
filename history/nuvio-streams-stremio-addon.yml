@@ -1,7 +1,7 @@
 url: https://nuviostreams.hayd.uk
-status: up
-code: 200
-responseTime: 1566
-lastUpdated: 2025-11-17T23:05:36.706Z
+status: down
+code: 500
+responseTime: 123
+lastUpdated: 2025-11-18T11:36:02.241Z
 startTime: 2025-07-17T03:45:48.511Z
 generator: Upptime <https://github.com/upptime/upptime>
