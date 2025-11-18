@@ -1,7 +1,7 @@
 url: https://rating-aggregator.elfhosted.com
-status: down
-code: 500
-responseTime: 66
-lastUpdated: 2025-11-18T14:51:00.743Z
+status: up
+code: 200
+responseTime: 850
+lastUpdated: 2025-11-18T14:59:58.912Z
 startTime: 2025-07-08T20:28:39.465Z
 generator: Upptime <https://github.com/upptime/upptime>
