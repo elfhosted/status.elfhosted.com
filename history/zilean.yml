@@ -1,7 +1,7 @@
 url: https://zilean.elfhosted.com/healthchecks/ping
-status: up
-code: 200
-responseTime: 535
-lastUpdated: 2025-11-18T14:41:14.991Z
+status: down
+code: 500
+responseTime: 126
+lastUpdated: 2025-11-18T14:50:57.299Z
 startTime: 2025-06-27T05:03:02.001Z
 generator: Upptime <https://github.com/upptime/upptime>
