@@ -1,7 +1,7 @@
 url: https://statusio.elfhosted.com
-status: down
-code: 500
-responseTime: 48
-lastUpdated: 2025-11-18T12:45:16.522Z
+status: up
+code: 200
+responseTime: 626
+lastUpdated: 2025-11-18T14:41:25.372Z
 startTime: 2025-11-14T11:07:46.388Z
 generator: Upptime <https://github.com/upptime/upptime>
