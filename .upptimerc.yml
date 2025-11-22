@@ -103,7 +103,12 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200         
-                 
+  - name: Watchly Stremio Addon
+    url: https://watchly.elfhosted.com/
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200                          
   - name: MediaFusion Stremio Addon
     url: https://mediafusion.elfhosted.com/health
     assignees:
