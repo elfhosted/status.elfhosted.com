@@ -1,7 +1,7 @@
 url: https://statusio.elfhosted.com
-status: degraded
+status: up
 code: 200
-responseTime: 6044
-lastUpdated: 2025-12-03T20:54:41.147Z
+responseTime: 900
+lastUpdated: 2025-12-03T21:08:20.572Z
 startTime: 2025-11-14T11:07:46.388Z
 generator: Upptime <https://github.com/upptime/upptime>
