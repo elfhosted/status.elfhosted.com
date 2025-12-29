@@ -134,6 +134,18 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200    
+  - name: Frenchio Stremio Addons
+    url: https://frenchio.elfhosted.com
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200   
+  - name: ItsOut Stremio Addons
+    url: https://itsout.elfhosted.com
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200                
   - name: AIOMetadata Stremio Addon
     url: https://aiometadata.elfhosted.com
     assignees:
