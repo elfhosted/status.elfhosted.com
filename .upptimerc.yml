@@ -28,7 +28,14 @@ sites:
     assignees:
     - funkypenguin
     expectedStatusCodes:
-      - 200            
+      - 200   
+  - name: ChilliBridge
+    url: https://chillibridge.elfhosted.com
+    maxResponseTime: 5000
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200                  
   - name: EasyNews+ Stremio Addon
     url: https://easynewsplus.elfhosted.com/configure
     assignees:
