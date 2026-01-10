@@ -1,7 +1,7 @@
 url: https://submaker.elfhosted.com
-status: up
-code: 200
-responseTime: 504
-lastUpdated: 2026-01-10T20:24:00.157Z
+status: down
+code: 502
+responseTime: 550
+lastUpdated: 2026-01-10T20:37:02.701Z
 startTime: 2025-11-14T11:07:47.636Z
 generator: Upptime <https://github.com/upptime/upptime>
