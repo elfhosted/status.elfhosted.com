@@ -172,8 +172,8 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200           
-  - name: Zilean
-    url: https://zilean.elfhosted.com/healthchecks/ping
+  - name: Zyclops
+    url: https://zyclops.elfhosted.com
     assignees:
     - funkypenguin
     expectedStatusCodes:
