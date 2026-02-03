@@ -199,6 +199,13 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200     
+  - name: Stremio Toast Translator Addon
+    url: https://toast-translator.elfhosted.com
+    maxResponseTime: 5000
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200           
   - name: Stremio Statusio Addon
     url: https://statusio.elfhosted.com
     maxResponseTime: 5000
