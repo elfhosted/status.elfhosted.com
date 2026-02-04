@@ -206,6 +206,13 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200           
+  - name: Stremio Streailer Addon
+    url: https://streailer.elfhosted.com
+    maxResponseTime: 5000
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200                 
   - name: Stremio Statusio Addon
     url: https://statusio.elfhosted.com
     maxResponseTime: 5000
