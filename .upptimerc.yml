@@ -178,6 +178,12 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200
+  - name: AIOManager for Stremio
+    url: https://aiomanager.elfhosted.com
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200      
   - name: Stremio TMDB Addon
     url: https://tmdb.elfhosted.com/configure
     maxResponseTime: 5000
