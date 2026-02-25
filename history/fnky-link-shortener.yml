@@ -1,7 +1,7 @@
 url: https://fnky.nz
-status: degraded
-code: 500
-responseTime: 5580
-lastUpdated: 2026-02-25T21:12:34.699Z
+status: up
+code: 200
+responseTime: 1229
+lastUpdated: 2026-02-25T21:30:03.892Z
 startTime: 2025-06-27T05:03:06.218Z
 generator: Upptime <https://github.com/upptime/upptime>
