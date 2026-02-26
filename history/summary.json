@@ -167,10 +167,10 @@
     "icon": "https://icons.duckduckgo.com/ip3/formulio.hayd.uk.ico",
     "slug": "formulio-stremio-addon",
     "status": "up",
-    "uptime": "74.63%",
+    "uptime": "74.64%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "89.36%",
+    "uptimeMonth": "89.42%",
     "uptimeYear": "74.71%",
     "time": 841,
     "timeDay": 1154,
@@ -464,7 +464,8 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-02-25": 1437,
+      "2026-02-26": 22,
+      "2026-02-25": 1440,
       "2026-02-24": 1440,
       "2026-02-23": 1440,
       "2026-02-22": 1440,
@@ -1259,8 +1260,7 @@
       "2025-04-09": 17,
       "2025-03-19": 52,
       "2025-03-18": 12,
-      "2025-03-07": 13,
-      "2025-02-26": 38
+      "2025-03-07": 13
     }
   },
   {
@@ -1381,11 +1381,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/debrid.news.ico",
     "slug": "debrid-news",
     "status": "up",
-    "uptime": "97.11%",
+    "uptime": "97.12%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.93%",
-    "uptimeYear": "97.11%",
+    "uptimeYear": "97.12%",
     "time": 868,
     "timeDay": 737,
     "timeWeek": 765,
