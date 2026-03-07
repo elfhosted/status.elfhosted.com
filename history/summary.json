@@ -253,7 +253,7 @@
     "uptime": "97.06%",
     "uptimeDay": "93.54%",
     "uptimeWeek": "89.46%",
-    "uptimeMonth": "86.55%",
+    "uptimeMonth": "86.60%",
     "uptimeYear": "97.06%",
     "time": 2157,
     "timeDay": 2071,
@@ -454,7 +454,8 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-03-06": 1438,
+      "2026-03-07": 22,
+      "2026-03-06": 1440,
       "2026-03-05": 1440,
       "2026-03-04": 1440,
       "2026-03-03": 1440,
@@ -1120,11 +1121,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/streailer.elfhosted.com.ico",
     "slug": "stremio-streailer-addon",
     "status": "up",
-    "uptime": "99.89%",
+    "uptime": "99.90%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "99.55%",
-    "uptimeMonth": "99.89%",
-    "uptimeYear": "99.89%",
+    "uptimeMonth": "99.90%",
+    "uptimeYear": "99.90%",
     "time": 1048,
     "timeDay": 1090,
     "timeWeek": 1319,
@@ -1215,8 +1216,7 @@
       "2025-05-19": 15,
       "2025-04-09": 17,
       "2025-03-19": 52,
-      "2025-03-18": 12,
-      "2025-03-07": 13
+      "2025-03-18": 12
     }
   },
   {
@@ -1337,7 +1337,7 @@
     "status": "up",
     "uptime": "96.65%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "93.11%",
+    "uptimeWeek": "93.35%",
     "uptimeMonth": "95.21%",
     "uptimeYear": "96.65%",
     "time": 868,
