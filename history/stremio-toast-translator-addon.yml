@@ -1,7 +1,7 @@
 url: https://toast-translator.elfhosted.com
-status: up
-code: 200
-responseTime: 735
-lastUpdated: 2026-03-28T23:10:55.532Z
+status: down
+code: 500
+responseTime: 716
+lastUpdated: 2026-03-29T13:59:32.385Z
 startTime: 2026-02-03T00:36:27.999Z
 generator: Upptime <https://github.com/upptime/upptime>
