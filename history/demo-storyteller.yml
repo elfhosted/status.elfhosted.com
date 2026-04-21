@@ -1,7 +1,7 @@
 url: https://demo-storyteller.elfhosted.com
-status: up
-code: 200
-responseTime: 869
-lastUpdated: 2026-04-20T23:18:46.020Z
+status: degraded
+code: 502
+responseTime: 7320
+lastUpdated: 2026-04-21T17:12:22.944Z
 startTime: 2025-09-10T06:56:53.803Z
 generator: Upptime <https://github.com/upptime/upptime>
