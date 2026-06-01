@@ -238,6 +238,12 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200
+  - name: Torrin Stremio Addon
+    url: https://torrin.elfhosted.com/
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200      
   - name: TvVoo Stremio Addon (Hayduk)
     url: https://tvvoo.hayd.uk
     assignees:
