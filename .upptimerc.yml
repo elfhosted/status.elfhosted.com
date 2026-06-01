@@ -120,6 +120,12 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200
+  - name: Plexio Stremio Addon
+    url: https://plexio.elfhosted.com/
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200
   - name: Posters+ for AIOMetadata
     url: https://postersplus.elfhosted.com/
     assignees:
