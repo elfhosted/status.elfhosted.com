@@ -156,17 +156,17 @@
     "url": "https://debrid.news",
     "icon": "https://icons.duckduckgo.com/ip3/debrid.news.ico",
     "slug": "debrid-news",
-    "status": "up",
+    "status": "down",
     "uptime": "93.59%",
-    "uptimeDay": "34.90%",
-    "uptimeWeek": "4.99%",
+    "uptimeDay": "37.94%",
+    "uptimeWeek": "5.42%",
     "uptimeMonth": "73.68%",
     "uptimeYear": "93.70%",
     "time": 886,
-    "timeDay": 563,
-    "timeWeek": 476,
+    "timeDay": 578,
+    "timeWeek": 489,
     "timeMonth": 643,
-    "timeYear": 942,
+    "timeYear": 941,
     "dailyMinutesDown": {
       "2025-06-23": 13,
       "2025-07-09": 11,
@@ -214,7 +214,8 @@
       "2026-05-27": 1440,
       "2026-05-26": 1440,
       "2026-05-25": 1440,
-      "2026-05-24": 531
+      "2026-05-24": 531,
+      "2026-06-02": 1
     }
   },
   {
@@ -319,7 +320,7 @@
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "82.28%",
+    "uptimeYear": "82.29%",
     "time": 906,
     "timeDay": 701,
     "timeWeek": 897,
@@ -503,7 +504,6 @@
     "timeMonth": 243,
     "timeYear": 328,
     "dailyMinutesDown": {
-      "2025-06-02": 28,
       "2025-06-04": 16,
       "2025-07-01": 20,
       "2025-07-02": 30,
@@ -931,11 +931,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/pptv.hayd.uk.ico",
     "slug": "stremio-pptv-addon-hayduk",
     "status": "down",
-    "uptime": "24.82%",
+    "uptime": "24.83%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "24.82%",
+    "uptimeYear": "24.83%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
@@ -1452,7 +1452,6 @@
     "timeMonth": 178,
     "timeYear": 225,
     "dailyMinutesDown": {
-      "2025-06-02": 8,
       "2025-10-20": 23,
       "2025-12-01": 48,
       "2026-05-10": 97
