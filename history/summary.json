@@ -160,7 +160,7 @@
     "uptime": "93.59%",
     "uptimeDay": "37.94%",
     "uptimeWeek": "5.42%",
-    "uptimeMonth": "73.68%",
+    "uptimeMonth": "73.62%",
     "uptimeYear": "93.70%",
     "time": 886,
     "timeDay": 578,
@@ -215,7 +215,7 @@
       "2026-05-26": 1440,
       "2026-05-25": 1440,
       "2026-05-24": 531,
-      "2026-06-02": 1
+      "2026-06-02": 26
     }
   },
   {
@@ -931,11 +931,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/pptv.hayd.uk.ico",
     "slug": "stremio-pptv-addon-hayduk",
     "status": "down",
-    "uptime": "24.83%",
+    "uptime": "24.84%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "24.83%",
+    "uptimeYear": "24.84%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
