@@ -492,8 +492,8 @@
     "slug": "media-fusion-stremio-addon",
     "status": "down",
     "uptime": "99.04%",
-    "uptimeDay": "99.90%",
-    "uptimeWeek": "99.99%",
+    "uptimeDay": "99.80%",
+    "uptimeWeek": "99.97%",
     "uptimeMonth": "99.76%",
     "uptimeYear": "99.89%",
     "time": 373,
@@ -514,7 +514,7 @@
       "2025-11-30": 12,
       "2026-02-28": 28,
       "2026-06-04": 104,
-      "2026-06-23": 1
+      "2026-06-23": 3
     }
   },
   {
@@ -997,11 +997,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/pptv.hayd.uk.ico",
     "slug": "stremio-pptv-addon-hayduk",
     "status": "down",
-    "uptime": "32.32%",
+    "uptime": "32.33%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "32.32%",
+    "uptimeYear": "32.33%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
