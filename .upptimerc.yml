@@ -139,6 +139,27 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200
+  - name: Speed Test Endpoint FI-HEL
+    url: https://speed-backend.elfhosted.haus/empty.php
+    maxResponseTime: 5000
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200      
+  - name: Speed Test Endpoint EU-NL
+    url: https://speed-backend.elfhosted.beer/empty.php
+    maxResponseTime: 5000
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200    
+  - name: Speed Test Endpoint EU-FR
+    url: https://speed-backend.elfhosted.wine/empty.php
+    maxResponseTime: 5000
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200                  
   - name: Speed Test Endpoint US-PA
     url: https://speed-backend.elfhosted.party/empty.php
     maxResponseTime: 5000
@@ -153,6 +174,13 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200
+  - name: Speed Test Endpoint NA-East
+    url: https://speed-backend.elfhosted.cafe/empty.php
+    maxResponseTime: 5000
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200      
   - name: Store / Account Management Platform
     url: https://store.elfhosted.com
     expectedStatusCodes:
