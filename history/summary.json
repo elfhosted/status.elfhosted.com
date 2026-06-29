@@ -57,7 +57,7 @@
     "timeDay": 688,
     "timeWeek": 827,
     "timeMonth": 793,
-    "timeYear": 833,
+    "timeYear": 834,
     "dailyMinutesDown": {
       "2025-07-04": 15,
       "2025-07-16": 11,
@@ -133,7 +133,7 @@
     "timeDay": 793,
     "timeWeek": 695,
     "timeMonth": 715,
-    "timeYear": 830,
+    "timeYear": 832,
     "dailyMinutesDown": {
       "2025-07-09": 12,
       "2025-07-15": 52,
@@ -161,13 +161,13 @@
     "uptime": "94.07%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "90.87%",
+    "uptimeMonth": "90.96%",
     "uptimeYear": "94.13%",
     "time": 877,
     "timeDay": 876,
     "timeWeek": 746,
     "timeMonth": 676,
-    "timeYear": 928,
+    "timeYear": 929,
     "dailyMinutesDown": {
       "2025-07-09": 11,
       "2025-07-15": 52,
@@ -259,7 +259,7 @@
     "timeDay": 635,
     "timeWeek": 643,
     "timeMonth": 737,
-    "timeYear": 640,
+    "timeYear": 641,
     "dailyMinutesDown": {
       "2025-11-10": 41,
       "2025-11-18": 179,
@@ -281,7 +281,7 @@
     "timeDay": 1262,
     "timeWeek": 951,
     "timeMonth": 883,
-    "timeYear": 878,
+    "timeYear": 879,
     "dailyMinutesDown": {
       "2025-07-09": 11,
       "2025-07-15": 52,
@@ -447,7 +447,7 @@
     "timeDay": 633,
     "timeWeek": 900,
     "timeMonth": 966,
-    "timeYear": 2443,
+    "timeYear": 2445,
     "dailyMinutesDown": {
       "2026-03-14": 121,
       "2026-03-15": 187,
@@ -1001,11 +1001,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/pptv.hayd.uk.ico",
     "slug": "stremio-pptv-addon-hayduk",
     "status": "down",
-    "uptime": "34.10%",
+    "uptime": "34.11%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "34.10%",
+    "uptimeYear": "34.11%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
@@ -1274,16 +1274,16 @@
     "url": "https://tmdb.elfhosted.com/configure",
     "icon": "https://icons.duckduckgo.com/ip3/tmdb.elfhosted.com.ico",
     "slug": "stremio-tmdb-addon",
-    "status": "down",
-    "uptime": "99.35%",
-    "uptimeDay": "99.88%",
-    "uptimeWeek": "99.09%",
-    "uptimeMonth": "99.48%",
+    "status": "up",
+    "uptime": "99.34%",
+    "uptimeDay": "97.88%",
+    "uptimeWeek": "98.81%",
+    "uptimeMonth": "99.41%",
     "uptimeYear": "99.34%",
     "time": 716,
-    "timeDay": 765,
-    "timeWeek": 825,
-    "timeMonth": 898,
+    "timeDay": 712,
+    "timeWeek": 812,
+    "timeMonth": 891,
     "timeYear": 731,
     "dailyMinutesDown": {
       "2025-12-29": 71,
@@ -1324,7 +1324,7 @@
       "2026-06-21": 95,
       "2026-06-27": 58,
       "2026-06-28": 32,
-      "2026-06-29": 2
+      "2026-06-29": 31
     }
   },
   {
@@ -1386,7 +1386,7 @@
     "timeDay": 242,
     "timeWeek": 375,
     "timeMonth": 448,
-    "timeYear": 559,
+    "timeYear": 560,
     "dailyMinutesDown": {
       "2025-08-26": 16,
       "2025-09-26": 65,
@@ -1524,7 +1524,7 @@
     "timeDay": 343,
     "timeWeek": 198,
     "timeMonth": 181,
-    "timeYear": 223,
+    "timeYear": 210,
     "dailyMinutesDown": {
       "2025-10-20": 23,
       "2025-12-01": 48,
@@ -1572,10 +1572,10 @@
     "url": "https://youriptv.hayd.uk/configure",
     "icon": "https://icons.duckduckgo.com/ip3/youriptv.hayd.uk.ico",
     "slug": "your-iptv-stremio-addon",
-    "status": "up",
+    "status": "down",
     "uptime": "90.69%",
-    "uptimeDay": "92.37%",
-    "uptimeWeek": "98.68%",
+    "uptimeDay": "92.28%",
+    "uptimeWeek": "98.66%",
     "uptimeMonth": "99.38%",
     "uptimeYear": "90.69%",
     "time": 847,
@@ -1639,7 +1639,7 @@
       "2026-04-17": 20,
       "2026-06-11": 136,
       "2026-06-27": 24,
-      "2026-06-29": 110
+      "2026-06-29": 111
     }
   },
   {
