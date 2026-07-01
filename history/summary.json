@@ -709,18 +709,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/speed-backend.elfhosted.beer.ico",
     "slug": "speed-test-endpoint-eu-nl",
     "status": "down",
-    "uptime": "80.55%",
+    "uptime": "80.50%",
     "uptimeDay": "0.00%",
-    "uptimeWeek": "77.72%",
-    "uptimeMonth": "80.55%",
-    "uptimeYear": "80.55%",
+    "uptimeWeek": "77.65%",
+    "uptimeMonth": "80.50%",
+    "uptimeYear": "80.50%",
     "time": 493,
     "timeDay": 0,
     "timeWeek": 481,
     "timeMonth": 493,
     "timeYear": 493,
     "dailyMinutesDown": {
-      "2026-07-01": 1419,
+      "2026-07-01": 1427,
       "2026-06-30": 826
     }
   },
@@ -823,17 +823,17 @@
     "url": "https://store.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/store.elfhosted.com.ico",
     "slug": "store-account-management-platform",
-    "status": "down",
+    "status": "up",
     "uptime": "98.45%",
-    "uptimeDay": "88.33%",
-    "uptimeWeek": "91.15%",
-    "uptimeMonth": "92.91%",
+    "uptimeDay": "87.89%",
+    "uptimeWeek": "91.09%",
+    "uptimeMonth": "92.90%",
     "uptimeYear": "98.43%",
     "time": 249,
-    "timeDay": 108,
-    "timeWeek": 122,
-    "timeMonth": 135,
-    "timeYear": 250,
+    "timeDay": 121,
+    "timeWeek": 125,
+    "timeMonth": 136,
+    "timeYear": 249,
     "dailyMinutesDown": {
       "2026-03-01": 24,
       "2026-03-04": 71,
@@ -900,7 +900,7 @@
       "2026-06-27": 86,
       "2026-06-28": 215,
       "2026-06-30": 342,
-      "2026-07-01": 168
+      "2026-07-01": 174
     }
   },
   {
