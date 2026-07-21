@@ -235,6 +235,109 @@
     return parts.length > 1 ? parts[1].replace(/[/#?].*$/, "") : null;
   }
 
+  /* --- grouping ----------------------------------------------------------
+     Upstream renders the cards in .upptimerc.yml order, which is neither
+     grouped nor sorted, so a red bar is hard to spot among 45 unrelated
+     tiles. Group into Stremio addons / platform / speed tests, alphabetical
+     within each.
+
+     Category is derived from the name (contains "Stremio"/"Addon" -> addon)
+     with a short override for the handful the name test gets wrong — a new
+     conventionally-named addon then needs no change here. */
+  var GROUP_ORDER = ["addon", "platform", "speed"];
+  var GROUP_LABEL = {
+    addon: "Stremio addons",
+    platform: "Platform & apps",
+    speed: "Speed-test endpoints"
+  };
+  var CATEGORY_OVERRIDE = {
+    "posters-for-aio-metadata": "addon",  // an AIOMetadata companion, but the name says neither
+    "debrid-news": "platform",            // a debrid service, not an addon
+    "demo-storyteller": "platform"        // a demo app, not an addon
+  };
+
+  function categoryOf(site) {
+    if (CATEGORY_OVERRIDE[site.slug]) return CATEGORY_OVERRIDE[site.slug];
+    if (/^speed-test/.test(site.slug) || /speed test/i.test(site.name)) return "speed";
+    if (/stremio|addon/i.test(site.name)) return "addon";
+    return "platform";
+  }
+
+  /* Signature of a node sequence: group markers plus card slugs, in order.
+     Comparing the DOM's signature to the desired one makes grouping a no-op
+     once arranged, so the observer that fires on our own reordering settles
+     instead of spinning. */
+  function orderSignature(items) {
+    var sig = "", last = null;
+    items.forEach(function (it) {
+      if (it.cat !== last) { sig += "#" + it.cat + "|"; last = it.cat; }
+      sig += it.slug + "|";
+    });
+    return sig;
+  }
+
+  function currentSignature(section) {
+    var sig = "", nodes = section.childNodes;
+    for (var i = 0; i < nodes.length; i++) {
+      var n = nodes[i];
+      if (n.nodeType !== 1) continue;
+      if (n.className && n.className.indexOf && n.className.indexOf("elf-group") !== -1) {
+        sig += "#" + n.getAttribute("data-cat") + "|";
+      } else if (n.tagName === "ARTICLE") {
+        var s = slugFromCard(n);
+        if (s) sig += s + "|";
+      }
+    }
+    return sig;
+  }
+
+  function groupCards() {
+    var section = document.querySelector("section.live-status");
+    if (!section) return;
+
+    var cards = Array.prototype.slice.call(section.querySelectorAll(":scope > article"));
+    // Wait until the full set is present; grouping a partial list just churns.
+    if (cards.length < summary.length) return;
+
+    var items = cards.map(function (a) {
+      var slug = slugFromCard(a);
+      var site = slug ? summary.find(function (s) { return s.slug === slug; }) : null;
+      return {
+        el: a,
+        slug: slug || "",
+        name: site ? site.name : (slug || ""),
+        cat: site ? categoryOf(site) : "platform"
+      };
+    });
+    items.sort(function (a, b) {
+      var d = GROUP_ORDER.indexOf(a.cat) - GROUP_ORDER.indexOf(b.cat);
+      return d !== 0 ? d : a.name.localeCompare(b.name);
+    });
+
+    if (currentSignature(section) === orderSignature(items)) return; // already arranged
+
+    var counts = {};
+    items.forEach(function (it) { counts[it.cat] = (counts[it.cat] || 0) + 1; });
+
+    Array.prototype.forEach.call(
+      section.querySelectorAll(":scope > .elf-group"),
+      function (h) { h.parentNode.removeChild(h); }
+    );
+
+    var last = null;
+    items.forEach(function (it) {
+      if (it.cat !== last) {
+        var h = document.createElement("h3");
+        h.className = "elf-group";
+        h.setAttribute("data-cat", it.cat);
+        h.textContent = GROUP_LABEL[it.cat] + " · " + counts[it.cat];
+        section.appendChild(h); // appendChild moves an attached node, so this reorders in place
+        last = it.cat;
+      }
+      section.appendChild(it.el);
+    });
+  }
+
   function enhanceCards() {
     var cards = document.querySelectorAll("section.live-status article");
     if (!cards.length) return false;
@@ -526,6 +629,7 @@
       var isHome = !!document.querySelector("section.live-status");
       if (isHome) {
         enhanceCards();
+        groupCards();
         addGlowupNotice();
         addLegend();
       }

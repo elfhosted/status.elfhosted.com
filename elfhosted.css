@@ -242,6 +242,18 @@ section.live-status {
   gap: .7rem;
   margin-bottom: 2rem;
 }
+/* Group headings (availability.js) span the whole grid row so the cards below
+   start on a fresh line. The base h3 rule already gives the mono/uppercase
+   look; this only handles placement within the grid. */
+section.live-status .elf-group {
+  grid-column: 1 / -1;
+  margin: 1.6rem 0 .1rem;
+  padding-bottom: .5rem;
+  border-bottom: 1px solid var(--elf-border);
+}
+section.live-status .elf-group:first-child {
+  margin-top: .2rem;
+}
 section.live-status article {
   margin-top: 0;
   padding: .8rem .95rem .85rem;
