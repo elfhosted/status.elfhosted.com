@@ -21,12 +21,6 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200
-  - name: Archivio Stremio Addons
-    url: https://archivio.elfhosted.com
-    assignees:
-    - funkypenguin
-    expectedStatusCodes:
-      - 200
   - name: ChilliBridge
     url: https://chillibridge.elfhosted.com
     maxResponseTime: 5000
@@ -199,19 +193,6 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200
-  - name: Stremio AIOLists Addon
-    url: https://aiolists.elfhosted.com/configure
-    maxResponseTime: 5000
-    assignees:
-    - funkypenguin
-    expectedStatusCodes:
-      - 200
-  - name: Stremio PPTV Addon (Hayduk)
-    url: https://pptv.hayd.uk/manifest.json
-    assignees:
-    - funkypenguin
-    expectedStatusCodes:
-      - 200
   - name: Stremio Rating Aggregator Addon
     url: https://rating-aggregator.elfhosted.com
     maxResponseTime: 5000
@@ -298,12 +279,6 @@ sites:
       - funkypenguin
   - name: Webstreamr Stremio Addon (Hayduk)
     url: https://webstreamr.hayd.uk/configure
-    assignees:
-    - funkypenguin
-    expectedStatusCodes:
-      - 200
-  - name: YourIPTV Stremio Addon
-    url: https://youriptv.hayd.uk/configure
     assignees:
     - funkypenguin
     expectedStatusCodes:
