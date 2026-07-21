@@ -283,8 +283,21 @@
     return fmt(start) + "–" + fmt(end);
   }
 
+  /* The "Live Status" header row. Do NOT match on `.f.changed` — LiveStatus
+     .svelte sets that class only until onMount fires, then removes it, so it
+     exists for a few frames on first paint and never again. Anchor on the
+     range picker instead, which is always there, and tag the row so the
+     stylesheet has something stable to target too. */
+  function statusHeader() {
+    var form = document.querySelector("main.container form.r");
+    if (!form) return null;
+    var head = form.closest(".f") || form.parentElement;
+    if (head && !head.classList.contains("elf-head")) head.classList.add("elf-head");
+    return head;
+  }
+
   function addGlowupNotice() {
-    var head = document.querySelector("main.container .f.changed");
+    var head = statusHeader();
     if (!head || document.querySelector(".elf-glowup")) return;
 
     var box = document.createElement("div");
@@ -298,7 +311,7 @@
   }
 
   function addLegend() {
-    var head = document.querySelector("main.container .f.changed");
+    var head = statusHeader();
     if (!head || document.querySelector(".elf-legend")) return;
 
     var tiers = [

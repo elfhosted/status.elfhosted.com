@@ -332,11 +332,14 @@ section.live-status article .data.elf-bad { color: var(--elf-down); }
 
 /* --- range picker ------------------------------------------------------- */
 
-.f.changed {
+/* availability.js tags the "Live Status" row .elf-head. Upstream's own
+   `.f.changed` class is removed the moment LiveStatus.svelte mounts, so it is
+   useless as a styling hook. */
+.elf-head {
   align-items: baseline;
   margin-bottom: .9rem;
 }
-.f.changed h2 {
+.elf-head h2 {
   font-size: 1.05rem;
   font-weight: 600;
   margin: 0;
