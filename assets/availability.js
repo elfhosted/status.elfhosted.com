@@ -137,14 +137,34 @@
     return out;
   }
 
+  /* Uptime across exactly the days the strip draws, from the same numbers.
+     Deriving it here rather than using summary.json's uptimeWeek/Month means
+     the figure and the bars can never describe different windows — which they
+     did: a service whose only outages were 50 days ago showed red bars beside
+     a flat "100.00%" for the last 7 days. Both were true; together they read
+     as a contradiction.
+
+     Daily granularity, so this can differ from Upptime's own badge by a
+     hundredth of a percent. Consistency with what's on screen matters more. */
+  function uptimeOver(rows) {
+    var observed = 0, down = 0;
+    rows.forEach(function (r) {
+      if (r.mins === null) return;
+      observed += r.observed;
+      down += Math.min(r.mins, r.observed);
+    });
+    if (observed <= 0) return null;
+    return (100 - (down / observed) * 100).toFixed(2) + "%";
+  }
+
   /* --- rendering -------------------------------------------------------- */
 
-  function barsElement(site, count) {
+  function barsElement(site, count, rows) {
     var wrap = document.createElement("div");
     wrap.className = "elf-bars";
     wrap.setAttribute("role", "img");
 
-    var rows = daysFor(site, count);
+    rows = rows || daysFor(site, count);
     var bad = 0;
     rows.forEach(function (r) {
       if (r.mins) bad++;
@@ -225,6 +245,9 @@
       var site = summary.find(function (s) { return s.slug === slug; });
       if (!site) return;
 
+      var rows = startTimesOk ? daysFor(site, DAYS) : null;
+      var uptime = rows ? uptimeOver(rows) : null;
+
       // The uptime figure is the first <div>; the response-time line is the
       // second. Svelte re-renders these, so re-check every pass.
       var uptimeDiv = null;
@@ -237,6 +260,10 @@
         if (/ms\s*$/.test(data.textContent.trim())) {
           divs[i].remove();
         } else {
+          // Guard the write: setting textContent replaces the node even when
+          // the string is identical, and every mutation re-triggers the
+          // observer — an unguarded assignment here spins the page.
+          if (uptime && data.textContent.trim() !== uptime) data.textContent = uptime;
           gradeUptime(data);
           // Drop the "Overall uptime" label — a percentage beside a service
           // name on a status page needs no caption, and the range is already
@@ -265,7 +292,7 @@
 
       if (!startTimesOk) return; // see startTimesOk
       if (article.querySelector(".elf-bars")) return; // already done
-      article.appendChild(barsElement(site, DAYS).el);
+      article.appendChild(barsElement(site, DAYS, rows).el);
     });
 
     return true;
@@ -291,8 +318,13 @@
   function statusHeader() {
     var form = document.querySelector("main.container form.r");
     if (!form) return null;
-    var head = form.closest(".f") || form.parentElement;
-    if (head && !head.classList.contains("elf-head")) head.classList.add("elf-head");
+    // NOT form.closest(".f") — the form itself carries class "f r", and
+    // closest() starts at the element, so that returns the form and tags the
+    // wrong node: the notice then lands inside the header row and the
+    // `.elf-head form.r` rule can never match. Start from the parent.
+    var head = form.parentElement;
+    if (!head) return null;
+    if (!head.classList.contains("elf-head")) head.classList.add("elf-head");
     return head;
   }
 
@@ -326,7 +358,8 @@
     box.innerHTML = tiers.map(function (t) {
       return '<span><i style="background:var(--elf-bar-' +
         (t[0] === "outage" ? "down" : t[0]) + ')"></i>' + t[1] + "</span>";
-    }).join("") + "<span>each bar is one day · " + DAYS + " days</span>";
+    }).join("") +
+      "<span>uptime over the last " + DAYS + " days · each bar is one day</span>";
     head.parentNode.insertBefore(box, head.nextSibling);
   }
 

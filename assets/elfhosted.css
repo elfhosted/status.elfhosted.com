@@ -339,6 +339,14 @@ section.live-status article .data.elf-bad { color: var(--elf-down); }
   align-items: baseline;
   margin-bottom: .9rem;
 }
+/* The 24h/7d/30d/1y picker only ever changed the percentage, which now always
+   covers the same 90 days as the strip beside it — so the control would just
+   be a way to make the two disagree again. Hidden via .elf-head, which only
+   exists when availability.js ran: without it the picker still works against
+   upstream's own figures. Per-range numbers live on the service page. */
+.elf-head form.r {
+  display: none;
+}
 .elf-head h2 {
   font-size: 1.05rem;
   font-weight: 600;
