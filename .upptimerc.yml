@@ -312,9 +312,37 @@ status-website:
   scripts:
     - src: https://status.elfhosted.com/availability.js
       async: true
+    # Sam, the same Wallu widget the docs use. Loaded from docs.elfhosted.com so
+    # there's one canonical copy rather than a drifting duplicate; it's deferred
+    # and self-contained, so if docs is unreachable the status page is
+    # unaffected — which matters, given docs is one of the services listed here.
+    - src: https://docs.elfhosted.com/extras/javascript/wallu-widget.js
+      async: true
+  # Sam's config must exist BEFORE the widget script runs. customHeadHtml is
+  # emitted first in <svelte:head>, ahead of `scripts`, so this is the right
+  # hook. The pk_ key is public by design and already readable in the docs page
+  # source; it carries public docs content only.
+  customHeadHtml: |
+    <script>
+    window.WALLU_CONFIG = {
+      apiKey: 'pk_03b04a17d0b442484f379bf5da6cfac154600441f3c99193ea7408ecd4577dbf',
+      channelId: 'web-public',
+      channelName: 'Status page widget',
+      theme: 'elfhosted',
+      botName: 'Sam',
+      botAvatar: '🧑‍🌾',
+      welcomeMessage: "Well now! I'm Sam, ElfHosted's helper. Live service status is on this page — for anything else, ask away. No quest too small.",
+      fieldPlaceholder: 'Ask Sam about ElfHosted...',
+      position: 'bottom-right',
+      discordWebhook: false
+    };
+    </script>
   cname: status.elfhosted.com
   logoUrl: https://status.elfhosted.com/elfhosted-logo.svg
-  faviconSvg: https://status.elfhosted.com/elfhosted-logo.svg
+  # NOT the logo: it's a detailed illustration that renders as a smudge at the
+  # 16px a favicon is actually seen at. This is a bar mark echoing the
+  # availability strip; availability.js recolours it live from fleet status.
+  faviconSvg: https://status.elfhosted.com/status-icon.svg
   name: Status | ElfHosted
   introTitle: "**ElfHosted** - self-hosting without suffering"
   introMessage: We engineer our platform to be as automated and resilient as possible, but life happens! If something's not right, check here first, or the [#elf-status](https://discord.com/channels/396055506072109067/1119479124684193933) channel in [Discord](https://discord.elfhosted.com)!
