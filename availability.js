@@ -363,6 +363,46 @@
     head.parentNode.insertBefore(box, head.nextSibling);
   }
 
+  /* --- favicon -----------------------------------------------------------
+     A status page is a thing people pin to a tab and glance at, so the tab
+     icon may as well carry the answer. Mirrors assets/status-icon.svg (the
+     static default) and recolours it from live fleet state. */
+
+  var FAVICON_COLOURS = { up: "#35b37e", degraded: "#e9a73c", down: "#e4576b" };
+  var faviconState = null;
+
+  function faviconSvg(colour) {
+    return '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">' +
+      '<rect width="32" height="32" rx="8" fill="' + colour + '"/>' +
+      '<rect x="6" y="9" width="5" height="14" rx="2.5" fill="#101613"/>' +
+      '<rect x="13.5" y="6" width="5" height="20" rx="2.5" fill="#101613"/>' +
+      '<rect x="21" y="12" width="5" height="8" rx="2.5" fill="#101613"/></svg>';
+  }
+
+  function updateFavicon() {
+    var worst = "up";
+    summary.forEach(function (site) {
+      if (site.status === "down") worst = "down";
+      else if (site.status === "degraded" && worst !== "down") worst = "degraded";
+    });
+    if (worst === faviconState) return; // idempotent: see gradeUptime
+    faviconState = worst;
+
+    // Upstream emits both an SVG and a PNG icon link, and the PNG is the
+    // original logo — leaving it in place lets the browser pick the smudge.
+    Array.prototype.forEach.call(
+      document.querySelectorAll('link[rel="icon"], link[rel="shortcut icon"]'),
+      function (link) { link.parentNode.removeChild(link); }
+    );
+
+    var link = document.createElement("link");
+    link.rel = "icon";
+    link.type = "image/svg+xml";
+    link.href = "data:image/svg+xml;utf8," +
+      encodeURIComponent(faviconSvg(FAVICON_COLOURS[worst]));
+    document.head.appendChild(link);
+  }
+
   /* --- service page ------------------------------------------------------ */
 
   function enhanceServicePage() {
@@ -482,6 +522,7 @@
     pending = false;
     if (!summary) return;
     try {
+      updateFavicon();
       var isHome = !!document.querySelector("section.live-status");
       if (isHome) {
         enhanceCards();
