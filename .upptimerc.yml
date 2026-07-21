@@ -297,7 +297,21 @@ sites:
       - 200
 
 status-website:
+  # Setting themeUrl is what stops upstream loading its own light/dark themes.
+  # It is injected BEFORE global.css, so from here it can only set variables.
   themeUrl: https://status.elfhosted.com/elfhosted.css
+  # The same file again, via `links`, which is injected AFTER global.css — the
+  # only way our layout and typography rules can beat it. Loading one
+  # stylesheet twice is idempotent and keeps it to a single file to edit.
+  links:
+    - rel: stylesheet
+      href: https://status.elfhosted.com/elfhosted.css
+  # Draws the 90-day availability bars from history/summary.json, strips the
+  # response-time line, and adds the daily glow-up notice. The page still works
+  # without it, just without the bars.
+  scripts:
+    - src: https://status.elfhosted.com/availability.js
+      async: true
   cname: status.elfhosted.com
   logoUrl: https://status.elfhosted.com/elfhosted-logo.svg
   faviconSvg: https://status.elfhosted.com/elfhosted-logo.svg

@@ -1,26 +1,563 @@
+/* ==========================================================================
+   ElfHosted status page theme
+   --------------------------------------------------------------------------
+   This file is referenced TWICE from .upptimerc.yml, on purpose:
+
+     status-website.themeUrl  → loads BEFORE upstream's global.css. Setting
+                                themeUrl at all is what stops upstream loading
+                                its own light.css/dark.css.
+     status-website.links     → loads AFTER global.css, which is the only way
+                                a plain (non-variable) rule can beat it.
+
+   Loading one stylesheet twice is idempotent, and it means there's a single
+   file to edit. Rules that must also beat the Svelte component styles need
+   !important, because those are injected into <head> at hydration time — i.e.
+   after everything here, at specificity (0,4,0). Each such rule says so.
+
+   The card grid, typography and colours work with CSS alone. The 90-day
+   availability bars are added by assets/availability.js; without it the cards
+   degrade to name + uptime %, which still reads fine.
+   ========================================================================== */
+
 :root {
-    --body-background-color: #1E2129;
-    --body-text-color: #C8D4BE;
-    --card-background-color: #50762E;
-    --nav-background-color: #002b29;
-    --nav-border-bottom-color: #015450;
-    --nav-current-border-bottom-color: #1abc9c;
-    --card-border-color: #015450;
-    --down-border-left-color: #eb3b5a;
-    --down-background-color: #6b1020;
-    --degraded-border-left-color: #f7b731;
-    --up-border-left-color: #20bf6b;
-    --tag-color: #002b29;
-    --tag-up-background-color: #20bf6b;
-    --tag-down-background-color: #eb3b5a;
-    --tag-degraded-background-color: #f7b731;
-    --change-background-color: #f7b731;
-    --error-button-border-color: #1a46ad;
-    --error-button-background-color: #3867d6;
-    --error-button-color: #ffffff;
-    --submit-button-border-color: #1a46ad;
-    --submit-button-background-color: #3867d6;
-    --submit-button-color: #ffffff;
-    --graph-opacity: 1;
-    --graph-filter: none;
+  /* --- ElfHosted palette ------------------------------------------------
+     Greens sampled from the logo (#889f2b, #437820, #6a8013), lifted for
+     contrast on a dark ground. Semantic colours are deliberately NOT the
+     brand green, so "operational" never reads as mere decoration.          */
+  --elf-bg: #101613;
+  --elf-card: #171f1a;
+  --elf-border: #253029;
+  --elf-nav: #131a16;
+  --elf-text: #dfe7db;
+  --elf-muted: #8d9d90;
+  --elf-leaf: #9ad24a;
+
+  --elf-up: #35b37e;
+  --elf-degraded: #e9a73c;
+  --elf-down: #e4576b;
+
+  /* availability bar tiers */
+  --elf-bar-up: #35b37e;
+  --elf-bar-minor: #e9a73c;
+  --elf-bar-major: #e2762f;
+  --elf-bar-down: #e4576b;
+  --elf-bar-nodata: #2a352e;
+
+  --elf-tip-bg: #0b100d;
+  --elf-tip-text: #dfe7db;
+  --elf-tip-border: #2f3d34;
+  --elf-shadow: 0 1px 2px rgba(0, 0, 0, .35);
+
+  /* --- upstream's variables, mapped to the above ----------------------- */
+  --body-background-color: var(--elf-bg);
+  --body-text-color: var(--elf-text);
+  --card-background-color: var(--elf-card);
+  --card-border-color: var(--elf-border);
+  --nav-background-color: var(--elf-nav);
+  --nav-border-bottom-color: var(--elf-border);
+  --nav-current-border-bottom-color: var(--elf-leaf);
+
+  --up-border-left-color: var(--elf-up);
+  --down-border-left-color: var(--elf-down);
+  --degraded-border-left-color: var(--elf-degraded);
+  --down-background-color: #2a1218;
+
+  /* Read by global.css but defined by none of upstream's shipped themes. */
+  --up-color-color: var(--elf-text);
+  --down-color-color: var(--elf-text);
+  --degraded-color-color: var(--elf-text);
+  --code-color: var(--elf-leaf);
+  --code-background-color: #0c110e;
+
+  --tag-color: #0b100d;
+  --tag-up-background-color: var(--elf-up);
+  --tag-down-background-color: var(--elf-down);
+  --tag-degraded-background-color: var(--elf-degraded);
+  --change-background-color: var(--elf-degraded);
+
+  --error-button-border-color: #7d2b38;
+  --error-button-background-color: #b8394c;
+  --error-button-color: #ffffff;
+  --submit-button-border-color: #3f6a12;
+  --submit-button-background-color: #4d7a17;
+  --submit-button-color: #ffffff;
+
+  /* Upstream applies these via `article .graph`, a descendant selector that
+     matches nothing (the class is on the <article> itself). Kept at their
+     no-op values so nobody wastes time wondering why they do nothing. */
+  --graph-opacity: 1;
+  --graph-filter: none;
+}
+
+/* Light mode is new — the page used to be dark for everyone, which is rough
+   for anyone opening a Discord link in daylight. */
+@media (prefers-color-scheme: light) {
+  :root {
+    --elf-bg: #f4f6f0;
+    --elf-card: #ffffff;
+    --elf-border: #dfe4d8;
+    --elf-nav: #ffffff;
+    --elf-text: #1b211c;
+    --elf-muted: #5d6a60;
+    --elf-leaf: #4d7a17;
+
+    --elf-up: #1f8a5c;
+    --elf-degraded: #a8720b;
+    --elf-down: #c23a4d;
+
+    --elf-bar-up: #35a36f;
+    --elf-bar-minor: #cf9412;
+    --elf-bar-major: #cc6a1e;
+    --elf-bar-down: #cc4257;
+    --elf-bar-nodata: #dee2d7;
+
+    --elf-tip-bg: #1b211c;
+    --elf-tip-text: #f2f5ef;
+    --elf-tip-border: #334036;
+    --elf-shadow: 0 1px 2px rgba(20, 30, 22, .08);
+
+    --down-background-color: #fdecef;
+    --code-background-color: #eef1e9;
+    --tag-color: #ffffff;
   }
+}
+
+/* ==========================================================================
+   Typography and layout
+   ========================================================================== */
+
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  padding-bottom: 3rem;
+}
+
+/* 800px is a lot of scrolling for 49 services. */
+.container {
+  max-width: 1080px;
+  padding: 0 1.75rem;
+}
+
+h1, h2, h3, h4 {
+  letter-spacing: -.015em;
+}
+/* global.css leaves h2 at 1.5em, which shouts next to the card grid. */
+main.container h2 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: .4rem;
+}
+
+/* --- nav ---------------------------------------------------------------- */
+
+/* Upstream's scoped `nav.svelte-x.svelte-x` is (0,2,1) and `.logo.svelte-x
+   .svelte-x` is (0,2,0); loading this file later doesn't beat them, so these
+   rules need the #sapper id that wraps the whole app. */
+#sapper nav {
+  margin-bottom: 2.5rem;
+  padding: 0;
+}
+/* beats Nav.svelte's .logo.svelte-x img.svelte-x, specificity (0,3,0) */
+#sapper nav .logo img {
+  height: 2rem;
+  margin-right: .7rem;
+}
+#sapper nav .logo {
+  font-weight: 600;
+  margin-right: 2.5rem;
+}
+/* beats a.svelte-x.svelte-x { padding: 1.5rem 2rem } */
+#sapper nav ul a {
+  padding: 1.1rem 0;
+  margin-left: 1.75rem;
+  font-size: .93rem;
+  color: var(--elf-muted);
+  border-bottom: 2px solid transparent;
+  transition: color .15s, border-color .15s;
+}
+#sapper nav ul a:hover {
+  color: var(--elf-text);
+}
+#sapper nav [aria-current] {
+  color: var(--elf-text);
+  border-bottom-color: var(--elf-leaf);
+}
+
+/* --- hero --------------------------------------------------------------- */
+
+header h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: -.025em;
+  margin-bottom: .35rem;
+}
+header h1 strong {
+  font-weight: 600;
+}
+/* beats p.lead.svelte-x { font-size: 110% } */
+header p.lead {
+  font-size: .98rem !important;
+  color: var(--elf-muted);
+  max-width: 46rem;
+  line-height: 1.55;
+}
+header p.lead a {
+  color: var(--elf-leaf);
+  text-underline-offset: 2px;
+}
+
+/* ==========================================================================
+   Cards
+   ========================================================================== */
+
+article {
+  border-radius: .5rem;
+  box-shadow: var(--elf-shadow);
+}
+
+/* The response-time PNG must never render — nothing on this page is about
+   latency any more. availability.js also strips the inline --background, but
+   this covers the JS-disabled case. Beats the (0,4,0) scoped rule. */
+article.graph {
+  background-image: none !important;
+}
+
+/* Status is a dot next to the name, not a slab of colour on the card edge:
+   with 48 of 49 services green, the rails were just noise. */
+section.live-status article.up,
+section.live-status article.down,
+section.live-status article.degraded {
+  border-left-width: 1px;
+}
+
+/* --- the grid ----------------------------------------------------------- */
+
+section.live-status {
+  display: grid;
+  /* min() keeps the track from exceeding the content box on phone widths —
+     a hard 20.5rem minimum overflows a 375px viewport once the container's
+     padding is taken off. */
+  grid-template-columns: repeat(auto-fill, minmax(min(20.5rem, 100%), 1fr));
+  gap: .7rem;
+  margin-bottom: 2rem;
+}
+section.live-status article {
+  margin-top: 0;
+  padding: .8rem .95rem .85rem;
+  display: flex;
+  flex-direction: column;
+  gap: .55rem;
+  transition: border-color .15s, transform .15s;
+}
+/* availability.js wraps the name and the figure in .elf-top so long service
+   names can't shove the percentage onto its own line. */
+section.live-status article .elf-top {
+  display: flex;
+  align-items: baseline;
+  gap: .75rem;
+}
+section.live-status article:hover {
+  border-color: color-mix(in srgb, var(--elf-leaf) 45%, var(--elf-border));
+  transform: translateY(-1px);
+}
+@media (prefers-reduced-motion: reduce) {
+  section.live-status article {
+    transition: none;
+  }
+  section.live-status article:hover {
+    transform: none;
+  }
+}
+
+section.live-status article h4 {
+  margin: 0;
+  flex: 1 1 auto;
+  min-width: 0;
+  font-size: .93rem;
+  font-weight: 550;
+  display: flex;
+  align-items: center;
+  gap: .45rem;
+}
+section.live-status article h4 a {
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+section.live-status article h4::before {
+  content: "";
+  width: .45rem;
+  height: .45rem;
+  border-radius: 50%;
+  flex: none;
+  background: var(--elf-muted);
+}
+section.live-status article.up h4::before { background: var(--elf-up); }
+section.live-status article.degraded h4::before { background: var(--elf-degraded); }
+section.live-status article.down h4::before {
+  background: var(--elf-down);
+  box-shadow: 0 0 0 .2rem color-mix(in srgb, var(--elf-down) 20%, transparent);
+}
+section.live-status article.down {
+  border-color: color-mix(in srgb, var(--elf-down) 45%, var(--elf-border));
+}
+
+/* the duckduckgo favicon — small and quiet, or absent if it 404s */
+section.live-status article h4 img.icon {
+  height: .9rem !important;
+  margin-right: 0 !important;
+  border-radius: 2px;
+  opacity: .85;
+}
+
+/* uptime %, pushed to the right of the name */
+section.live-status article .elf-top > div {
+  flex: none;
+  margin-left: auto;
+  color: var(--elf-muted);
+}
+section.live-status article .data {
+  padding: 0 !important; /* beats .data.svelte-x, (0,3,0) */
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-variant-numeric: tabular-nums;
+  font-size: 1rem;
+  letter-spacing: -.03em;
+  color: var(--elf-text);
+}
+/* availability.js grades the number so a bad month is visible without hovering */
+section.live-status article .data.elf-warn { color: var(--elf-degraded); }
+section.live-status article .data.elf-bad { color: var(--elf-down); }
+
+/* --- range picker ------------------------------------------------------- */
+
+.f.changed {
+  align-items: baseline;
+  margin-bottom: .9rem;
+}
+.f.changed h2 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 0;
+}
+form.r {
+  gap: .15rem;
+  background: var(--elf-card);
+  border: 1px solid var(--elf-border);
+  border-radius: .45rem;
+  padding: .18rem;
+}
+form.r label {
+  margin-left: 0 !important; /* beats .r.svelte-x label.svelte-x */
+  padding: .22rem .62rem;
+  border-radius: .32rem;
+  font-size: .8rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  color: var(--elf-muted);
+}
+form.r input:checked + label {
+  color: var(--elf-text);
+  background: var(--elf-bg);
+}
+
+/* ==========================================================================
+   Availability bars (injected by availability.js)
+   ========================================================================== */
+
+.elf-bars {
+  flex: none;
+  display: flex;
+  gap: 1px;
+  align-items: stretch;
+  height: 1.9rem;
+  margin-top: auto; /* pins the strip to the foot of an uneven-height card */
+}
+.elf-bars .elf-bar {
+  flex: 1 1 0;
+  min-width: 1px;
+  border-radius: 1px;
+  background: var(--elf-bar-nodata);
+  position: relative;
+}
+.elf-bars .elf-bar[data-tier="up"] { background: var(--elf-bar-up); }
+.elf-bars .elf-bar[data-tier="minor"] { background: var(--elf-bar-minor); }
+.elf-bars .elf-bar[data-tier="major"] { background: var(--elf-bar-major); }
+.elf-bars .elf-bar[data-tier="outage"] { background: var(--elf-bar-down); }
+.elf-bars .elf-bar:hover { filter: brightness(1.35); }
+
+/* Rendered ONLY on hover. An always-present, opacity:0 tooltip is still laid
+   out: 4,410 of them across the grid, and the ones near the right edge push
+   document.scrollWidth past the viewport, giving the page a phantom horizontal
+   scroll. display:none until hover keeps them out of layout entirely. */
+.elf-bars .elf-bar::after {
+  content: "";
+  display: none;
+  position: absolute;
+  bottom: calc(100% + .4rem);
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--elf-tip-bg);
+  color: var(--elf-tip-text);
+  border: 1px solid var(--elf-tip-border);
+  border-radius: .3rem;
+  padding: .3rem .5rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: .7rem;
+  line-height: 1.35;
+  white-space: pre;
+  pointer-events: none;
+  z-index: 5;
+}
+.elf-bars .elf-bar:hover::after {
+  content: attr(data-tip);
+  display: block;
+  animation: elf-tip .12s ease-out;
+}
+@keyframes elf-tip {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .elf-bars .elf-bar:hover::after { animation: none; }
+}
+
+.elf-axis {
+  flex: none;
+  display: flex;
+  justify-content: space-between;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: .66rem;
+  color: var(--elf-muted);
+  margin-top: -.15rem;
+}
+
+.elf-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: .74rem;
+  color: var(--elf-muted);
+  margin-bottom: 1.5rem;
+}
+.elf-legend span { display: flex; align-items: center; gap: .35rem; }
+.elf-legend i { width: .45rem; height: .85rem; border-radius: .1rem; display: block; }
+
+/* ==========================================================================
+   Daily glow-up notice (injected by availability.js)
+   ========================================================================== */
+
+.elf-glowup {
+  border: 1px solid var(--elf-border);
+  border-left: 3px solid var(--elf-leaf);
+  border-radius: .5rem;
+  background: var(--elf-card);
+  padding: .85rem 1.1rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: .3rem .7rem;
+  font-size: .9rem;
+}
+.elf-glowup b { font-weight: 600; }
+.elf-glowup .elf-when {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-variant-numeric: tabular-nums;
+  color: var(--elf-leaf);
+}
+.elf-glowup .elf-note { color: var(--elf-muted); flex: 1 1 20rem; }
+
+/* ==========================================================================
+   Incidents, and the per-service page
+   ========================================================================== */
+
+h3 {
+  font-size: .72rem !important;
+  font-weight: 600;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--elf-muted);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  opacity: 1 !important; /* global.css sets h3 { opacity: .75 } */
+  margin: 1.6rem 0 .55rem;
+}
+
+.tag {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: .68rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  padding: .2rem .5rem !important;
+  border-radius: .3rem;
+  font-weight: 500;
+}
+
+dl {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  padding: 1rem 1.15rem;
+  border: 1px solid var(--elf-border);
+  border-radius: .5rem;
+  background: var(--elf-card);
+}
+dl dt {
+  font-weight: 400 !important;
+  font-size: .66rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--elf-muted);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+dl dd {
+  margin: .1rem 0 0 0 !important;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-variant-numeric: tabular-nums;
+  font-size: 1.3rem;
+  letter-spacing: -.03em;
+}
+
+/* Incident rows: duration first, then what broke, then the issue number. The
+   coloured left rail stays here — unlike the service grid, a list of outages
+   is exactly where a severity edge earns its place. */
+.elf-incident {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+  padding: .7rem .9rem;
+}
+.elf-incident h4 {
+  margin: 0;
+  font-size: .92rem;
+  font-weight: 550;
+}
+.elf-incident .elf-dur {
+  flex: none;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: .74rem;
+  font-variant-numeric: tabular-nums;
+  padding: .12rem .45rem;
+  border-radius: .28rem;
+  background: color-mix(in srgb, var(--elf-down) 15%, transparent);
+  color: var(--elf-down);
+}
+.elf-incident.degraded .elf-dur {
+  background: color-mix(in srgb, var(--elf-degraded) 16%, transparent);
+  color: var(--elf-degraded);
+}
+.elf-incident .elf-meta {
+  margin-left: auto;
+  flex: none;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: .8rem;
+  color: var(--elf-muted);
+}
+
+/* The per-service chart.js canvas is response-time only — hidden, since the
+   availability strip replaces it. */
+.elf-hide {
+  display: none !important;
+}

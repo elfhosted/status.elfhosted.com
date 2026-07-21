@@ -1,0 +1,76 @@
+# Publishes assets/start-times.json — a slug → startTime map.
+#
+# Why: the status page draws a 90-day availability bar per service, and a date
+# missing from summary.json's dailyMinutesDown means "no downtime that day".
+# For a service that didn't exist yet, that would render as a green, fully
+# available day, which is a lie. summary.json carries no startTime, so we
+# publish the map alongside it and let assets/availability.js grey out the
+# days before a service was first monitored.
+#
+# This is OUR workflow, not one generated from .upptimerc.yml — update-template
+# only removes the eight files it generates, so this survives the weekly
+# template refresh.
+
+name: Service Start Times
+
+on:
+  # A new service reaches summary.json within minutes of being added to
+  # .upptimerc.yml. On a daily-only schedule it would sit there with no start
+  # time until the next run, and the status page has no way to tell "clean" from
+  # "didn't exist" — so publish on the same push that adds it.
+  push:
+    paths:
+      - ".upptimerc.yml"
+  schedule:
+    - cron: "20 1 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.repository }}-${{ github.head_ref || github.ref_name }}-upptime
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    name: Publish start times
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+          token: ${{ secrets.GH_PAT || github.token }}
+
+      - name: Build start-times.json
+        run: |
+          python3 - <<'PY'
+          import json, pathlib, re
+
+          out = {}
+          for path in sorted(pathlib.Path("history").glob("*.yml")):
+              text = path.read_text()
+              match = re.search(r"^startTime: (\S+)", text, re.M)
+              if match:
+                  out[path.stem] = match.group(1)
+
+          target = pathlib.Path("assets/start-times.json")
+          target.parent.mkdir(parents=True, exist_ok=True)
+          target.write_text(json.dumps(out, indent=2, sort_keys=True) + "\n")
+          print(f"wrote {len(out)} start times")
+          PY
+
+      - name: Commit
+        run: |
+          if git diff --quiet -- assets/start-times.json; then
+            echo "No change"
+            exit 0
+          fi
+          git config user.name "Upptime Bot"
+          git config user.email "73812536+upptime-bot@users.noreply.github.com"
+          git add assets/start-times.json
+          # [skip ci] so this doesn't trigger the assets/** push build; the
+          # daily Static Site CI schedule picks it up.
+          git commit -m ":card_file_box: Update service start times [skip ci] [upptime]"
+          git push
