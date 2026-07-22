@@ -816,15 +816,15 @@
     "url": "https://store.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/store.elfhosted.com.ico",
     "slug": "store-account-management-platform",
-    "status": "down",
+    "status": "up",
     "uptime": "98.79%",
-    "uptimeDay": "94.93%",
-    "uptimeWeek": "93.25%",
-    "uptimeMonth": "92.51%",
+    "uptimeDay": "94.66%",
+    "uptimeWeek": "93.21%",
+    "uptimeMonth": "92.50%",
     "uptimeYear": "98.70%",
     "time": 236,
-    "timeDay": 118,
-    "timeWeek": 103,
+    "timeDay": 115,
+    "timeWeek": 102,
     "timeMonth": 121,
     "timeYear": 233,
     "dailyMinutesDown": {
@@ -886,7 +886,7 @@
       "2026-07-19": 131,
       "2026-07-20": 62,
       "2026-07-21": 35,
-      "2026-07-22": 38
+      "2026-07-22": 42
     }
   },
   {
@@ -1399,8 +1399,8 @@
     "slug": "zyclops",
     "status": "up",
     "uptime": "99.78%",
-    "uptimeDay": "92.88%",
-    "uptimeWeek": "96.57%",
+    "uptimeDay": "93.25%",
+    "uptimeWeek": "96.62%",
     "uptimeMonth": "98.64%",
     "uptimeYear": "99.78%",
     "time": 949,
