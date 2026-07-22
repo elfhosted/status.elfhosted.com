@@ -1,7 +1,7 @@
 url: https://tmdb.elfhosted.com/configure
-status: up
-code: 200
-responseTime: 1036
-lastUpdated: 2026-07-22T20:08:37.848Z
+status: down
+code: 502
+responseTime: 619
+lastUpdated: 2026-07-22T20:15:55.807Z
 startTime: 2025-06-27T05:03:03.416Z
 generator: Upptime <https://github.com/upptime/upptime>
