@@ -535,11 +535,11 @@
     "url": "https://nuviostreams.hayd.uk",
     "icon": "https://icons.duckduckgo.com/ip3/nuviostreams.hayd.uk.ico",
     "slug": "nuvio-streams-stremio-addon",
-    "status": "up",
+    "status": "down",
     "uptime": "98.60%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.91%",
+    "uptimeDay": "99.79%",
+    "uptimeWeek": "99.97%",
+    "uptimeMonth": "99.90%",
     "uptimeYear": "98.58%",
     "time": 1397,
     "timeDay": 496,
@@ -580,7 +580,8 @@
       "2026-03-17": 23,
       "2026-06-06": 46,
       "2026-06-07": 31,
-      "2026-07-08": 39
+      "2026-07-08": 39,
+      "2026-07-22": 3
     }
   },
   {
@@ -673,11 +674,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/speed-backend.elfhosted.coffee.ico",
     "slug": "speed-test-endpoint-eu-nl",
     "status": "up",
-    "uptime": "59.70%",
+    "uptime": "59.74%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "59.70%",
-    "uptimeYear": "59.70%",
+    "uptimeMonth": "59.74%",
+    "uptimeYear": "59.74%",
     "time": 534,
     "timeDay": 710,
     "timeWeek": 528,
@@ -1333,11 +1334,11 @@
     "url": "https://webstreamr.hayd.uk/configure",
     "icon": "https://icons.duckduckgo.com/ip3/webstreamr.hayd.uk.ico",
     "slug": "webstreamr-stremio-addon-hayduk",
-    "status": "up",
+    "status": "down",
     "uptime": "99.27%",
-    "uptimeDay": "99.66%",
-    "uptimeWeek": "99.95%",
-    "uptimeMonth": "99.99%",
+    "uptimeDay": "99.54%",
+    "uptimeWeek": "99.93%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "99.27%",
     "time": 522,
     "timeDay": 750,
@@ -1360,7 +1361,7 @@
       "2026-04-06": 540,
       "2026-06-06": 37,
       "2026-06-07": 21,
-      "2026-07-22": 5
+      "2026-07-22": 7
     }
   },
   {
