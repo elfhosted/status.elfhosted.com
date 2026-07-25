@@ -246,17 +246,17 @@
     "url": "https://fnky.nz",
     "icon": "https://icons.duckduckgo.com/ip3/fnky.nz.ico",
     "slug": "fnky-link-shortener",
-    "status": "down",
+    "status": "up",
     "uptime": "99.74%",
-    "uptimeDay": "98.93%",
-    "uptimeWeek": "99.67%",
+    "uptimeDay": "98.83%",
+    "uptimeWeek": "99.65%",
     "uptimeMonth": "99.92%",
     "uptimeYear": "99.78%",
-    "time": 912,
-    "timeDay": 770,
-    "timeWeek": 1242,
-    "timeMonth": 1015,
-    "timeYear": 896,
+    "time": 911,
+    "timeDay": 670,
+    "timeWeek": 1190,
+    "timeMonth": 1003,
+    "timeYear": 895,
     "dailyMinutesDown": {
       "2025-07-31": 14,
       "2025-08-25": 11,
@@ -280,7 +280,7 @@
       "2026-06-07": 36,
       "2026-07-22": 5,
       "2026-07-21": 13,
-      "2026-07-25": 15
+      "2026-07-25": 17
     }
   },
   {
@@ -535,17 +535,17 @@
     "url": "https://nuviostreams.hayd.uk",
     "icon": "https://icons.duckduckgo.com/ip3/nuviostreams.hayd.uk.ico",
     "slug": "nuvio-streams-stremio-addon",
-    "status": "down",
-    "uptime": "98.61%",
-    "uptimeDay": "99.26%",
-    "uptimeWeek": "99.83%",
+    "status": "up",
+    "uptime": "98.60%",
+    "uptimeDay": "99.17%",
+    "uptimeWeek": "99.82%",
     "uptimeMonth": "99.87%",
     "uptimeYear": "98.57%",
-    "time": 1506,
-    "timeDay": 263,
-    "timeWeek": 6711,
-    "timeMonth": 2146,
-    "timeYear": 1518,
+    "time": 1504,
+    "timeDay": 437,
+    "timeWeek": 6101,
+    "timeMonth": 2101,
+    "timeYear": 1516,
     "dailyMinutesDown": {
       "2025-08-02": 67,
       "2025-08-03": 390,
@@ -582,7 +582,7 @@
       "2026-06-07": 31,
       "2026-07-08": 39,
       "2026-07-22": 7,
-      "2026-07-25": 11
+      "2026-07-25": 12
     }
   },
   {
@@ -675,11 +675,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/speed-backend.elfhosted.coffee.ico",
     "slug": "speed-test-endpoint-eu-nl",
     "status": "up",
-    "uptime": "63.03%",
+    "uptime": "63.04%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "61.96%",
-    "uptimeYear": "63.03%",
+    "uptimeYear": "63.04%",
     "time": 529,
     "timeDay": 511,
     "timeWeek": 524,
@@ -1311,15 +1311,15 @@
     "url": "https://docs.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/docs.elfhosted.com.ico",
     "slug": "website-docs",
-    "status": "down",
+    "status": "up",
     "uptime": "99.95%",
-    "uptimeDay": "99.57%",
-    "uptimeWeek": "99.94%",
-    "uptimeMonth": "99.99%",
+    "uptimeDay": "99.51%",
+    "uptimeWeek": "99.93%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "99.95%",
     "time": 213,
-    "timeDay": 60,
-    "timeWeek": 189,
+    "timeDay": 112,
+    "timeWeek": 186,
     "timeMonth": 183,
     "timeYear": 209,
     "dailyMinutesDown": {
@@ -1328,7 +1328,7 @@
       "2026-05-10": 97,
       "2026-06-06": 41,
       "2026-06-07": 26,
-      "2026-07-25": 6
+      "2026-07-25": 7
     }
   },
   {
@@ -1336,16 +1336,16 @@
     "url": "https://webstreamr.hayd.uk/configure",
     "icon": "https://icons.duckduckgo.com/ip3/webstreamr.hayd.uk.ico",
     "slug": "webstreamr-stremio-addon-hayduk",
-    "status": "down",
+    "status": "up",
     "uptime": "99.27%",
-    "uptimeDay": "99.91%",
-    "uptimeWeek": "99.89%",
-    "uptimeMonth": "99.98%",
+    "uptimeDay": "99.85%",
+    "uptimeWeek": "99.88%",
+    "uptimeMonth": "99.97%",
     "uptimeYear": "99.27%",
     "time": 521,
-    "timeDay": 481,
-    "timeWeek": 471,
-    "timeMonth": 441,
+    "timeDay": 532,
+    "timeWeek": 481,
+    "timeMonth": 445,
     "timeYear": 521,
     "dailyMinutesDown": {
       "2025-11-18": 192,
@@ -1364,7 +1364,7 @@
       "2026-06-06": 37,
       "2026-06-07": 21,
       "2026-07-22": 10,
-      "2026-07-25": 1
+      "2026-07-25": 2
     }
   },
   {
