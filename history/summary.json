@@ -59,7 +59,7 @@
     "timeDay": 824,
     "timeWeek": 788,
     "timeMonth": 741,
-    "timeYear": 815,
+    "timeYear": 814,
     "dailyMinutesDown": {
       "2025-08-09": 10,
       "2025-08-27": 30,
@@ -115,7 +115,7 @@
     "timeDay": 806,
     "timeWeek": 866,
     "timeMonth": 1074,
-    "timeYear": 859,
+    "timeYear": 860,
     "dailyMinutesDown": {
       "2025-08-26": 10,
       "2025-08-28": 12,
@@ -246,11 +246,11 @@
     "url": "https://fnky.nz",
     "icon": "https://icons.duckduckgo.com/ip3/fnky.nz.ico",
     "slug": "fnky-link-shortener",
-    "status": "up",
+    "status": "down",
     "uptime": "99.74%",
-    "uptimeDay": "98.83%",
-    "uptimeWeek": "99.65%",
-    "uptimeMonth": "99.92%",
+    "uptimeDay": "97.77%",
+    "uptimeWeek": "99.50%",
+    "uptimeMonth": "99.89%",
     "uptimeYear": "99.78%",
     "time": 911,
     "timeDay": 670,
@@ -280,7 +280,7 @@
       "2026-06-07": 36,
       "2026-07-22": 5,
       "2026-07-21": 13,
-      "2026-07-25": 17
+      "2026-07-25": 32
     }
   },
   {
@@ -289,7 +289,7 @@
     "icon": "https://icons.duckduckgo.com/ip3/formulio.hayd.uk.ico",
     "slug": "formulio-stremio-addon",
     "status": "up",
-    "uptime": "84.79%",
+    "uptime": "84.80%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
@@ -298,7 +298,7 @@
     "timeDay": 883,
     "timeWeek": 777,
     "timeMonth": 881,
-    "timeYear": 960,
+    "timeYear": 961,
     "dailyMinutesDown": {
       "2025-09-30": 51,
       "2025-10-26": 25,
@@ -423,7 +423,7 @@
     "timeDay": 805,
     "timeWeek": 714,
     "timeMonth": 797,
-    "timeYear": 2437,
+    "timeYear": 2439,
     "dailyMinutesDown": {
       "2026-03-14": 121,
       "2026-03-15": 187,
@@ -535,17 +535,17 @@
     "url": "https://nuviostreams.hayd.uk",
     "icon": "https://icons.duckduckgo.com/ip3/nuviostreams.hayd.uk.ico",
     "slug": "nuvio-streams-stremio-addon",
-    "status": "up",
+    "status": "down",
     "uptime": "98.61%",
-    "uptimeDay": "99.17%",
-    "uptimeWeek": "99.82%",
-    "uptimeMonth": "99.87%",
+    "uptimeDay": "98.43%",
+    "uptimeWeek": "99.71%",
+    "uptimeMonth": "99.84%",
     "uptimeYear": "98.57%",
     "time": 1504,
     "timeDay": 437,
     "timeWeek": 6101,
     "timeMonth": 2101,
-    "timeYear": 1516,
+    "timeYear": 1518,
     "dailyMinutesDown": {
       "2025-08-02": 67,
       "2025-08-03": 390,
@@ -582,7 +582,7 @@
       "2026-06-07": 31,
       "2026-07-08": 39,
       "2026-07-22": 7,
-      "2026-07-25": 12
+      "2026-07-25": 23
     }
   },
   {
@@ -660,7 +660,7 @@
     "timeDay": 387,
     "timeWeek": 388,
     "timeMonth": 383,
-    "timeYear": 416,
+    "timeYear": 417,
     "dailyMinutesDown": {
       "2025-09-23": 16,
       "2025-10-27": 9,
@@ -675,11 +675,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/speed-backend.elfhosted.coffee.ico",
     "slug": "speed-test-endpoint-eu-nl",
     "status": "up",
-    "uptime": "63.72%",
+    "uptime": "63.82%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "61.96%",
-    "uptimeYear": "63.72%",
+    "uptimeYear": "63.82%",
     "time": 529,
     "timeDay": 511,
     "timeWeek": 524,
@@ -733,7 +733,7 @@
     "timeDay": 371,
     "timeWeek": 282,
     "timeMonth": 555,
-    "timeYear": 402,
+    "timeYear": 403,
     "dailyMinutesDown": {
       "2025-08-01": 10,
       "2025-08-17": 18,
@@ -1073,7 +1073,7 @@
     "timeDay": 764,
     "timeWeek": 764,
     "timeMonth": 782,
-    "timeYear": 735,
+    "timeYear": 734,
     "dailyMinutesDown": {
       "2026-01-05": 11,
       "2026-01-06": 93,
@@ -1262,7 +1262,7 @@
     "timeDay": 497,
     "timeWeek": 617,
     "timeMonth": 613,
-    "timeYear": 575,
+    "timeYear": 576,
     "dailyMinutesDown": {
       "2025-07-31": 14,
       "2025-09-01": 12,
@@ -1312,24 +1312,24 @@
     "url": "https://docs.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/docs.elfhosted.com.ico",
     "slug": "website-docs",
-    "status": "up",
+    "status": "down",
     "uptime": "99.95%",
-    "uptimeDay": "99.51%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.98%",
+    "uptimeDay": "99.08%",
+    "uptimeWeek": "99.87%",
+    "uptimeMonth": "99.97%",
     "uptimeYear": "99.95%",
     "time": 213,
     "timeDay": 112,
     "timeWeek": 186,
     "timeMonth": 183,
-    "timeYear": 209,
+    "timeYear": 210,
     "dailyMinutesDown": {
       "2025-10-20": 23,
       "2025-12-01": 48,
       "2026-05-10": 97,
       "2026-06-06": 41,
       "2026-06-07": 26,
-      "2026-07-25": 7
+      "2026-07-25": 13
     }
   },
   {
@@ -1337,10 +1337,10 @@
     "url": "https://webstreamr.hayd.uk/configure",
     "icon": "https://icons.duckduckgo.com/ip3/webstreamr.hayd.uk.ico",
     "slug": "webstreamr-stremio-addon-hayduk",
-    "status": "up",
+    "status": "down",
     "uptime": "99.27%",
-    "uptimeDay": "99.85%",
-    "uptimeWeek": "99.88%",
+    "uptimeDay": "99.76%",
+    "uptimeWeek": "99.87%",
     "uptimeMonth": "99.97%",
     "uptimeYear": "99.27%",
     "time": 521,
@@ -1365,7 +1365,7 @@
       "2026-06-06": 37,
       "2026-06-07": 21,
       "2026-07-22": 10,
-      "2026-07-25": 2
+      "2026-07-25": 3
     }
   },
   {
