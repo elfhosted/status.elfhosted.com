@@ -1,7 +1,7 @@
 url: https://store.elfhosted.com
-status: up
-code: 200
+status: down
+code: 403
 responseTime: 49
-lastUpdated: 2026-07-26T09:55:33.564Z
+lastUpdated: 2026-07-26T10:25:39.337Z
 startTime: 2025-06-27T05:03:08.014Z
 generator: Upptime <https://github.com/upptime/upptime>
