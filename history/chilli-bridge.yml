@@ -1,7 +1,7 @@
 url: https://chillibridge.elfhosted.com
-status: up
+status: degraded
 code: 200
-responseTime: 597
-lastUpdated: 2026-08-07T23:12:49.151Z
+responseTime: 20167
+lastUpdated: 2026-08-08T20:00:15.203Z
 startTime: 2026-01-01T02:35:56.502Z
 generator: Upptime <https://github.com/upptime/upptime>
