@@ -1,7 +1,7 @@
 url: https://harbor.elfhosted.com/v1/health
-status: up
-code: 200
-responseTime: 1471
-lastUpdated: 2026-08-10T08:09:46.603Z
+status: down
+code: 503
+responseTime: 2390
+lastUpdated: 2026-08-10T19:46:11.980Z
 startTime: 2026-08-10T07:57:04.361Z
 generator: Upptime <https://github.com/upptime/upptime>
