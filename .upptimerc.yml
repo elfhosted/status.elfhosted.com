@@ -75,6 +75,60 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200
+  - name: Harbor
+    url: https://harbor.elfhosted.com
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+    - 200
+  - name: Harbor (harbor.site redirect)
+    url: https://harbor.site
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+    - 301
+  - name: Harbor Watch Together relay
+    url: https://pub.harbor.site/health
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+    - 200
+  - name: Harbor desktop updates (stable)
+    url: https://harbor.elfhosted.com/updates/latest.json
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+    - 200
+  - name: Harbor desktop updates (beta)
+    url: https://harbor.elfhosted.com/updates/latest-beta.json
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+    - 200
+  - name: Harbor themes API
+    url: https://harbor.elfhosted.com/themes/api/health
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+    - 200
+  - name: Harbor bug reporting
+    url: https://harbor.elfhosted.com/v1/health
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+    - 200
+  - name: Harbor community sync
+    url: https://harbor.elfhosted.com/sync/health
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+    - 200
+  - name: Harbor Control (Discord bot)
+    url: https://harbor-discord-bot.elfhosted.com
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+    - 302
   - name: ItsOut Stremio Addons
     url: https://itsout.elfhosted.com
     assignees:
