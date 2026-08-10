@@ -1,7 +1,7 @@
 url: https://harbor.elfhosted.com/updates/latest.json
-status: up
-code: 200
-responseTime: 975
-lastUpdated: 2026-08-10T08:09:43.521Z
+status: down
+code: 503
+responseTime: 760
+lastUpdated: 2026-08-10T19:51:04.737Z
 startTime: 2026-08-10T07:57:01.528Z
 generator: Upptime <https://github.com/upptime/upptime>
