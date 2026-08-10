@@ -87,6 +87,10 @@ sites:
     - funkypenguin
     expectedStatusCodes:
     - 301
+    # Do NOT follow the redirect: with the default (3) curl follows to the
+    # destination and reports its 200, so a 301 expectation can never match.
+    # That is what made this red on the first run.
+    maxRedirects: 0
   - name: Harbor Watch Together relay
     url: https://pub.harbor.site/health
     assignees:
@@ -129,6 +133,10 @@ sites:
     - funkypenguin
     expectedStatusCodes:
     - 302
+    # Do NOT follow the redirect: with the default (3) curl follows to the
+    # destination and reports its 200, so a 302 expectation can never match.
+    # That is what made this red on the first run.
+    maxRedirects: 0
   - name: ItsOut Stremio Addons
     url: https://itsout.elfhosted.com
     assignees:
