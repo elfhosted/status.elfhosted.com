@@ -1,7 +1,7 @@
 url: https://speed-backend.elfhosted.party/empty.php
-status: degraded
+status: up
 code: 200
-responseTime: 5374
-lastUpdated: 2026-08-14T01:04:41.011Z
+responseTime: 252
+lastUpdated: 2026-08-14T01:07:09.954Z
 startTime: 2025-07-24T22:56:50.822Z
 generator: Upptime <https://github.com/upptime/upptime>
