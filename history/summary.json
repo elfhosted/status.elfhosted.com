@@ -202,9 +202,9 @@
     "slug": "demo-storyteller",
     "status": "down",
     "uptime": "99.93%",
-    "uptimeDay": "99.86%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "99.85%",
+    "uptimeDay": "99.44%",
+    "uptimeWeek": "99.92%",
+    "uptimeMonth": "99.84%",
     "uptimeYear": "99.93%",
     "time": 1230,
     "timeDay": 855,
@@ -220,7 +220,7 @@
       "2026-01-27": 14,
       "2026-04-21": 25,
       "2026-08-08": 64,
-      "2026-08-16": 2
+      "2026-08-16": 8
     }
   },
   {
@@ -437,20 +437,20 @@
     "url": "https://pub.harbor.site/health",
     "icon": "https://icons.duckduckgo.com/ip3/pub.harbor.site.ico",
     "slug": "harbor-watch-together-relay",
-    "status": "down",
-    "uptime": "99.89%",
-    "uptimeDay": "99.89%",
-    "uptimeWeek": "99.89%",
-    "uptimeMonth": "99.89%",
-    "uptimeYear": "99.89%",
-    "time": 569,
-    "timeDay": 469,
-    "timeWeek": 569,
-    "timeMonth": 569,
-    "timeYear": 569,
+    "status": "up",
+    "uptime": "99.84%",
+    "uptimeDay": "99.55%",
+    "uptimeWeek": "99.84%",
+    "uptimeMonth": "99.84%",
+    "uptimeYear": "99.84%",
+    "time": 585,
+    "timeDay": 562,
+    "timeWeek": 585,
+    "timeMonth": 585,
+    "timeYear": 585,
     "dailyMinutesDown": {
       "2026-08-11": 8,
-      "2026-08-16": 2
+      "2026-08-16": 6
     }
   },
   {
@@ -1448,9 +1448,9 @@
     "slug": "video-hosting-platform",
     "status": "down",
     "uptime": "99.30%",
-    "uptimeDay": "99.88%",
-    "uptimeWeek": "99.90%",
-    "uptimeMonth": "99.98%",
+    "uptimeDay": "99.46%",
+    "uptimeWeek": "99.84%",
+    "uptimeMonth": "99.96%",
     "uptimeYear": "99.83%",
     "time": 572,
     "timeDay": 578,
@@ -1476,7 +1476,7 @@
       "2026-06-19": 19,
       "2026-07-08": 36,
       "2026-08-11": 8,
-      "2026-08-16": 2
+      "2026-08-16": 8
     }
   },
   {
