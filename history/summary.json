@@ -200,17 +200,17 @@
     "url": "https://demo-storyteller.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/demo-storyteller.elfhosted.com.ico",
     "slug": "demo-storyteller",
-    "status": "down",
+    "status": "up",
     "uptime": "99.93%",
-    "uptimeDay": "99.44%",
-    "uptimeWeek": "99.92%",
-    "uptimeMonth": "99.84%",
+    "uptimeDay": "99.21%",
+    "uptimeWeek": "99.89%",
+    "uptimeMonth": "99.83%",
     "uptimeYear": "99.93%",
-    "time": 1230,
-    "timeDay": 855,
-    "timeWeek": 1159,
-    "timeMonth": 4225,
-    "timeYear": 1230,
+    "time": 1228,
+    "timeDay": 829,
+    "timeWeek": 1121,
+    "timeMonth": 4139,
+    "timeYear": 1228,
     "dailyMinutesDown": {
       "2025-09-23": 23,
       "2025-10-27": 9,
@@ -220,7 +220,7 @@
       "2026-01-27": 14,
       "2026-04-21": 25,
       "2026-08-08": 64,
-      "2026-08-16": 8
+      "2026-08-16": 11
     }
   },
   {
@@ -1446,16 +1446,16 @@
     "url": "https://video.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/video.elfhosted.com.ico",
     "slug": "video-hosting-platform",
-    "status": "down",
+    "status": "up",
     "uptime": "99.30%",
-    "uptimeDay": "99.46%",
-    "uptimeWeek": "99.84%",
+    "uptimeDay": "99.26%",
+    "uptimeWeek": "99.81%",
     "uptimeMonth": "99.96%",
-    "uptimeYear": "99.83%",
+    "uptimeYear": "99.82%",
     "time": 572,
-    "timeDay": 578,
-    "timeWeek": 587,
-    "timeMonth": 618,
+    "timeDay": 596,
+    "timeWeek": 591,
+    "timeMonth": 619,
     "timeYear": 582,
     "dailyMinutesDown": {
       "2025-09-01": 12,
@@ -1476,7 +1476,7 @@
       "2026-06-19": 19,
       "2026-07-08": 36,
       "2026-08-11": 8,
-      "2026-08-16": 8
+      "2026-08-16": 11
     }
   },
   {
