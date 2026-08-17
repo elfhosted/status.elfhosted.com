@@ -726,17 +726,17 @@
     "url": "https://nuviostreams.hayd.uk",
     "icon": "https://icons.duckduckgo.com/ip3/nuviostreams.hayd.uk.ico",
     "slug": "nuvio-streams-stremio-addon",
-    "status": "down",
+    "status": "up",
     "uptime": "98.68%",
-    "uptimeDay": "99.87%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "99.90%",
+    "uptimeDay": "99.73%",
+    "uptimeWeek": "99.96%",
+    "uptimeMonth": "99.89%",
     "uptimeYear": "98.66%",
-    "time": 1443,
-    "timeDay": 195,
-    "timeWeek": 483,
-    "timeMonth": 1825,
-    "timeYear": 1370,
+    "time": 1442,
+    "timeDay": 483,
+    "timeWeek": 519,
+    "timeMonth": 1801,
+    "timeYear": 1369,
     "dailyMinutesDown": {
       "2025-08-25": 9,
       "2025-08-24": 6,
@@ -772,7 +772,7 @@
       "2026-07-22": 7,
       "2026-07-25": 24,
       "2026-07-27": 13,
-      "2026-08-17": 2
+      "2026-08-17": 4
     }
   },
   {
@@ -964,10 +964,10 @@
     "url": "https://speed-backend.elfhosted.cc/empty.php",
     "icon": "https://icons.duckduckgo.com/ip3/speed-backend.elfhosted.cc.ico",
     "slug": "speed-test-endpoint-us-wa",
-    "status": "up",
+    "status": "down",
     "uptime": "99.90%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.89%",
+    "uptimeWeek": "99.98%",
     "uptimeMonth": "99.97%",
     "uptimeYear": "99.92%",
     "time": 309,
@@ -983,7 +983,8 @@
       "2025-12-05": 30,
       "2026-04-26": 18,
       "2026-07-02": 138,
-      "2026-07-22": 13
+      "2026-07-22": 13,
+      "2026-08-17": 2
     }
   },
   {
@@ -991,10 +992,10 @@
     "url": "https://speed-backend.elfhosted.cafe/empty.php",
     "icon": "https://icons.duckduckgo.com/ip3/speed-backend.elfhosted.cafe.ico",
     "slug": "speed-test-endpoint-na-east",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.90%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 354,
@@ -1002,7 +1003,9 @@
     "timeWeek": 343,
     "timeMonth": 383,
     "timeYear": 354,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-08-17": 1
+    }
   },
   {
     "name": "Store / Account Management Platform",
@@ -1085,17 +1088,17 @@
     "url": "https://streamvix.hayd.uk",
     "icon": "https://icons.duckduckgo.com/ip3/streamvix.hayd.uk.ico",
     "slug": "stream-vix-stremio-addon-hayduk",
-    "status": "down",
+    "status": "up",
     "uptime": "99.69%",
-    "uptimeDay": "99.87%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.71%",
+    "uptimeWeek": "99.96%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "99.69%",
-    "time": 1304,
-    "timeDay": 530,
-    "timeWeek": 924,
-    "timeMonth": 777,
-    "timeYear": 1304,
+    "time": 1303,
+    "timeDay": 745,
+    "timeWeek": 928,
+    "timeMonth": 782,
+    "timeYear": 1303,
     "dailyMinutesDown": {
       "2025-11-18": 172,
       "2025-11-26": 9,
@@ -1124,7 +1127,7 @@
       "2026-05-14": 50,
       "2026-05-17": 60,
       "2026-05-31": 20,
-      "2026-08-17": 2
+      "2026-08-17": 4
     }
   },
   {
