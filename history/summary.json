@@ -150,7 +150,6 @@
     "timeMonth": 1142,
     "timeYear": 972,
     "dailyMinutesDown": {
-      "2025-08-21": 34,
       "2025-08-22": 30,
       "2025-08-25": 9,
       "2025-08-24": 3,
@@ -671,7 +670,6 @@
     "timeMonth": 285,
     "timeYear": 335,
     "dailyMinutesDown": {
-      "2025-08-21": 58,
       "2025-08-22": 30,
       "2025-08-29": 31,
       "2025-10-07": 29,
@@ -1262,17 +1260,17 @@
     "url": "https://tmdb.elfhosted.com/configure",
     "icon": "https://icons.duckduckgo.com/ip3/tmdb.elfhosted.com.ico",
     "slug": "stremio-tmdb-addon",
-    "status": "degraded",
+    "status": "up",
     "uptime": "99.71%",
-    "uptimeDay": "99.62%",
-    "uptimeWeek": "99.26%",
-    "uptimeMonth": "99.04%",
+    "uptimeDay": "99.43%",
+    "uptimeWeek": "99.23%",
+    "uptimeMonth": "99.03%",
     "uptimeYear": "99.67%",
     "time": 1192,
-    "timeDay": 12388,
-    "timeWeek": 10785,
-    "timeMonth": 4306,
-    "timeYear": 1250,
+    "timeDay": 10211,
+    "timeWeek": 10569,
+    "timeMonth": 4289,
+    "timeYear": 1251,
     "dailyMinutesDown": {
       "2026-05-20": 122,
       "2026-05-19": 25,
@@ -1319,7 +1317,7 @@
       "2026-08-17": 7,
       "2026-08-18": 9,
       "2026-08-20": 5,
-      "2026-08-21": 0
+      "2026-08-21": 3
     }
   },
   {
