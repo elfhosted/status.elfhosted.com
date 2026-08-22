@@ -116,7 +116,7 @@
     "timeDay": 589,
     "timeWeek": 708,
     "timeMonth": 807,
-    "timeYear": 884,
+    "timeYear": 886,
     "dailyMinutesDown": {
       "2025-08-26": 10,
       "2025-08-28": 12,
@@ -258,7 +258,7 @@
     "timeDay": 290,
     "timeWeek": 388,
     "timeMonth": 675,
-    "timeYear": 876,
+    "timeYear": 877,
     "dailyMinutesDown": {
       "2025-08-25": 11,
       "2025-08-27": 30,
@@ -301,7 +301,7 @@
     "timeDay": 872,
     "timeWeek": 960,
     "timeMonth": 887,
-    "timeYear": 964,
+    "timeYear": 965,
     "dailyMinutesDown": {
       "2025-09-30": 51,
       "2025-10-26": 25,
@@ -608,7 +608,7 @@
     "timeDay": 449,
     "timeWeek": 12467,
     "timeMonth": 7307,
-    "timeYear": 2749,
+    "timeYear": 2751,
     "dailyMinutesDown": {
       "2026-03-16": 77,
       "2026-03-17": 60,
@@ -668,7 +668,7 @@
     "timeDay": 152,
     "timeWeek": 257,
     "timeMonth": 288,
-    "timeYear": 332,
+    "timeYear": 331,
     "dailyMinutesDown": {
       "2025-08-29": 31,
       "2025-10-07": 29,
@@ -733,7 +733,7 @@
     "timeDay": 415,
     "timeWeek": 535,
     "timeMonth": 511,
-    "timeYear": 1363,
+    "timeYear": 1365,
     "dailyMinutesDown": {
       "2025-08-25": 9,
       "2025-08-24": 6,
@@ -847,7 +847,7 @@
     "timeDay": 301,
     "timeWeek": 403,
     "timeMonth": 411,
-    "timeYear": 418,
+    "timeYear": 417,
     "dailyMinutesDown": {
       "2025-09-23": 16,
       "2025-10-27": 9,
@@ -921,7 +921,7 @@
     "timeDay": 85,
     "timeWeek": 250,
     "timeMonth": 492,
-    "timeYear": 411,
+    "timeYear": 410,
     "dailyMinutesDown": {
       "2025-08-31": 21,
       "2025-09-21": 11,
@@ -973,7 +973,7 @@
     "timeDay": 270,
     "timeWeek": 237,
     "timeMonth": 211,
-    "timeYear": 331,
+    "timeYear": 332,
     "dailyMinutesDown": {
       "2025-09-23": 104,
       "2025-10-07": 20,
@@ -1166,7 +1166,7 @@
     "timeDay": 1360,
     "timeWeek": 1627,
     "timeMonth": 6380,
-    "timeYear": 1632,
+    "timeYear": 1633,
     "dailyMinutesDown": {
       "2025-11-10": 72,
       "2025-11-18": 142,
@@ -1260,16 +1260,16 @@
     "url": "https://tmdb.elfhosted.com/configure",
     "icon": "https://icons.duckduckgo.com/ip3/tmdb.elfhosted.com.ico",
     "slug": "stremio-tmdb-addon",
-    "status": "degraded",
+    "status": "up",
     "uptime": "99.74%",
-    "uptimeDay": "99.90%",
-    "uptimeWeek": "99.39%",
+    "uptimeDay": "99.75%",
+    "uptimeWeek": "99.37%",
     "uptimeMonth": "99.18%",
     "uptimeYear": "99.69%",
-    "time": 1212,
-    "timeDay": 9669,
-    "timeWeek": 10053,
-    "timeMonth": 4720,
+    "time": 1213,
+    "timeDay": 6958,
+    "timeWeek": 9823,
+    "timeMonth": 4725,
     "timeYear": 1271,
     "dailyMinutesDown": {
       "2026-05-21": 70,
@@ -1316,7 +1316,7 @@
       "2026-08-18": 9,
       "2026-08-20": 5,
       "2026-08-21": 7,
-      "2026-08-22": 1
+      "2026-08-22": 4
     }
   },
   {
