@@ -861,17 +861,17 @@
     "url": "https://speed-backend.elfhosted.coffee/empty.php",
     "icon": "https://icons.duckduckgo.com/ip3/speed-backend.elfhosted.coffee.ico",
     "slug": "speed-test-endpoint-eu-nl",
-    "status": "degraded",
+    "status": "up",
     "uptime": "80.40%",
-    "uptimeDay": "99.91%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.79%",
+    "uptimeWeek": "99.97%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "80.40%",
-    "time": 783,
-    "timeDay": 7092,
-    "timeWeek": 2313,
-    "timeMonth": 931,
-    "timeYear": 783,
+    "time": 792,
+    "timeDay": 5148,
+    "timeWeek": 2182,
+    "timeMonth": 941,
+    "timeYear": 792,
     "dailyMinutesDown": {
       "2026-07-11": 1435,
       "2026-07-10": 1440,
@@ -885,7 +885,7 @@
       "2026-07-02": 1440,
       "2026-07-01": 1440,
       "2026-06-30": 826,
-      "2026-08-22": 1
+      "2026-08-22": 3
     }
   },
   {
