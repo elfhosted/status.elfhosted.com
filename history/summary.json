@@ -1479,23 +1479,23 @@
     "url": "https://watchly.elfhosted.com/",
     "icon": "https://icons.duckduckgo.com/ip3/watchly.elfhosted.com.ico",
     "slug": "watchly-stremio-addon",
-    "status": "down",
+    "status": "up",
     "uptime": "99.98%",
-    "uptimeDay": "99.85%",
-    "uptimeWeek": "99.98%",
+    "uptimeDay": "99.74%",
+    "uptimeWeek": "99.96%",
     "uptimeMonth": "99.99%",
     "uptimeYear": "99.98%",
-    "time": 1546,
-    "timeDay": 4072,
-    "timeWeek": 1753,
-    "timeMonth": 2127,
-    "timeYear": 1546,
+    "time": 1551,
+    "timeDay": 3551,
+    "timeWeek": 1912,
+    "timeMonth": 2155,
+    "timeYear": 1551,
     "dailyMinutesDown": {
       "2025-12-30": 8,
       "2026-02-27": 18,
       "2026-03-05": 26,
       "2026-04-04": 13,
-      "2026-08-24": 2
+      "2026-08-24": 4
     }
   },
   {
