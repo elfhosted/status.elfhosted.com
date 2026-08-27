@@ -288,9 +288,9 @@
     "slug": "formulio-stremio-addon",
     "status": "down",
     "uptime": "86.00%",
-    "uptimeDay": "99.89%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.72%",
+    "uptimeWeek": "99.96%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "84.48%",
     "time": 902,
     "timeDay": 678,
@@ -365,7 +365,7 @@
       "2026-02-17": 31,
       "2026-03-03": 20,
       "2026-04-30": 57,
-      "2026-08-27": 2
+      "2026-08-27": 4
     }
   },
   {
@@ -1440,8 +1440,8 @@
     "slug": "video-hosting-platform",
     "status": "down",
     "uptime": "99.32%",
-    "uptimeDay": "99.85%",
-    "uptimeWeek": "99.98%",
+    "uptimeDay": "99.72%",
+    "uptimeWeek": "99.96%",
     "uptimeMonth": "99.95%",
     "uptimeYear": "99.82%",
     "time": 573,
@@ -1469,7 +1469,7 @@
       "2026-07-08": 36,
       "2026-08-11": 8,
       "2026-08-16": 11,
-      "2026-08-27": 2
+      "2026-08-27": 4
     }
   },
   {
