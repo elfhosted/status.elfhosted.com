@@ -935,21 +935,21 @@
     "url": "https://speed-backend.elfhosted.surf/empty.php",
     "icon": "https://icons.duckduckgo.com/ip3/speed-backend.elfhosted.surf.ico",
     "slug": "speed-test-endpoint-au",
-    "status": "down",
+    "status": "up",
     "uptime": "99.99%",
-    "uptimeDay": "99.88%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "99.99%",
+    "uptimeDay": "99.75%",
+    "uptimeWeek": "99.96%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "99.99%",
-    "time": 707,
-    "timeDay": 591,
-    "timeWeek": 667,
-    "timeMonth": 712,
-    "timeYear": 707,
+    "time": 708,
+    "timeDay": 675,
+    "timeWeek": 679,
+    "timeMonth": 713,
+    "timeYear": 708,
     "dailyMinutesDown": {
       "2026-07-29": 3,
       "2026-08-19": 4,
-      "2026-09-01": 2
+      "2026-09-01": 4
     }
   },
   {
