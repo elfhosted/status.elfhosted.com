@@ -936,22 +936,22 @@
     "url": "https://speed-backend.elfhosted.surf/empty.php",
     "icon": "https://icons.duckduckgo.com/ip3/speed-backend.elfhosted.surf.ico",
     "slug": "speed-test-endpoint-au",
-    "status": "down",
+    "status": "up",
     "uptime": "99.98%",
-    "uptimeDay": "99.89%",
-    "uptimeWeek": "99.95%",
+    "uptimeDay": "99.78%",
+    "uptimeWeek": "99.93%",
     "uptimeMonth": "99.98%",
     "uptimeYear": "99.98%",
-    "time": 716,
-    "timeDay": 734,
-    "timeWeek": 761,
-    "timeMonth": 734,
-    "timeYear": 716,
+    "time": 719,
+    "timeDay": 828,
+    "timeWeek": 779,
+    "timeMonth": 740,
+    "timeYear": 719,
     "dailyMinutesDown": {
       "2026-07-29": 3,
       "2026-08-19": 4,
       "2026-09-01": 4,
-      "2026-09-04": 2
+      "2026-09-04": 3
     }
   },
   {
