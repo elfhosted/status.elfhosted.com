@@ -1,7 +1,7 @@
 url: https://harbor.elfhosted.com/themes/api/health
-status: down
-code: 502
-responseTime: 147
-lastUpdated: 2026-09-08T02:35:35.925Z
+status: up
+code: 200
+responseTime: 878
+lastUpdated: 2026-09-08T03:00:33.496Z
 startTime: 2026-08-10T07:57:03.782Z
 generator: Upptime <https://github.com/upptime/upptime>
