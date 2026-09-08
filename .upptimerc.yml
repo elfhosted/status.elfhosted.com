@@ -345,6 +345,15 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200
+  - name: XRDB Ratings Overlays
+    # The root, not an artwork path. /poster/* and friends are served from the
+    # Cloudflare edge cache, so a check against one would go on reporting green
+    # with every pod down. This path is uncached and reaches the origin.
+    url: https://xrdb.elfhosted.com/
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200
   - name: YouTubio Stremio Addon
     url: https://youtubio.elfhosted.com/
     assignees:
