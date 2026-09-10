@@ -1,7 +1,7 @@
 url: https://fnky.nz
-status: up
-code: 200
+status: down
+code: 502
 responseTime: 584
-lastUpdated: 2026-09-09T23:11:26.127Z
+lastUpdated: 2026-09-10T02:20:47.278Z
 startTime: 2025-06-27T05:03:06.218Z
 generator: Upptime <https://github.com/upptime/upptime>
