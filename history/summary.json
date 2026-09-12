@@ -863,11 +863,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/speed-backend.elfhosted.coffee.ico",
     "slug": "speed-test-endpoint-eu-nl",
     "status": "up",
-    "uptime": "85.61%",
+    "uptime": "85.62%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.99%",
-    "uptimeYear": "85.61%",
+    "uptimeYear": "85.62%",
     "time": 719,
     "timeDay": 803,
     "timeWeek": 504,
@@ -1208,10 +1208,10 @@
     "url": "https://streailer.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/streailer.elfhosted.com.ico",
     "slug": "stremio-streailer-addon",
-    "status": "up",
+    "status": "down",
     "uptime": "99.98%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.88%",
+    "uptimeWeek": "99.98%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
     "time": 1424,
@@ -1221,7 +1221,8 @@
     "timeYear": 1424,
     "dailyMinutesDown": {
       "2026-03-05": 46,
-      "2026-08-08": 25
+      "2026-08-08": 25,
+      "2026-09-12": 2
     }
   },
   {
