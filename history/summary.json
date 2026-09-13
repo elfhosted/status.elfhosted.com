@@ -560,21 +560,21 @@
     "url": "https://harbor-discord-bot.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/harbor-discord-bot.elfhosted.com.ico",
     "slug": "harbor-control-discord-bot",
-    "status": "down",
+    "status": "up",
     "uptime": "99.89%",
-    "uptimeDay": "99.92%",
-    "uptimeWeek": "99.84%",
+    "uptimeDay": "99.77%",
+    "uptimeWeek": "99.82%",
     "uptimeMonth": "99.96%",
     "uptimeYear": "99.89%",
-    "time": 607,
-    "timeDay": 514,
-    "timeWeek": 591,
-    "timeMonth": 609,
-    "timeYear": 607,
+    "time": 611,
+    "timeDay": 606,
+    "timeWeek": 604,
+    "timeMonth": 614,
+    "timeYear": 611,
     "dailyMinutesDown": {
       "2026-08-10": 37,
       "2026-09-11": 15,
-      "2026-09-13": 1
+      "2026-09-13": 3
     }
   },
   {
