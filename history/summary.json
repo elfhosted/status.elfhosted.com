@@ -146,7 +146,7 @@
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "95.06%",
+    "uptimeYear": "95.09%",
     "time": 902,
     "timeDay": 665,
     "timeWeek": 703,
@@ -859,11 +859,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/speed-backend.elfhosted.coffee.ico",
     "slug": "speed-test-endpoint-eu-nl",
     "status": "up",
-    "uptime": "86.86%",
+    "uptime": "86.87%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.99%",
-    "uptimeYear": "86.86%",
+    "uptimeYear": "86.87%",
     "time": 700,
     "timeDay": 337,
     "timeWeek": 527,
@@ -1615,10 +1615,10 @@
     "url": "https://zyclops.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/zyclops.elfhosted.com.ico",
     "slug": "zyclops",
-    "status": "up",
+    "status": "down",
     "uptime": "99.83%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.86%",
+    "uptimeWeek": "99.98%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.83%",
     "time": 923,
@@ -1631,7 +1631,8 @@
       "2026-07-02": 154,
       "2026-07-15": 53,
       "2026-07-21": 306,
-      "2026-08-07": 10
+      "2026-08-07": 10,
+      "2026-09-20": 2
     }
   }
 ]
