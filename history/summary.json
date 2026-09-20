@@ -146,7 +146,7 @@
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "95.16%",
+    "uptimeYear": "95.17%",
     "time": 902,
     "timeDay": 665,
     "timeWeek": 703,
@@ -1089,16 +1089,16 @@
     "url": "https://streamvix.hayd.uk",
     "icon": "https://icons.duckduckgo.com/ip3/streamvix.hayd.uk.ico",
     "slug": "stream-vix-stremio-addon-hayduk",
-    "status": "down",
+    "status": "up",
     "uptime": "99.73%",
-    "uptimeDay": "99.87%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.71%",
+    "uptimeWeek": "99.96%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "99.73%",
     "time": 1249,
-    "timeDay": 398,
-    "timeWeek": 729,
-    "timeMonth": 671,
+    "timeDay": 791,
+    "timeWeek": 786,
+    "timeMonth": 687,
     "timeYear": 1249,
     "dailyMinutesDown": {
       "2025-11-18": 172,
@@ -1129,7 +1129,7 @@
       "2026-05-17": 60,
       "2026-05-31": 20,
       "2026-08-17": 4,
-      "2026-09-20": 2
+      "2026-09-20": 4
     }
   },
   {
@@ -1347,16 +1347,16 @@
     "url": "https://tvgardenio.hayd.uk/manifest.json",
     "icon": "https://icons.duckduckgo.com/ip3/tvgardenio.hayd.uk.ico",
     "slug": "stremio-tv-gardenio-addon-hayduk",
-    "status": "down",
+    "status": "up",
     "uptime": "99.92%",
-    "uptimeDay": "99.88%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.73%",
+    "uptimeWeek": "99.96%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "99.92%",
     "time": 857,
-    "timeDay": 594,
-    "timeWeek": 922,
-    "timeMonth": 1005,
+    "timeDay": 768,
+    "timeWeek": 924,
+    "timeMonth": 1003,
     "timeYear": 857,
     "dailyMinutesDown": {
       "2025-11-18": 213,
@@ -1364,7 +1364,7 @@
       "2026-02-17": 31,
       "2026-06-03": 87,
       "2026-07-31": 5,
-      "2026-09-20": 2
+      "2026-09-20": 4
     }
   },
   {
