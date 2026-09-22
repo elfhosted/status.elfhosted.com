@@ -1,7 +1,7 @@
 url: https://aiometadata.elfhosted.com
-status: up
-code: 200
-responseTime: 1245
-lastUpdated: 2026-09-21T23:11:09.867Z
+status: down
+code: 503
+responseTime: 656
+lastUpdated: 2026-09-22T07:55:33.392Z
 startTime: 2025-10-12T01:41:39.547Z
 generator: Upptime <https://github.com/upptime/upptime>
