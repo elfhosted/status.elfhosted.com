@@ -1397,20 +1397,20 @@
     "url": "https://torrin.elfhosted.com/",
     "icon": "https://icons.duckduckgo.com/ip3/torrin.elfhosted.com.ico",
     "slug": "torrin-stremio-addon",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.85%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "99.99%",
+    "uptimeDay": "99.66%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "100.00%",
-    "time": 1290,
-    "timeDay": 1131,
-    "timeWeek": 1221,
-    "timeMonth": 1221,
-    "timeYear": 1290,
+    "time": 1300,
+    "timeDay": 1780,
+    "timeWeek": 1372,
+    "timeMonth": 1257,
+    "timeYear": 1300,
     "dailyMinutesDown": {
       "2026-09-13": 3,
-      "2026-09-22": 2
+      "2026-09-22": 5
     }
   },
   {
@@ -1448,16 +1448,16 @@
     "url": "https://video.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/video.elfhosted.com.ico",
     "slug": "video-hosting-platform",
-    "status": "down",
-    "uptime": "99.36%",
-    "uptimeDay": "99.87%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "99.94%",
+    "status": "up",
+    "uptime": "99.35%",
+    "uptimeDay": "99.68%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.93%",
     "uptimeYear": "99.84%",
     "time": 574,
-    "timeDay": 452,
-    "timeWeek": 536,
-    "timeMonth": 573,
+    "timeDay": 532,
+    "timeWeek": 550,
+    "timeMonth": 575,
     "timeYear": 584,
     "dailyMinutesDown": {
       "2025-09-23": 18,
@@ -1480,7 +1480,7 @@
       "2026-09-01": 5,
       "2026-09-02": 5,
       "2026-09-11": 5,
-      "2026-09-22": 2
+      "2026-09-22": 5
     }
   },
   {
