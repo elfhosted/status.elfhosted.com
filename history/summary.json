@@ -191,17 +191,17 @@
     "url": "https://demo-storyteller.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/demo-storyteller.elfhosted.com.ico",
     "slug": "demo-storyteller",
-    "status": "degraded",
+    "status": "up",
     "uptime": "99.93%",
-    "uptimeDay": "99.89%",
-    "uptimeWeek": "99.94%",
-    "uptimeMonth": "99.99%",
+    "uptimeDay": "99.75%",
+    "uptimeWeek": "99.92%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "99.93%",
-    "time": 1239,
-    "timeDay": 4450,
-    "timeWeek": 1679,
-    "timeMonth": 1316,
-    "timeYear": 1253,
+    "time": 1238,
+    "timeDay": 3359,
+    "timeWeek": 1638,
+    "timeMonth": 1312,
+    "timeYear": 1252,
     "dailyMinutesDown": {
       "2025-09-23": 23,
       "2025-10-27": 9,
@@ -213,7 +213,7 @@
       "2026-08-08": 64,
       "2026-08-16": 11,
       "2026-09-15": 5,
-      "2026-09-22": 2
+      "2026-09-22": 4
     }
   },
   {
