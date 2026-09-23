@@ -855,11 +855,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/speed-backend.elfhosted.coffee.ico",
     "slug": "speed-test-endpoint-eu-nl",
     "status": "up",
-    "uptime": "87.37%",
+    "uptime": "87.39%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "87.37%",
+    "uptimeYear": "87.39%",
     "time": 692,
     "timeDay": 462,
     "timeWeek": 465,
@@ -935,10 +935,10 @@
     "url": "https://speed-backend.elfhosted.surf/empty.php",
     "icon": "https://icons.duckduckgo.com/ip3/speed-backend.elfhosted.surf.ico",
     "slug": "speed-test-endpoint-au",
-    "status": "up",
+    "status": "down",
     "uptime": "99.98%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.89%",
+    "uptimeWeek": "99.98%",
     "uptimeMonth": "99.97%",
     "uptimeYear": "99.98%",
     "time": 715,
@@ -952,7 +952,8 @@
       "2026-09-01": 4,
       "2026-09-04": 3,
       "2026-09-08": 3,
-      "2026-09-15": 4
+      "2026-09-15": 4,
+      "2026-09-23": 2
     }
   },
   {
