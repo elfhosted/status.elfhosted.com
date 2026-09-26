@@ -169,6 +169,13 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200
+  - name: Pictorium Stremio Addon
+    # The root is uncached (cf-cache-status: DYNAMIC), so this reaches the pods.
+    url: https://pictorium.elfhosted.com/
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200
   - name: Playlistio Stremio Addon
     url: https://playlistio.elfhosted.com
     # __dangerous__body_down_if_text_missing: White Zombie
