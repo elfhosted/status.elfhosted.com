@@ -1,7 +1,7 @@
 url: https://stremify.hayd.uk/configure
-status: up
-code: 200
-responseTime: 987
-lastUpdated: 2026-09-27T23:11:56.505Z
+status: down
+code: 500
+responseTime: 79
+lastUpdated: 2026-09-28T04:31:30.976Z
 startTime: 2025-11-15T20:08:07.437Z
 generator: Upptime <https://github.com/upptime/upptime>
