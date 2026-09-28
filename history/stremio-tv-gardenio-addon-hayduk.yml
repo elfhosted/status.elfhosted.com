@@ -1,7 +1,7 @@
 url: https://tvgardenio.hayd.uk/manifest.json
-status: up
-code: 200
-responseTime: 86
-lastUpdated: 2026-09-28T17:15:52.421Z
+status: down
+code: 500
+responseTime: 214
+lastUpdated: 2026-09-28T17:53:08.184Z
 startTime: 2025-11-15T20:08:06.361Z
 generator: Upptime <https://github.com/upptime/upptime>
