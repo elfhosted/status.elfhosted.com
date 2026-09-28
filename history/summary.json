@@ -282,17 +282,17 @@
     "url": "https://formulio.hayd.uk/",
     "icon": "https://icons.duckduckgo.com/ip3/formulio.hayd.uk.ico",
     "slug": "formulio-stremio-addon",
-    "status": "down",
+    "status": "up",
     "uptime": "87.04%",
-    "uptimeDay": "99.50%",
-    "uptimeWeek": "99.93%",
+    "uptimeDay": "99.30%",
+    "uptimeWeek": "99.90%",
     "uptimeMonth": "99.98%",
     "uptimeYear": "84.48%",
     "time": 937,
-    "timeDay": 311,
-    "timeWeek": 2246,
-    "timeMonth": 1288,
-    "timeYear": 1005,
+    "timeDay": 367,
+    "timeWeek": 2119,
+    "timeMonth": 1271,
+    "timeYear": 1004,
     "dailyMinutesDown": {
       "2025-09-30": 51,
       "2025-10-26": 25,
@@ -362,7 +362,7 @@
       "2026-03-03": 20,
       "2026-04-30": 57,
       "2026-08-27": 6,
-      "2026-09-28": 7
+      "2026-09-28": 10
     }
   },
   {
@@ -1055,17 +1055,17 @@
     "url": "https://streamvix.hayd.uk",
     "icon": "https://icons.duckduckgo.com/ip3/streamvix.hayd.uk.ico",
     "slug": "stream-vix-stremio-addon-hayduk",
-    "status": "down",
+    "status": "up",
     "uptime": "99.73%",
-    "uptimeDay": "98.86%",
-    "uptimeWeek": "99.80%",
+    "uptimeDay": "98.71%",
+    "uptimeWeek": "99.78%",
     "uptimeMonth": "99.94%",
     "uptimeYear": "99.73%",
-    "time": 1213,
-    "timeDay": 212,
-    "timeWeek": 457,
-    "timeMonth": 592,
-    "timeYear": 1213,
+    "time": 1211,
+    "timeDay": 223,
+    "timeWeek": 449,
+    "timeMonth": 586,
+    "timeYear": 1211,
     "dailyMinutesDown": {
       "2025-11-18": 172,
       "2025-11-26": 9,
@@ -1097,7 +1097,7 @@
       "2026-08-17": 4,
       "2026-09-20": 4,
       "2026-09-23": 4,
-      "2026-09-28": 17
+      "2026-09-28": 19
     }
   },
   {
@@ -1105,22 +1105,22 @@
     "url": "https://stremify.hayd.uk/configure",
     "icon": "https://icons.duckduckgo.com/ip3/stremify.hayd.uk.ico",
     "slug": "stremify-stremio-addon-hayduk",
-    "status": "down",
+    "status": "up",
     "uptime": "99.95%",
-    "uptimeDay": "98.91%",
-    "uptimeWeek": "99.84%",
+    "uptimeDay": "98.76%",
+    "uptimeWeek": "99.82%",
     "uptimeMonth": "99.96%",
     "uptimeYear": "99.95%",
     "time": 795,
-    "timeDay": 210,
-    "timeWeek": 520,
-    "timeMonth": 846,
+    "timeDay": 249,
+    "timeWeek": 522,
+    "timeMonth": 839,
     "timeYear": 795,
     "dailyMinutesDown": {
       "2025-11-18": 165,
       "2025-12-03": 28,
       "2026-02-17": 31,
-      "2026-09-28": 16
+      "2026-09-28": 18
     }
   },
   {
@@ -1316,17 +1316,17 @@
     "url": "https://tvgardenio.hayd.uk/manifest.json",
     "icon": "https://icons.duckduckgo.com/ip3/tvgardenio.hayd.uk.ico",
     "slug": "stremio-tv-gardenio-addon-hayduk",
-    "status": "down",
+    "status": "up",
     "uptime": "99.92%",
-    "uptimeDay": "98.94%",
-    "uptimeWeek": "99.85%",
-    "uptimeMonth": "99.96%",
+    "uptimeDay": "98.81%",
+    "uptimeWeek": "99.83%",
+    "uptimeMonth": "99.95%",
     "uptimeYear": "99.92%",
-    "time": 852,
-    "timeDay": 198,
-    "timeWeek": 740,
-    "timeMonth": 931,
-    "timeYear": 852,
+    "time": 850,
+    "timeDay": 209,
+    "timeWeek": 710,
+    "timeMonth": 916,
+    "timeYear": 850,
     "dailyMinutesDown": {
       "2025-11-18": 213,
       "2025-12-03": 28,
@@ -1334,7 +1334,7 @@
       "2026-06-03": 87,
       "2026-07-31": 5,
       "2026-09-20": 4,
-      "2026-09-28": 16
+      "2026-09-28": 18
     }
   },
   {
@@ -1389,17 +1389,17 @@
     "url": "https://tvvoo.hayd.uk",
     "icon": "https://icons.duckduckgo.com/ip3/tvvoo.hayd.uk.ico",
     "slug": "tv-voo-stremio-addon-hayduk",
-    "status": "down",
+    "status": "up",
     "uptime": "99.93%",
-    "uptimeDay": "99.50%",
-    "uptimeWeek": "99.93%",
+    "uptimeDay": "99.38%",
+    "uptimeWeek": "99.91%",
     "uptimeMonth": "99.98%",
     "uptimeYear": "99.93%",
-    "time": 831,
-    "timeDay": 301,
-    "timeWeek": 376,
-    "timeMonth": 609,
-    "timeYear": 831,
+    "time": 829,
+    "timeDay": 288,
+    "timeWeek": 364,
+    "timeMonth": 598,
+    "timeYear": 829,
     "dailyMinutesDown": {
       "2025-11-18": 141,
       "2025-11-27": 7,
@@ -1412,7 +1412,7 @@
       "2026-07-22": 6,
       "2026-07-21": 10,
       "2026-07-31": 5,
-      "2026-09-28": 7
+      "2026-09-28": 9
     }
   },
   {
