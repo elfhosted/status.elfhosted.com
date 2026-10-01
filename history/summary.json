@@ -857,20 +857,20 @@
     "url": "https://speed-backend.elfhosted.wine/empty.php",
     "icon": "https://icons.duckduckgo.com/ip3/speed-backend.elfhosted.wine.ico",
     "slug": "speed-test-endpoint-eu-fr",
-    "status": "down",
+    "status": "up",
     "uptime": "99.99%",
-    "uptimeDay": "99.69%",
-    "uptimeWeek": "99.96%",
+    "uptimeDay": "99.55%",
+    "uptimeWeek": "99.94%",
     "uptimeMonth": "99.98%",
     "uptimeYear": "99.99%",
-    "time": 902,
-    "timeDay": 542,
-    "timeWeek": 695,
-    "timeMonth": 1623,
-    "timeYear": 902,
+    "time": 899,
+    "timeDay": 586,
+    "timeWeek": 687,
+    "timeMonth": 1594,
+    "timeYear": 899,
     "dailyMinutesDown": {
       "2026-09-15": 4,
-      "2026-10-01": 4
+      "2026-10-01": 6
     }
   },
   {
