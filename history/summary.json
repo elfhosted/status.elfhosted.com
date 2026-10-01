@@ -283,7 +283,7 @@
     "icon": "https://icons.duckduckgo.com/ip3/formulio.hayd.uk.ico",
     "slug": "formulio-stremio-addon",
     "status": "up",
-    "uptime": "87.11%",
+    "uptime": "87.12%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "99.81%",
     "uptimeMonth": "99.96%",
@@ -1201,16 +1201,16 @@
     "url": "https://submaker.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/submaker.elfhosted.com.ico",
     "slug": "stremio-submaker-addon",
-    "status": "down",
-    "uptime": "99.80%",
-    "uptimeDay": "99.86%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "99.80%",
+    "status": "up",
+    "uptime": "99.79%",
+    "uptimeDay": "98.94%",
+    "uptimeWeek": "99.85%",
+    "uptimeMonth": "99.96%",
+    "uptimeYear": "99.79%",
     "time": 600,
-    "timeDay": 487,
-    "timeWeek": 442,
-    "timeMonth": 511,
+    "timeDay": 581,
+    "timeWeek": 478,
+    "timeMonth": 518,
     "timeYear": 600,
     "dailyMinutesDown": {
       "2025-11-18": 169,
@@ -1228,7 +1228,7 @@
       "2026-01-12": 25,
       "2026-01-14": 32,
       "2026-01-27": 10,
-      "2026-10-01": 2
+      "2026-10-01": 15
     }
   },
   {
@@ -1423,16 +1423,16 @@
     "url": "https://video.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/video.elfhosted.com.ico",
     "slug": "video-hosting-platform",
-    "status": "down",
-    "uptime": "99.37%",
-    "uptimeDay": "99.86%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.95%",
+    "status": "up",
+    "uptime": "99.36%",
+    "uptimeDay": "98.95%",
+    "uptimeWeek": "99.80%",
+    "uptimeMonth": "99.92%",
     "uptimeYear": "99.84%",
     "time": 578,
-    "timeDay": 659,
-    "timeWeek": 613,
-    "timeMonth": 602,
+    "timeDay": 611,
+    "timeWeek": 609,
+    "timeMonth": 601,
     "timeYear": 589,
     "dailyMinutesDown": {
       "2025-10-09": 51,
@@ -1456,7 +1456,7 @@
       "2026-09-11": 5,
       "2026-09-22": 5,
       "2026-09-30": 5,
-      "2026-10-01": 2
+      "2026-10-01": 15
     }
   },
   {
