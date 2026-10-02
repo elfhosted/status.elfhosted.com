@@ -602,17 +602,17 @@
     "url": "$JACKETTIO_URL",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "jackettio-stremio-addon",
-    "status": "down",
+    "status": "up",
     "uptime": "99.52%",
-    "uptimeDay": "99.92%",
-    "uptimeWeek": "99.61%",
+    "uptimeDay": "99.75%",
+    "uptimeWeek": "99.59%",
     "uptimeMonth": "99.91%",
     "uptimeYear": "99.40%",
-    "time": 2610,
-    "timeDay": 8970,
-    "timeWeek": 8059,
-    "timeMonth": 3072,
-    "timeYear": 2834,
+    "time": 2630,
+    "timeDay": 17837,
+    "timeWeek": 9613,
+    "timeMonth": 3747,
+    "timeYear": 2863,
     "dailyMinutesDown": {
       "2026-03-18": 47,
       "2026-03-19": 328,
@@ -655,7 +655,7 @@
       "2026-08-21": 4,
       "2026-09-30": 12,
       "2026-10-01": 27,
-      "2026-10-02": 1
+      "2026-10-02": 4
     }
   },
   {
