@@ -911,17 +911,17 @@
     "url": "https://speed-backend.elfhosted.surf/empty.php",
     "icon": "https://icons.duckduckgo.com/ip3/speed-backend.elfhosted.surf.ico",
     "slug": "speed-test-endpoint-au",
-    "status": "down",
+    "status": "up",
     "uptime": "99.98%",
-    "uptimeDay": "99.88%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "99.97%",
+    "uptimeDay": "99.75%",
+    "uptimeWeek": "99.96%",
+    "uptimeMonth": "99.96%",
     "uptimeYear": "99.98%",
-    "time": 722,
-    "timeDay": 906,
-    "timeWeek": 783,
-    "timeMonth": 741,
-    "timeYear": 722,
+    "time": 725,
+    "timeDay": 966,
+    "timeWeek": 810,
+    "timeMonth": 749,
+    "timeYear": 725,
     "dailyMinutesDown": {
       "2026-07-29": 3,
       "2026-08-19": 4,
@@ -930,7 +930,7 @@
       "2026-09-08": 3,
       "2026-09-15": 4,
       "2026-09-23": 3,
-      "2026-10-02": 2
+      "2026-10-02": 4
     }
   },
   {
