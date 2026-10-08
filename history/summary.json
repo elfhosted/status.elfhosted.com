@@ -26,9 +26,9 @@
     "slug": "aio-metadata-stremio-addon",
     "status": "down",
     "uptime": "99.90%",
-    "uptimeDay": "99.26%",
-    "uptimeWeek": "97.99%",
-    "uptimeMonth": "99.50%",
+    "uptimeDay": "98.83%",
+    "uptimeWeek": "97.92%",
+    "uptimeMonth": "99.48%",
     "uptimeYear": "99.90%",
     "time": 899,
     "timeDay": 637,
@@ -52,7 +52,7 @@
       "2026-09-18": 5,
       "2026-09-22": 5,
       "2026-10-05": 192,
-      "2026-10-08": 11
+      "2026-10-08": 17
     }
   },
   {
@@ -60,16 +60,16 @@
     "url": "https://aiostreams.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/aiostreams.elfhosted.com.ico",
     "slug": "aio-streams-stremio-addons",
-    "status": "down",
+    "status": "up",
     "uptime": "99.91%",
-    "uptimeDay": "99.27%",
-    "uptimeWeek": "99.90%",
+    "uptimeDay": "99.08%",
+    "uptimeWeek": "99.87%",
     "uptimeMonth": "99.96%",
     "uptimeYear": "99.91%",
-    "time": 864,
-    "timeDay": 564,
-    "timeWeek": 776,
-    "timeMonth": 774,
+    "time": 863,
+    "timeDay": 618,
+    "timeWeek": 770,
+    "timeMonth": 773,
     "timeYear": 717,
     "dailyMinutesDown": {
       "2025-10-11": 8,
@@ -82,7 +82,7 @@
       "2026-04-20": 44,
       "2026-06-26": 43,
       "2026-09-15": 5,
-      "2026-10-08": 10
+      "2026-10-08": 13
     }
   },
   {
@@ -604,17 +604,17 @@
     "url": "$JACKETTIO_URL",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "jackettio-stremio-addon",
-    "status": "down",
+    "status": "up",
     "uptime": "99.54%",
-    "uptimeDay": "99.90%",
-    "uptimeWeek": "99.68%",
-    "uptimeMonth": "99.84%",
+    "uptimeDay": "99.56%",
+    "uptimeWeek": "99.63%",
+    "uptimeMonth": "99.83%",
     "uptimeYear": "99.41%",
-    "time": 2830,
-    "timeDay": 455,
-    "timeWeek": 12521,
-    "timeMonth": 6177,
-    "timeYear": 3021,
+    "time": 2849,
+    "timeDay": 10300,
+    "timeWeek": 13156,
+    "timeMonth": 6545,
+    "timeYear": 3040,
     "dailyMinutesDown": {
       "2026-03-19": 259,
       "2026-03-20": 68,
@@ -657,7 +657,7 @@
       "2026-09-30": 12,
       "2026-10-01": 27,
       "2026-10-02": 32,
-      "2026-10-08": 1
+      "2026-10-08": 6
     }
   },
   {
