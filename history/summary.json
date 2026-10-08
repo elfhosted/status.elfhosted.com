@@ -90,24 +90,24 @@
     "url": "https://chillibridge.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/chillibridge.elfhosted.com.ico",
     "slug": "chilli-bridge",
-    "status": "degraded",
+    "status": "up",
     "uptime": "99.90%",
-    "uptimeDay": "90.19%",
-    "uptimeWeek": "98.60%",
-    "uptimeMonth": "99.68%",
+    "uptimeDay": "90.04%",
+    "uptimeWeek": "98.58%",
+    "uptimeMonth": "99.67%",
     "uptimeYear": "99.90%",
-    "time": 1186,
-    "timeDay": 10313,
-    "timeWeek": 5568,
-    "timeMonth": 2393,
-    "timeYear": 1186,
+    "time": 1185,
+    "timeDay": 8983,
+    "timeWeek": 5217,
+    "timeMonth": 2355,
+    "timeYear": 1185,
     "dailyMinutesDown": {
       "2026-01-27": 13,
       "2026-05-21": 70,
       "2026-07-03": 84,
       "2026-07-25": 4,
       "2026-08-08": 73,
-      "2026-10-08": 141
+      "2026-10-08": 143
     }
   },
   {
@@ -193,16 +193,16 @@
     "url": "https://demo-storyteller.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/demo-storyteller.elfhosted.com.ico",
     "slug": "demo-storyteller",
-    "status": "degraded",
+    "status": "up",
     "uptime": "99.91%",
-    "uptimeDay": "90.78%",
-    "uptimeWeek": "98.68%",
+    "uptimeDay": "90.63%",
+    "uptimeWeek": "98.66%",
     "uptimeMonth": "99.65%",
     "uptimeYear": "99.91%",
     "time": 1492,
-    "timeDay": 20840,
-    "timeWeek": 11036,
-    "timeMonth": 3801,
+    "timeDay": 18085,
+    "timeWeek": 10306,
+    "timeMonth": 3753,
     "timeYear": 1543,
     "dailyMinutesDown": {
       "2025-10-27": 9,
@@ -217,7 +217,7 @@
       "2026-09-22": 4,
       "2026-09-23": 4,
       "2026-09-25": 7,
-      "2026-10-08": 133
+      "2026-10-08": 135
     }
   },
   {
