@@ -1,7 +1,7 @@
 url: https://rating-aggregator.elfhosted.com
-status: degraded
+status: up
 code: 200
-responseTime: 59626
-lastUpdated: 2026-10-08T20:55:41.674Z
+responseTime: 1632
+lastUpdated: 2026-10-08T21:38:00.398Z
 startTime: 2025-07-08T20:28:39.465Z
 generator: Upptime <https://github.com/upptime/upptime>
