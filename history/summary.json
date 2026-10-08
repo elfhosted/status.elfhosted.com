@@ -24,15 +24,15 @@
     "url": "https://aiometadata.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/aiometadata.elfhosted.com.ico",
     "slug": "aio-metadata-stremio-addon",
-    "status": "down",
+    "status": "up",
     "uptime": "99.90%",
-    "uptimeDay": "98.83%",
-    "uptimeWeek": "97.92%",
+    "uptimeDay": "98.67%",
+    "uptimeWeek": "97.90%",
     "uptimeMonth": "99.48%",
     "uptimeYear": "99.90%",
     "time": 899,
-    "timeDay": 637,
-    "timeWeek": 698,
+    "timeDay": 670,
+    "timeWeek": 701,
     "timeMonth": 742,
     "timeYear": 899,
     "dailyMinutesDown": {
@@ -52,7 +52,7 @@
       "2026-09-18": 5,
       "2026-09-22": 5,
       "2026-10-05": 192,
-      "2026-10-08": 17
+      "2026-10-08": 19
     }
   },
   {
