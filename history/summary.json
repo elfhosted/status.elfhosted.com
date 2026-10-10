@@ -831,11 +831,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/speed-backend.elfhosted.coffee.ico",
     "slug": "speed-test-endpoint-eu-nl",
     "status": "up",
-    "uptime": "89.29%",
+    "uptime": "89.30%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "89.29%",
+    "uptimeYear": "89.30%",
     "time": 673,
     "timeDay": 714,
     "timeWeek": 560,
@@ -1254,7 +1254,7 @@
     "timeDay": 1447,
     "timeWeek": 8047,
     "timeMonth": 3197,
-    "timeYear": 1537,
+    "timeYear": 1538,
     "dailyMinutesDown": {
       "2026-06-28": 32,
       "2026-06-29": 31,
@@ -1562,10 +1562,10 @@
     "url": "https://zyclops.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/zyclops.elfhosted.com.ico",
     "slug": "zyclops",
-    "status": "up",
+    "status": "down",
     "uptime": "99.84%",
-    "uptimeDay": "99.05%",
-    "uptimeWeek": "99.86%",
+    "uptimeDay": "98.93%",
+    "uptimeWeek": "99.85%",
     "uptimeMonth": "99.93%",
     "uptimeYear": "99.84%",
     "time": 913,
@@ -1581,7 +1581,7 @@
       "2026-08-07": 10,
       "2026-09-20": 5,
       "2026-09-30": 10,
-      "2026-10-10": 14
+      "2026-10-10": 16
     }
   }
 ]
