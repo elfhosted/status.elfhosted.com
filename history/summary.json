@@ -247,17 +247,17 @@
     "url": "https://fnky.nz",
     "icon": "https://icons.duckduckgo.com/ip3/fnky.nz.ico",
     "slug": "fnky-link-shortener",
-    "status": "down",
+    "status": "up",
     "uptime": "99.77%",
-    "uptimeDay": "99.64%",
-    "uptimeWeek": "99.95%",
-    "uptimeMonth": "99.99%",
+    "uptimeDay": "99.51%",
+    "uptimeWeek": "99.93%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "99.79%",
-    "time": 879,
-    "timeDay": 590,
-    "timeWeek": 819,
-    "timeMonth": 862,
-    "timeYear": 878,
+    "time": 880,
+    "timeDay": 888,
+    "timeWeek": 856,
+    "timeMonth": 869,
+    "timeYear": 879,
     "dailyMinutesDown": {
       "2025-10-20": 11,
       "2025-10-27": 9,
@@ -279,7 +279,7 @@
       "2026-07-27": 18,
       "2026-07-28": 5,
       "2026-09-09": 4,
-      "2026-10-10": 5
+      "2026-10-10": 7
     }
   },
   {
