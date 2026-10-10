@@ -1562,17 +1562,17 @@
     "url": "https://zyclops.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/zyclops.elfhosted.com.ico",
     "slug": "zyclops",
-    "status": "down",
+    "status": "up",
     "uptime": "99.84%",
-    "uptimeDay": "99.87%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "99.96%",
+    "uptimeDay": "99.05%",
+    "uptimeWeek": "99.86%",
+    "uptimeMonth": "99.93%",
     "uptimeYear": "99.84%",
-    "time": 912,
-    "timeDay": 932,
-    "timeWeek": 817,
-    "timeMonth": 783,
-    "timeYear": 912,
+    "time": 913,
+    "timeDay": 1196,
+    "timeWeek": 898,
+    "timeMonth": 802,
+    "timeYear": 913,
     "dailyMinutesDown": {
       "2026-06-26": 83,
       "2026-07-02": 154,
@@ -1581,7 +1581,7 @@
       "2026-08-07": 10,
       "2026-09-20": 5,
       "2026-09-30": 10,
-      "2026-10-10": 2
+      "2026-10-10": 14
     }
   }
 ]
