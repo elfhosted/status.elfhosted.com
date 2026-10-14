@@ -462,9 +462,9 @@
     "slug": "harbor-desktop-updates-stable",
     "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "99.89%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.60%",
+    "uptimeWeek": "99.94%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "99.99%",
     "time": 1040,
     "timeDay": 1226,
@@ -473,7 +473,7 @@
     "timeYear": 1040,
     "dailyMinutesDown": {
       "2026-08-10": 8,
-      "2026-10-14": 2
+      "2026-10-14": 6
     }
   },
   {
@@ -483,9 +483,9 @@
     "slug": "harbor-desktop-updates-beta",
     "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "99.91%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.62%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "99.99%",
     "time": 1063,
     "timeDay": 958,
@@ -494,7 +494,7 @@
     "timeYear": 1063,
     "dailyMinutesDown": {
       "2026-08-10": 7,
-      "2026-10-14": 1
+      "2026-10-14": 5
     }
   },
   {
@@ -567,23 +567,24 @@
     "url": "https://harbor-discord-bot.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/harbor-discord-bot.elfhosted.com.ico",
     "slug": "harbor-control-discord-bot",
-    "status": "up",
+    "status": "down",
     "uptime": "99.93%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.92%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "99.98%",
     "uptimeYear": "99.93%",
-    "time": 604,
-    "timeDay": 901,
-    "timeWeek": 679,
-    "timeMonth": 594,
-    "timeYear": 604,
+    "time": 610,
+    "timeDay": 1028,
+    "timeWeek": 738,
+    "timeMonth": 606,
+    "timeYear": 610,
     "dailyMinutesDown": {
       "2026-08-10": 37,
       "2026-09-11": 15,
       "2026-09-13": 3,
       "2026-09-23": 3,
-      "2026-09-28": 3
+      "2026-09-28": 3,
+      "2026-10-14": 1
     }
   },
   {
