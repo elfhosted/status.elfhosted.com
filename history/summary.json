@@ -288,17 +288,17 @@
     "url": "https://formulio.hayd.uk/",
     "icon": "https://icons.duckduckgo.com/ip3/formulio.hayd.uk.ico",
     "slug": "formulio-stremio-addon",
-    "status": "down",
+    "status": "up",
     "uptime": "87.53%",
-    "uptimeDay": "99.92%",
-    "uptimeWeek": "99.94%",
+    "uptimeDay": "99.80%",
+    "uptimeWeek": "99.92%",
     "uptimeMonth": "99.94%",
     "uptimeYear": "84.49%",
     "time": 946,
-    "timeDay": 458,
-    "timeWeek": 750,
-    "timeMonth": 1119,
-    "timeYear": 987,
+    "timeDay": 484,
+    "timeWeek": 731,
+    "timeMonth": 1106,
+    "timeYear": 986,
     "dailyMinutesDown": {
       "2025-10-26": 25,
       "2025-10-27": 31,
@@ -369,7 +369,7 @@
       "2026-08-27": 6,
       "2026-09-28": 20,
       "2026-10-10": 5,
-      "2026-10-15": 1
+      "2026-10-15": 3
     }
   },
   {
