@@ -63,9 +63,9 @@
     "slug": "aio-streams-stremio-addons",
     "status": "down",
     "uptime": "99.91%",
-    "uptimeDay": "99.37%",
-    "uptimeWeek": "99.91%",
-    "uptimeMonth": "99.95%",
+    "uptimeDay": "99.13%",
+    "uptimeWeek": "99.88%",
+    "uptimeMonth": "99.94%",
     "uptimeYear": "99.91%",
     "time": 852,
     "timeDay": 560,
@@ -83,7 +83,7 @@
       "2026-06-26": 43,
       "2026-09-15": 5,
       "2026-10-08": 13,
-      "2026-10-19": 9
+      "2026-10-19": 13
     }
   },
   {
@@ -424,9 +424,9 @@
     "slug": "jackettio-stremio-addon",
     "status": "down",
     "uptime": "99.57%",
-    "uptimeDay": "99.60%",
-    "uptimeWeek": "99.74%",
-    "uptimeMonth": "99.77%",
+    "uptimeDay": "99.36%",
+    "uptimeWeek": "99.71%",
+    "uptimeMonth": "99.76%",
     "uptimeYear": "99.43%",
     "time": 2964,
     "timeDay": 1321,
@@ -478,7 +478,7 @@
       "2026-10-08": 6,
       "2026-10-17": 5,
       "2026-10-18": 15,
-      "2026-10-19": 6
+      "2026-10-19": 9
     }
   },
   {
@@ -1391,16 +1391,16 @@
     "url": "https://zyclops.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/zyclops.elfhosted.com.ico",
     "slug": "zyclops",
-    "status": "down",
+    "status": "up",
     "uptime": "99.84%",
-    "uptimeDay": "99.58%",
-    "uptimeWeek": "99.94%",
-    "uptimeMonth": "99.91%",
+    "uptimeDay": "99.46%",
+    "uptimeWeek": "99.92%",
+    "uptimeMonth": "99.90%",
     "uptimeYear": "99.84%",
     "time": 998,
-    "timeDay": 742,
-    "timeWeek": 804,
-    "timeMonth": 1549,
+    "timeDay": 832,
+    "timeWeek": 823,
+    "timeMonth": 1535,
     "timeYear": 998,
     "dailyMinutesDown": {
       "2026-06-26": 83,
@@ -1411,7 +1411,7 @@
       "2026-09-20": 5,
       "2026-09-30": 10,
       "2026-10-10": 19,
-      "2026-10-19": 6
+      "2026-10-19": 8
     }
   }
 ]
