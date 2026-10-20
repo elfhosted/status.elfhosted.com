@@ -933,16 +933,16 @@
     "url": "https://stremify.hayd.uk/configure",
     "icon": "https://icons.duckduckgo.com/ip3/stremify.hayd.uk.ico",
     "slug": "stremify-stremio-addon-hayduk",
-    "status": "down",
+    "status": "up",
     "uptime": "99.90%",
-    "uptimeDay": "99.88%",
-    "uptimeWeek": "97.76%",
-    "uptimeMonth": "99.42%",
+    "uptimeDay": "99.79%",
+    "uptimeWeek": "97.75%",
+    "uptimeMonth": "99.41%",
     "uptimeYear": "99.90%",
     "time": 845,
-    "timeDay": 806,
-    "timeWeek": 1033,
-    "timeMonth": 1114,
+    "timeDay": 888,
+    "timeWeek": 1035,
+    "timeMonth": 1113,
     "timeYear": 845,
     "dailyMinutesDown": {
       "2025-11-18": 165,
@@ -950,7 +950,7 @@
       "2026-02-17": 31,
       "2026-09-28": 30,
       "2026-10-16": 224,
-      "2026-10-20": 2
+      "2026-10-20": 3
     }
   },
   {
