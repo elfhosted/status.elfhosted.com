@@ -1260,15 +1260,15 @@
     "url": "https://video.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/video.elfhosted.com.ico",
     "slug": "video-hosting-platform",
-    "status": "down",
+    "status": "up",
     "uptime": "99.39%",
-    "uptimeDay": "99.87%",
-    "uptimeWeek": "99.94%",
-    "uptimeMonth": "99.92%",
+    "uptimeDay": "99.65%",
+    "uptimeWeek": "99.90%",
+    "uptimeMonth": "99.91%",
     "uptimeYear": "99.85%",
     "time": 580,
-    "timeDay": 492,
-    "timeWeek": 574,
+    "timeDay": 540,
+    "timeWeek": 578,
     "timeMonth": 625,
     "timeYear": 593,
     "dailyMinutesDown": {
@@ -1294,7 +1294,7 @@
       "2026-10-01": 15,
       "2026-10-13": 5,
       "2026-10-19": 5,
-      "2026-10-21": 2
+      "2026-10-21": 5
     }
   },
   {
