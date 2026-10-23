@@ -763,13 +763,13 @@
     "url": "https://speed-backend.elfhosted.cc/empty.php",
     "icon": "https://icons.duckduckgo.com/ip3/speed-backend.elfhosted.cc.ico",
     "slug": "speed-test-endpoint-us-wa",
-    "status": "up",
+    "status": "down",
     "uptime": "99.92%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.91%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.94%",
-    "time": 316,
+    "time": 308,
     "timeDay": 244,
     "timeWeek": 233,
     "timeMonth": 241,
@@ -781,7 +781,8 @@
       "2026-04-26": 18,
       "2026-07-02": 138,
       "2026-07-22": 13,
-      "2026-08-17": 3
+      "2026-08-17": 3,
+      "2026-10-23": 1
     }
   },
   {
@@ -1266,7 +1267,7 @@
     "uptimeDay": "100.00%",
     "uptimeWeek": "99.90%",
     "uptimeMonth": "99.92%",
-    "uptimeYear": "99.85%",
+    "uptimeYear": "99.86%",
     "time": 580,
     "timeDay": 657,
     "timeWeek": 609,
