@@ -425,7 +425,7 @@
     "slug": "jackettio-stremio-addon",
     "status": "up",
     "uptime": "99.58%",
-    "uptimeDay": "98.30%",
+    "uptimeDay": "98.56%",
     "uptimeWeek": "99.03%",
     "uptimeMonth": "99.56%",
     "uptimeYear": "99.44%",
@@ -763,17 +763,17 @@
     "url": "https://speed-backend.elfhosted.cc/empty.php",
     "icon": "https://icons.duckduckgo.com/ip3/speed-backend.elfhosted.cc.ico",
     "slug": "speed-test-endpoint-us-wa",
-    "status": "down",
+    "status": "up",
     "uptime": "99.88%",
-    "uptimeDay": "83.49%",
-    "uptimeWeek": "97.59%",
-    "uptimeMonth": "99.45%",
+    "uptimeDay": "83.33%",
+    "uptimeWeek": "97.57%",
+    "uptimeMonth": "99.44%",
     "uptimeYear": "99.90%",
     "time": 307,
-    "timeDay": 186,
-    "timeWeek": 221,
-    "timeMonth": 236,
-    "timeYear": 317,
+    "timeDay": 211,
+    "timeWeek": 225,
+    "timeMonth": 237,
+    "timeYear": 316,
     "dailyMinutesDown": {
       "2025-11-10": 49,
       "2025-11-13": 48,
@@ -783,7 +783,7 @@
       "2026-07-22": 13,
       "2026-08-17": 3,
       "2026-10-23": 5,
-      "2026-10-26": 237
+      "2026-10-26": 240
     }
   },
   {
