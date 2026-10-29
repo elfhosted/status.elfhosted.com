@@ -1152,17 +1152,17 @@
     "url": "https://tvgardenio.hayd.uk/manifest.json",
     "icon": "https://icons.duckduckgo.com/ip3/tvgardenio.hayd.uk.ico",
     "slug": "stremio-tv-gardenio-addon-hayduk",
-    "status": "down",
+    "status": "up",
     "uptime": "99.87%",
-    "uptimeDay": "99.84%",
-    "uptimeWeek": "99.85%",
-    "uptimeMonth": "99.46%",
+    "uptimeDay": "99.70%",
+    "uptimeWeek": "99.83%",
+    "uptimeMonth": "99.45%",
     "uptimeYear": "99.87%",
-    "time": 1101,
-    "timeDay": 10074,
-    "timeWeek": 8415,
-    "timeMonth": 3622,
-    "timeYear": 1101,
+    "time": 1100,
+    "timeDay": 6966,
+    "timeWeek": 7776,
+    "timeMonth": 3548,
+    "timeYear": 1100,
     "dailyMinutesDown": {
       "2025-11-18": 213,
       "2025-12-03": 28,
@@ -1173,7 +1173,7 @@
       "2026-09-28": 30,
       "2026-10-16": 223,
       "2026-10-23": 13,
-      "2026-10-29": 2
+      "2026-10-29": 4
     }
   },
   {
