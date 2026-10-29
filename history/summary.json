@@ -144,17 +144,17 @@
     "url": "https://debrid.news",
     "icon": "https://icons.duckduckgo.com/ip3/debrid.news.ico",
     "slug": "debrid-news",
-    "status": "degraded",
+    "status": "up",
     "uptime": "95.54%",
-    "uptimeDay": "99.69%",
-    "uptimeWeek": "99.75%",
-    "uptimeMonth": "99.92%",
+    "uptimeDay": "99.54%",
+    "uptimeWeek": "99.73%",
+    "uptimeMonth": "99.91%",
     "uptimeYear": "95.88%",
     "time": 1095,
-    "timeDay": 22544,
-    "timeWeek": 9145,
-    "timeMonth": 3449,
-    "timeYear": 1180,
+    "timeDay": 15251,
+    "timeWeek": 8297,
+    "timeMonth": 3381,
+    "timeYear": 1178,
     "dailyMinutesDown": {
       "2025-11-10": 33,
       "2025-11-18": 143,
@@ -188,7 +188,7 @@
       "2026-10-13": 6,
       "2026-10-19": 6,
       "2026-10-23": 21,
-      "2026-10-29": 4
+      "2026-10-29": 7
     }
   },
   {
@@ -1153,17 +1153,17 @@
     "url": "https://tvgardenio.hayd.uk/manifest.json",
     "icon": "https://icons.duckduckgo.com/ip3/tvgardenio.hayd.uk.ico",
     "slug": "stremio-tv-gardenio-addon-hayduk",
-    "status": "down",
+    "status": "up",
     "uptime": "99.87%",
-    "uptimeDay": "99.55%",
-    "uptimeWeek": "99.81%",
-    "uptimeMonth": "99.45%",
+    "uptimeDay": "99.46%",
+    "uptimeWeek": "99.79%",
+    "uptimeMonth": "99.44%",
     "uptimeYear": "99.87%",
-    "time": 1146,
-    "timeDay": 10124,
-    "timeWeek": 8686,
-    "timeMonth": 3949,
-    "timeYear": 1146,
+    "time": 1149,
+    "timeDay": 8597,
+    "timeWeek": 8243,
+    "timeMonth": 3914,
+    "timeYear": 1149,
     "dailyMinutesDown": {
       "2025-11-18": 213,
       "2025-12-03": 28,
@@ -1174,7 +1174,7 @@
       "2026-09-28": 30,
       "2026-10-16": 223,
       "2026-10-23": 13,
-      "2026-10-29": 6
+      "2026-10-29": 7
     }
   },
   {
