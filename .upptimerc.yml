@@ -63,18 +63,6 @@ sites:
     expectedStatusCodes:
       - 302
       - 200
-  - name: Formulio Stremio Addon
-    url: https://formulio.hayd.uk/
-    assignees:
-    - funkypenguin
-    expectedStatusCodes:
-      - 200
-  - name: Frenchio Stremio Addons
-    url: https://frenchio.elfhosted.com
-    assignees:
-    - funkypenguin
-    expectedStatusCodes:
-      - 200
   - name: ItsOut Stremio Addons
     url: https://itsout.elfhosted.com
     assignees:
@@ -182,18 +170,6 @@ sites:
       - 200
     assignees:
       - funkypenguin
-  - name: StreamVix Stremio Addon (Hayduk)
-    url: https://streamvix.hayd.uk
-    assignees:
-    - funkypenguin
-    expectedStatusCodes:
-      - 200
-  - name: Stremify Stremio Addon (Hayduk)
-    url: https://stremify.hayd.uk/configure
-    assignees:
-    - funkypenguin
-    expectedStatusCodes:
-      - 200
   - name: Stremio Rating Aggregator Addon
     url: https://rating-aggregator.elfhosted.com
     maxResponseTime: 5000
@@ -236,12 +212,6 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200
-  - name: Stremio TVGardenio Addon (Hayduk)
-    url: https://tvgardenio.hayd.uk/manifest.json
-    assignees:
-    - funkypenguin
-    expectedStatusCodes:
-      - 200
   - name: StremThru Stremio Addons
     url: https://stremthru.elfhosted.com
     assignees:
@@ -254,12 +224,6 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200      
-  - name: TvVoo Stremio Addon (Hayduk)
-    url: https://tvvoo.hayd.uk
-    assignees:
-    - funkypenguin
-    expectedStatusCodes:
-      - 200
   - name: Video Hosting Platform
     url: https://video.elfhosted.com
     assignees:
