@@ -379,20 +379,20 @@
     "url": "https://frenchio.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/frenchio.elfhosted.com.ico",
     "slug": "frenchio-stremio-addons",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.87%",
-    "uptimeWeek": "99.93%",
+    "uptimeDay": "99.74%",
+    "uptimeWeek": "99.92%",
     "uptimeMonth": "99.98%",
     "uptimeYear": "100.00%",
-    "time": 848,
-    "timeDay": 476,
-    "timeWeek": 776,
-    "timeMonth": 854,
-    "timeYear": 848,
+    "time": 847,
+    "timeDay": 527,
+    "timeWeek": 761,
+    "timeMonth": 847,
+    "timeYear": 847,
     "dailyMinutesDown": {
       "2026-10-29": 5,
-      "2026-10-30": 2
+      "2026-10-30": 4
     }
   },
   {
@@ -808,16 +808,16 @@
     "url": "https://store.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/store.elfhosted.com.ico",
     "slug": "store-account-management-platform",
-    "status": "down",
+    "status": "up",
     "uptime": "99.08%",
-    "uptimeDay": "99.86%",
-    "uptimeWeek": "99.33%",
-    "uptimeMonth": "99.85%",
+    "uptimeDay": "99.75%",
+    "uptimeWeek": "99.32%",
+    "uptimeMonth": "99.84%",
     "uptimeYear": "98.77%",
-    "time": 223,
-    "timeDay": 66,
-    "timeWeek": 94,
-    "timeMonth": 139,
+    "time": 222,
+    "timeDay": 59,
+    "timeWeek": 89,
+    "timeMonth": 137,
     "timeYear": 211,
     "dailyMinutesDown": {
       "2026-04-24": 58,
@@ -876,7 +876,7 @@
       "2026-07-29": 5,
       "2026-09-26": 5,
       "2026-10-24": 65,
-      "2026-10-30": 2
+      "2026-10-30": 4
     }
   },
   {
@@ -935,17 +935,17 @@
     "url": "https://stremify.hayd.uk/configure",
     "icon": "https://icons.duckduckgo.com/ip3/stremify.hayd.uk.ico",
     "slug": "stremify-stremio-addon-hayduk",
-    "status": "down",
+    "status": "up",
     "uptime": "99.90%",
-    "uptimeDay": "99.87%",
-    "uptimeWeek": "99.98%",
+    "uptimeDay": "99.77%",
+    "uptimeWeek": "99.97%",
     "uptimeMonth": "99.46%",
     "uptimeYear": "99.90%",
-    "time": 896,
-    "timeDay": 543,
-    "timeWeek": 791,
-    "timeMonth": 1963,
-    "timeYear": 896,
+    "time": 895,
+    "timeDay": 469,
+    "timeWeek": 732,
+    "timeMonth": 1921,
+    "timeYear": 895,
     "dailyMinutesDown": {
       "2025-11-18": 165,
       "2025-12-03": 28,
@@ -954,7 +954,7 @@
       "2026-10-16": 224,
       "2026-10-20": 3,
       "2026-10-23": 8,
-      "2026-10-30": 2
+      "2026-10-30": 3
     }
   },
   {
@@ -1157,17 +1157,17 @@
     "url": "https://tvgardenio.hayd.uk/manifest.json",
     "icon": "https://icons.duckduckgo.com/ip3/tvgardenio.hayd.uk.ico",
     "slug": "stremio-tv-gardenio-addon-hayduk",
-    "status": "down",
+    "status": "up",
     "uptime": "99.87%",
-    "uptimeDay": "99.87%",
-    "uptimeWeek": "99.90%",
+    "uptimeDay": "99.78%",
+    "uptimeWeek": "99.89%",
     "uptimeMonth": "99.44%",
     "uptimeYear": "99.87%",
-    "time": 1146,
-    "timeDay": 426,
-    "timeWeek": 4280,
-    "timeMonth": 3826,
-    "timeYear": 1146,
+    "time": 1144,
+    "timeDay": 481,
+    "timeWeek": 3972,
+    "timeMonth": 3750,
+    "timeYear": 1144,
     "dailyMinutesDown": {
       "2025-11-18": 213,
       "2025-12-03": 28,
@@ -1179,7 +1179,7 @@
       "2026-10-16": 223,
       "2026-10-23": 13,
       "2026-10-29": 7,
-      "2026-10-30": 2
+      "2026-10-30": 3
     }
   },
   {
