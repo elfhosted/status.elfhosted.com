@@ -698,15 +698,15 @@
     "url": "https://store.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/store.elfhosted.com.ico",
     "slug": "store-account-management-platform",
-    "status": "down",
+    "status": "up",
     "uptime": "99.10%",
-    "uptimeDay": "98.82%",
-    "uptimeWeek": "99.19%",
+    "uptimeDay": "98.67%",
+    "uptimeWeek": "99.17%",
     "uptimeMonth": "99.81%",
     "uptimeYear": "98.79%",
     "time": 221,
-    "timeDay": 62,
-    "timeWeek": 77,
+    "timeDay": 70,
+    "timeWeek": 81,
     "timeMonth": 125,
     "timeYear": 210,
     "dailyMinutesDown": {
@@ -763,7 +763,7 @@
       "2026-09-26": 5,
       "2026-10-24": 65,
       "2026-10-30": 12,
-      "2026-10-31": 6
+      "2026-10-31": 8
     }
   },
   {
