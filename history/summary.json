@@ -700,8 +700,8 @@
     "slug": "store-account-management-platform",
     "status": "down",
     "uptime": "99.12%",
-    "uptimeDay": "99.35%",
-    "uptimeWeek": "99.69%",
+    "uptimeDay": "99.24%",
+    "uptimeWeek": "99.67%",
     "uptimeMonth": "99.78%",
     "uptimeYear": "98.81%",
     "time": 220,
@@ -761,7 +761,7 @@
       "2026-10-30": 12,
       "2026-10-31": 11,
       "2026-11-01": 8,
-      "2026-11-02": 1
+      "2026-11-02": 3
     }
   },
   {
