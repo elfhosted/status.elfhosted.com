@@ -91,17 +91,17 @@
     "url": "https://chillibridge.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/chillibridge.elfhosted.com.ico",
     "slug": "chilli-bridge",
-    "status": "down",
+    "status": "up",
     "uptime": "99.89%",
-    "uptimeDay": "94.17%",
-    "uptimeWeek": "99.17%",
+    "uptimeDay": "94.02%",
+    "uptimeWeek": "99.15%",
     "uptimeMonth": "99.48%",
     "uptimeYear": "99.89%",
-    "time": 1156,
-    "timeDay": 972,
-    "timeWeek": 879,
-    "timeMonth": 2404,
-    "timeYear": 1156,
+    "time": 1155,
+    "timeDay": 1002,
+    "timeWeek": 898,
+    "timeMonth": 2367,
+    "timeYear": 1155,
     "dailyMinutesDown": {
       "2026-01-27": 13,
       "2026-05-21": 70,
@@ -109,7 +109,7 @@
       "2026-07-25": 4,
       "2026-08-08": 73,
       "2026-10-08": 143,
-      "2026-11-03": 84
+      "2026-11-03": 86
     }
   },
   {
@@ -197,16 +197,16 @@
     "url": "https://demo-storyteller.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/demo-storyteller.elfhosted.com.ico",
     "slug": "demo-storyteller",
-    "status": "down",
+    "status": "up",
     "uptime": "99.90%",
-    "uptimeDay": "95.16%",
-    "uptimeWeek": "99.31%",
+    "uptimeDay": "95.01%",
+    "uptimeWeek": "99.29%",
     "uptimeMonth": "99.52%",
     "uptimeYear": "99.89%",
     "time": 1473,
-    "timeDay": 2111,
-    "timeWeek": 1409,
-    "timeMonth": 4159,
+    "timeDay": 1812,
+    "timeWeek": 1422,
+    "timeMonth": 4094,
     "timeYear": 1568,
     "dailyMinutesDown": {
       "2025-11-10": 42,
@@ -222,7 +222,7 @@
       "2026-09-25": 7,
       "2026-10-08": 135,
       "2026-10-19": 5,
-      "2026-11-03": 70
+      "2026-11-03": 72
     }
   },
   {
@@ -499,21 +499,21 @@
     "url": "https://postersplus.elfhosted.com/",
     "icon": "https://icons.duckduckgo.com/ip3/postersplus.elfhosted.com.ico",
     "slug": "posters-for-aio-metadata",
-    "status": "down",
+    "status": "up",
     "uptime": "99.98%",
-    "uptimeDay": "97.11%",
-    "uptimeWeek": "99.59%",
+    "uptimeDay": "96.97%",
+    "uptimeWeek": "99.57%",
     "uptimeMonth": "99.89%",
     "uptimeYear": "99.98%",
-    "time": 1496,
-    "timeDay": 25954,
-    "timeWeek": 7341,
-    "timeMonth": 2667,
-    "timeYear": 1496,
+    "time": 1495,
+    "timeDay": 17764,
+    "timeWeek": 6679,
+    "timeMonth": 2630,
+    "timeYear": 1495,
     "dailyMinutesDown": {
       "2026-09-29": 6,
       "2026-10-13": 5,
-      "2026-11-03": 42
+      "2026-11-03": 44
     }
   },
   {
@@ -768,17 +768,17 @@
     "url": "https://rating-aggregator.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/rating-aggregator.elfhosted.com.ico",
     "slug": "stremio-rating-aggregator-addon",
-    "status": "degraded",
+    "status": "up",
     "uptime": "99.92%",
-    "uptimeDay": "97.63%",
-    "uptimeWeek": "99.66%",
-    "uptimeMonth": "99.67%",
+    "uptimeDay": "97.51%",
+    "uptimeWeek": "99.64%",
+    "uptimeMonth": "99.66%",
     "uptimeYear": "99.91%",
-    "time": 1911,
-    "timeDay": 22626,
-    "timeWeek": 6799,
-    "timeMonth": 6084,
-    "timeYear": 2129,
+    "time": 1910,
+    "timeDay": 15471,
+    "timeWeek": 6173,
+    "timeMonth": 5947,
+    "timeYear": 2127,
     "dailyMinutesDown": {
       "2025-11-10": 72,
       "2025-11-18": 142,
@@ -788,7 +788,7 @@
       "2026-06-04": 54,
       "2026-08-08": 39,
       "2026-10-08": 111,
-      "2026-11-03": 34
+      "2026-11-03": 36
     }
   },
   {
@@ -880,16 +880,16 @@
     "url": "https://tmdb.elfhosted.com/configure",
     "icon": "https://icons.duckduckgo.com/ip3/tmdb.elfhosted.com.ico",
     "slug": "stremio-tmdb-addon",
-    "status": "degraded",
+    "status": "up",
     "uptime": "99.82%",
-    "uptimeDay": "98.86%",
-    "uptimeWeek": "99.84%",
-    "uptimeMonth": "99.74%",
+    "uptimeDay": "98.74%",
+    "uptimeWeek": "99.82%",
+    "uptimeMonth": "99.73%",
     "uptimeYear": "99.76%",
-    "time": 1617,
-    "timeDay": 20989,
-    "timeWeek": 6068,
-    "timeMonth": 4311,
+    "time": 1618,
+    "timeDay": 14400,
+    "timeWeek": 5529,
+    "timeMonth": 4225,
     "timeYear": 1747,
     "dailyMinutesDown": {
       "2026-06-29": 31,
@@ -932,7 +932,7 @@
       "2026-08-23": 18,
       "2026-09-13": 4,
       "2026-10-08": 98,
-      "2026-11-03": 16
+      "2026-11-03": 18
     }
   },
   {
@@ -940,24 +940,24 @@
     "url": "https://toast-translator.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/toast-translator.elfhosted.com.ico",
     "slug": "stremio-toast-translator-addon",
-    "status": "degraded",
+    "status": "up",
     "uptime": "99.81%",
-    "uptimeDay": "99.16%",
-    "uptimeWeek": "99.88%",
+    "uptimeDay": "99.05%",
+    "uptimeWeek": "99.86%",
     "uptimeMonth": "99.75%",
     "uptimeYear": "99.81%",
-    "time": 980,
-    "timeDay": 4099,
-    "timeWeek": 1544,
-    "timeMonth": 1972,
-    "timeYear": 980,
+    "time": 979,
+    "timeDay": 2991,
+    "timeWeek": 1459,
+    "timeMonth": 1939,
+    "timeYear": 979,
     "dailyMinutesDown": {
       "2026-02-04": 14,
       "2026-03-29": 303,
       "2026-07-08": 298,
       "2026-08-08": 16,
       "2026-10-08": 96,
-      "2026-11-03": 12
+      "2026-11-03": 14
     }
   },
   {
