@@ -358,7 +358,7 @@
     "timeDay": 630,
     "timeWeek": 3036,
     "timeMonth": 7411,
-    "timeYear": 3262,
+    "timeYear": 3265,
     "dailyMinutesDown": {
       "2026-03-21": 198,
       "2026-03-20": 50,
@@ -736,19 +736,18 @@
     "url": "https://store.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/store.elfhosted.com.ico",
     "slug": "store-account-management-platform",
-    "status": "up",
-    "uptime": "99.19%",
-    "uptimeDay": "99.20%",
-    "uptimeWeek": "99.36%",
-    "uptimeMonth": "99.71%",
-    "uptimeYear": "98.90%",
-    "time": 215,
-    "timeDay": 118,
-    "timeWeek": 95,
-    "timeMonth": 113,
+    "status": "down",
+    "uptime": "99.20%",
+    "uptimeDay": "99.44%",
+    "uptimeWeek": "99.35%",
+    "uptimeMonth": "99.70%",
+    "uptimeYear": "98.92%",
+    "time": 214,
+    "timeDay": 115,
+    "timeWeek": 94,
+    "timeMonth": 112,
     "timeYear": 202,
     "dailyMinutesDown": {
-      "2026-05-29": 86,
       "2026-05-30": 59,
       "2026-05-31": 269,
       "2026-06-04": 61,
@@ -794,7 +793,8 @@
       "2026-10-31": 11,
       "2026-11-01": 8,
       "2026-11-02": 23,
-      "2026-11-03": 12
+      "2026-11-03": 12,
+      "2026-11-04": 1
     }
   },
   {
@@ -924,7 +924,7 @@
     "timeDay": 817,
     "timeWeek": 5101,
     "timeMonth": 4116,
-    "timeYear": 1760,
+    "timeYear": 1761,
     "dailyMinutesDown": {
       "2026-06-29": 31,
       "2026-06-30": 47,
