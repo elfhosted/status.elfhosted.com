@@ -196,17 +196,17 @@
     "url": "https://demo-storyteller.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/demo-storyteller.elfhosted.com.ico",
     "slug": "demo-storyteller",
-    "status": "degraded",
+    "status": "up",
     "uptime": "99.90%",
-    "uptimeDay": "99.69%",
-    "uptimeWeek": "99.24%",
-    "uptimeMonth": "99.51%",
+    "uptimeDay": "99.57%",
+    "uptimeWeek": "99.22%",
+    "uptimeMonth": "99.50%",
     "uptimeYear": "99.89%",
-    "time": 1479,
-    "timeDay": 2489,
-    "timeWeek": 1770,
-    "timeMonth": 4045,
-    "timeYear": 1576,
+    "time": 1477,
+    "timeDay": 2046,
+    "timeWeek": 1674,
+    "timeMonth": 3970,
+    "timeYear": 1574,
     "dailyMinutesDown": {
       "2025-11-10": 42,
       "2025-11-18": 153,
@@ -222,7 +222,7 @@
       "2026-10-08": 135,
       "2026-10-19": 5,
       "2026-11-03": 72,
-      "2026-11-04": 5
+      "2026-11-04": 6
     }
   },
   {
@@ -802,17 +802,17 @@
     "url": "https://rating-aggregator.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/rating-aggregator.elfhosted.com.ico",
     "slug": "stremio-rating-aggregator-addon",
-    "status": "degraded",
+    "status": "up",
     "uptime": "99.92%",
-    "uptimeDay": "99.74%",
-    "uptimeWeek": "99.61%",
-    "uptimeMonth": "99.66%",
+    "uptimeDay": "99.66%",
+    "uptimeWeek": "99.59%",
+    "uptimeMonth": "99.65%",
     "uptimeYear": "99.91%",
-    "time": 1914,
-    "timeDay": 2550,
-    "timeWeek": 5655,
-    "timeMonth": 5791,
-    "timeYear": 2133,
+    "time": 1913,
+    "timeDay": 2349,
+    "timeWeek": 5329,
+    "timeMonth": 5688,
+    "timeYear": 2132,
     "dailyMinutesDown": {
       "2025-11-10": 72,
       "2025-11-18": 142,
@@ -823,7 +823,7 @@
       "2026-08-08": 39,
       "2026-10-08": 111,
       "2026-11-03": 36,
-      "2026-11-04": 4
+      "2026-11-04": 5
     }
   },
   {
