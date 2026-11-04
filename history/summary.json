@@ -253,11 +253,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/mcp.elfhosted.com.ico",
     "slug": "elf-hosted-mcp",
     "status": "up",
-    "uptime": "99.43%",
-    "uptimeDay": "99.43%",
-    "uptimeWeek": "99.43%",
-    "uptimeMonth": "99.43%",
-    "uptimeYear": "99.43%",
+    "uptime": "99.44%",
+    "uptimeDay": "99.44%",
+    "uptimeWeek": "99.44%",
+    "uptimeMonth": "99.44%",
+    "uptimeYear": "99.44%",
     "time": 1907,
     "timeDay": 1907,
     "timeWeek": 1907,
@@ -1200,6 +1200,66 @@
       "2026-10-10": 19,
       "2026-10-19": 8,
       "2026-10-20": 8
+    }
+  },
+  {
+    "name": "Dori",
+    "url": "$DORI_URL",
+    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "slug": "dori",
+    "status": "up",
+    "uptime": "66.10%",
+    "uptimeDay": "66.10%",
+    "uptimeWeek": "66.10%",
+    "uptimeMonth": "66.10%",
+    "uptimeYear": "66.10%",
+    "time": 621,
+    "timeDay": 621,
+    "timeWeek": 621,
+    "timeMonth": 621,
+    "timeYear": 621,
+    "dailyMinutesDown": {
+      "2026-11-04": 1
+    }
+  },
+  {
+    "name": "Nori",
+    "url": "$NORI_URL",
+    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "slug": "nori",
+    "status": "up",
+    "uptime": "71.32%",
+    "uptimeDay": "71.32%",
+    "uptimeWeek": "71.32%",
+    "uptimeMonth": "71.32%",
+    "uptimeYear": "71.32%",
+    "time": 109,
+    "timeDay": 109,
+    "timeWeek": 109,
+    "timeMonth": 109,
+    "timeYear": 109,
+    "dailyMinutesDown": {
+      "2026-11-04": 1
+    }
+  },
+  {
+    "name": "Ori",
+    "url": "$ORI_URL",
+    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "slug": "ori",
+    "status": "up",
+    "uptime": "77.12%",
+    "uptimeDay": "77.12%",
+    "uptimeWeek": "77.12%",
+    "uptimeMonth": "77.12%",
+    "uptimeYear": "77.12%",
+    "time": 214,
+    "timeDay": 214,
+    "timeWeek": 214,
+    "timeMonth": 214,
+    "timeYear": 214,
+    "dailyMinutesDown": {
+      "2026-11-04": 0
     }
   }
 ]
