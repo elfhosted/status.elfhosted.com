@@ -291,6 +291,30 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200
+  - name: Dori
+    url: $DORI_URL
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200
+    __dangerous__body_down_if_text_missing: ok
+    maxResponseTime: 5000
+  - name: Nori
+    url: $NORI_URL
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200
+    __dangerous__body_down_if_text_missing: ok
+    maxResponseTime: 5000
+  - name: Ori
+    url: $ORI_URL
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200
+    __dangerous__body_down_if_text_missing: ok
+    maxResponseTime: 5000
 
 status-website:
   # Setting themeUrl is what stops upstream loading its own light/dark themes.
