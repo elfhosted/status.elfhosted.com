@@ -55,6 +55,34 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200
+  # The MCP servers answer 200 even when a tool fails (the failure is in the
+  # JSON-RPC result), so each check calls a real tool and looks for text only
+  # a working answer carries. This one reads the store catalogue.
+  - name: ElfHosted MCP
+    url: https://mcp.elfhosted.com/mcp
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"jsonrpc":"2.0","id":1,"method":"tools/call","params":{"name":"browse_apps","arguments":{"query":"immich","limit":3}}}'
+    __dangerous__body_down_if_text_missing: ImmichFrame
+    maxResponseTime: 10000
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200
+  # The ChatGPT directory's endpoint. This one reads the docs search index.
+  - name: ElfHosted MCP for ChatGPT
+    url: https://mcp.elfhosted.com/help
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"jsonrpc":"2.0","id":1,"method":"tools/call","params":{"name":"search_docs","arguments":{"query":"immich"}}}'
+    __dangerous__body_down_if_text_missing: /app/immich/
+    maxResponseTime: 10000
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200
   - name: FNKY Link Shortener
     url: https://fnky.nz
     maxResponseTime: 5000
