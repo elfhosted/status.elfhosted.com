@@ -1,7 +1,7 @@
 url: $NORI_URL
-status: up
-code: 200
-responseTime: 117
-lastUpdated: 2026-11-04T23:07:47.364Z
+status: down
+code: 503
+responseTime: 46
+lastUpdated: 2026-11-05T00:47:50.235Z
 startTime: 2026-11-04T22:20:46.571Z
 generator: Upptime <https://github.com/upptime/upptime>
