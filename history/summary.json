@@ -252,20 +252,20 @@
     "url": "https://mcp.elfhosted.com/mcp",
     "icon": "https://icons.duckduckgo.com/ip3/mcp.elfhosted.com.ico",
     "slug": "elf-hosted-mcp",
-    "status": "down",
-    "uptime": "99.23%",
-    "uptimeDay": "98.94%",
-    "uptimeWeek": "99.23%",
-    "uptimeMonth": "99.23%",
-    "uptimeYear": "99.23%",
-    "time": 1822,
-    "timeDay": 1523,
-    "timeWeek": 1822,
-    "timeMonth": 1822,
-    "timeYear": 1822,
+    "status": "up",
+    "uptime": "99.08%",
+    "uptimeDay": "98.69%",
+    "uptimeWeek": "99.08%",
+    "uptimeMonth": "99.08%",
+    "uptimeYear": "99.08%",
+    "time": 2004,
+    "timeDay": 1781,
+    "timeWeek": 2004,
+    "timeMonth": 2004,
+    "timeYear": 2004,
     "dailyMinutesDown": {
       "2026-11-04": 6,
-      "2026-11-05": 12
+      "2026-11-05": 16
     }
   },
   {
