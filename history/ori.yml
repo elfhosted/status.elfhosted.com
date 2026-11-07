@@ -1,7 +1,7 @@
 url: $ORI_URL
-status: degraded
+status: up
 code: 200
-responseTime: 18326
-lastUpdated: 2026-11-07T00:50:28.479Z
+responseTime: 388
+lastUpdated: 2026-11-07T00:52:52.787Z
 startTime: 2026-11-04T22:20:50.532Z
 generator: Upptime <https://github.com/upptime/upptime>
