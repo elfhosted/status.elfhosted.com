@@ -1250,20 +1250,20 @@
     "url": "$ORI_URL",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "ori",
-    "status": "degraded",
-    "uptime": "99.94%",
-    "uptimeDay": "99.90%",
-    "uptimeWeek": "99.94%",
-    "uptimeMonth": "99.94%",
-    "uptimeYear": "99.94%",
-    "time": 3899,
-    "timeDay": 9355,
-    "timeWeek": 3899,
-    "timeMonth": 3899,
-    "timeYear": 3899,
+    "status": "up",
+    "uptime": "99.90%",
+    "uptimeDay": "99.83%",
+    "uptimeWeek": "99.90%",
+    "uptimeMonth": "99.90%",
+    "uptimeYear": "99.90%",
+    "time": 3314,
+    "timeDay": 6366,
+    "timeWeek": 3314,
+    "timeMonth": 3314,
+    "timeYear": 3314,
     "dailyMinutesDown": {
       "2026-11-04": 0,
-      "2026-11-07": 1
+      "2026-11-07": 2
     }
   }
 ]
