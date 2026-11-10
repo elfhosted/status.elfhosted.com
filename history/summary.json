@@ -202,7 +202,7 @@
     "timeDay": 945,
     "timeWeek": 1620,
     "timeMonth": 1325,
-    "timeYear": 1583,
+    "timeYear": 1585,
     "dailyMinutesDown": {
       "2025-11-18": 153,
       "2026-01-19": 15,
@@ -231,7 +231,7 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.96%",
-    "time": 628,
+    "time": 651,
     "timeDay": 504,
     "timeWeek": 717,
     "timeMonth": 689,
@@ -356,7 +356,7 @@
     "timeDay": 615,
     "timeWeek": 2755,
     "timeMonth": 7369,
-    "timeYear": 3271,
+    "timeYear": 3275,
     "dailyMinutesDown": {
       "2026-03-21": 117,
       "2026-03-22": 242,
@@ -425,7 +425,7 @@
     "timeDay": 206,
     "timeWeek": 317,
     "timeMonth": 313,
-    "timeYear": 321,
+    "timeYear": 322,
     "dailyMinutesDown": {
       "2025-11-18": 163,
       "2025-11-30": 12,
@@ -462,7 +462,7 @@
     "timeDay": 448,
     "timeWeek": 952,
     "timeMonth": 826,
-    "timeYear": 703,
+    "timeYear": 704,
     "dailyMinutesDown": {
       "2025-11-18": 155
     }
@@ -728,17 +728,17 @@
     "url": "https://store.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/store.elfhosted.com.ico",
     "slug": "store-account-management-platform",
-    "status": "down",
+    "status": "up",
     "uptime": "99.28%",
-    "uptimeDay": "99.90%",
-    "uptimeWeek": "99.60%",
-    "uptimeMonth": "99.63%",
-    "uptimeYear": "99.02%",
+    "uptimeDay": "99.66%",
+    "uptimeWeek": "99.57%",
+    "uptimeMonth": "99.62%",
+    "uptimeYear": "99.01%",
     "time": 210,
-    "timeDay": 64,
-    "timeWeek": 105,
+    "timeDay": 82,
+    "timeWeek": 106,
     "timeMonth": 104,
-    "timeYear": 196,
+    "timeYear": 195,
     "dailyMinutesDown": {
       "2026-06-06": 111,
       "2026-06-07": 107,
@@ -784,7 +784,7 @@
       "2026-11-03": 12,
       "2026-11-04": 15,
       "2026-11-05": 18,
-      "2026-11-10": 1
+      "2026-11-10": 5
     }
   },
   {
@@ -802,7 +802,7 @@
     "timeDay": 1415,
     "timeWeek": 1902,
     "timeMonth": 2835,
-    "timeYear": 2143,
+    "timeYear": 2147,
     "dailyMinutesDown": {
       "2025-11-18": 142,
       "2025-11-30": 12,
@@ -914,7 +914,7 @@
     "timeDay": 980,
     "timeWeek": 1150,
     "timeMonth": 2205,
-    "timeYear": 1773,
+    "timeYear": 1775,
     "dailyMinutesDown": {
       "2026-06-29": 31,
       "2026-06-30": 47,
@@ -995,7 +995,7 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.93%",
-    "time": 524,
+    "time": 527,
     "timeDay": 498,
     "timeWeek": 530,
     "timeMonth": 417,
