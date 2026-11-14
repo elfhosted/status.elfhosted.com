@@ -1213,21 +1213,21 @@
     "url": "$NORI_URL",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "nori",
-    "status": "down",
-    "uptime": "99.96%",
-    "uptimeDay": "99.88%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "99.96%",
-    "uptimeYear": "99.96%",
-    "time": 218,
-    "timeDay": 341,
-    "timeWeek": 278,
-    "timeMonth": 218,
-    "timeYear": 218,
+    "status": "up",
+    "uptime": "99.94%",
+    "uptimeDay": "99.67%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.94%",
+    "uptimeYear": "99.94%",
+    "time": 228,
+    "timeDay": 352,
+    "timeWeek": 289,
+    "timeMonth": 228,
+    "timeYear": 228,
     "dailyMinutesDown": {
       "2026-11-04": 1,
       "2026-11-05": 3,
-      "2026-11-14": 2
+      "2026-11-14": 5
     }
   },
   {
