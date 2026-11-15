@@ -731,13 +731,13 @@
     "url": "https://store.elfhosted.com",
     "icon": "https://icons.duckduckgo.com/ip3/store.elfhosted.com.ico",
     "slug": "store-account-management-platform",
-    "status": "down",
+    "status": "up",
     "uptime": "99.69%",
-    "uptimeDay": "95.76%",
-    "uptimeWeek": "98.90%",
-    "uptimeMonth": "99.38%",
+    "uptimeDay": "95.68%",
+    "uptimeWeek": "98.87%",
+    "uptimeMonth": "99.37%",
     "uptimeYear": "99.58%",
-    "time": 204,
+    "time": 203,
     "timeDay": 79,
     "timeWeek": 88,
     "timeMonth": 94,
@@ -774,7 +774,7 @@
       "2026-11-12": 15,
       "2026-11-13": 18,
       "2026-11-14": 41,
-      "2026-11-15": 33
+      "2026-11-15": 37
     }
   },
   {
