@@ -192,8 +192,13 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200      
+  # Upptime's curl sends no User-Agent, and the store's Cloudflare edge answers
+  # a request without one with a 403 block page from some runner IPs, so the
+  # check flapped down without the store ever being down.
   - name: Store / Account Management Platform
     url: https://store.elfhosted.com
+    headers:
+      - "User-Agent: Mozilla/5.0 (compatible; ElfHosted-Upptime/1.0; +https://status.elfhosted.com)"
     expectedStatusCodes:
       - 200
     assignees:
