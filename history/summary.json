@@ -247,11 +247,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/mcp.elfhosted.com.ico",
     "slug": "elf-hosted-mcp",
     "status": "down",
-    "uptime": "98.84%",
+    "uptime": "98.83%",
     "uptimeDay": "97.70%",
-    "uptimeWeek": "98.14%",
-    "uptimeMonth": "98.84%",
-    "uptimeYear": "98.84%",
+    "uptimeWeek": "98.10%",
+    "uptimeMonth": "98.83%",
+    "uptimeYear": "98.83%",
     "time": 2143,
     "timeDay": 1142,
     "timeWeek": 1559,
@@ -262,7 +262,7 @@
       "2026-11-05": 21,
       "2026-11-06": 13,
       "2026-11-16": 179,
-      "2026-11-17": 9
+      "2026-11-17": 12
     }
   },
   {
@@ -659,7 +659,7 @@
     "status": "up",
     "uptime": "99.98%",
     "uptimeDay": "99.73%",
-    "uptimeWeek": "99.93%",
+    "uptimeWeek": "99.94%",
     "uptimeMonth": "99.98%",
     "uptimeYear": "99.98%",
     "time": 728,
@@ -734,17 +734,17 @@
     "url": "https://store.elfhosted.com/wp-json/wc/store/v1/products?per_page=1",
     "icon": "https://icons.duckduckgo.com/ip3/store.elfhosted.com.ico",
     "slug": "store-account-management-platform",
-    "status": "down",
+    "status": "up",
     "uptime": "99.95%",
-    "uptimeDay": "93.19%",
-    "uptimeWeek": "96.64%",
+    "uptimeDay": "93.05%",
+    "uptimeWeek": "96.62%",
     "uptimeMonth": "99.11%",
     "uptimeYear": "99.93%",
-    "time": 238,
-    "timeDay": 1118,
-    "timeWeek": 367,
-    "timeMonth": 285,
-    "timeYear": 226,
+    "time": 244,
+    "timeDay": 1231,
+    "timeWeek": 403,
+    "timeMonth": 310,
+    "timeYear": 233,
     "dailyMinutesDown": {
       "2026-11-02": 3,
       "2026-11-03": 12,
@@ -756,7 +756,7 @@
       "2026-11-14": 41,
       "2026-11-15": 115,
       "2026-11-16": 83,
-      "2026-11-17": 68
+      "2026-11-17": 70
     }
   },
   {
