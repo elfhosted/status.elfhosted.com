@@ -1,7 +1,7 @@
 url: https://store.elfhosted.com/wp-json/wc/store/v1/products?per_page=1
-status: down
-code: 403
-responseTime: 24
-lastUpdated: 2026-11-17T16:05:46.642Z
+status: up
+code: 200
+responseTime: 13059
+lastUpdated: 2026-11-17T16:15:26.053Z
 startTime: 2025-06-27T05:03:08.014Z
 generator: Upptime <https://github.com/upptime/upptime>
