@@ -192,11 +192,14 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200      
-  # Upptime's curl sends no User-Agent, and the store's Cloudflare edge answers
-  # a request without one with a 403 block page from some runner IPs, so the
-  # check flapped down without the store ever being down.
+  # The store's Cloudflare edge answers some GitHub runner IPs on the homepage
+  # with a 403 block page, even with a User-Agent, so a homepage check flapped
+  # down without the store ever being down. /wp-json/ is exempt from that
+  # block, and the Store API product list proves PHP, WooCommerce and the
+  # database answer: every product carries "prices".
   - name: Store / Account Management Platform
-    url: https://store.elfhosted.com
+    url: https://store.elfhosted.com/wp-json/wc/store/v1/products?per_page=1
+    __dangerous__body_down_if_text_missing: '"prices"'
     headers:
       - "User-Agent: Mozilla/5.0 (compatible; ElfHosted-Upptime/1.0; +https://status.elfhosted.com)"
     expectedStatusCodes:
