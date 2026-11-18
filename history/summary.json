@@ -724,23 +724,23 @@
     "url": "https://store.elfhosted.com/wp-json/wc/store/v1/products?per_page=1",
     "icon": "https://icons.duckduckgo.com/ip3/store.elfhosted.com.ico",
     "slug": "store-account-management-platform",
-    "status": "down",
+    "status": "up",
     "uptime": "99.95%",
-    "uptimeDay": "93.52%",
-    "uptimeWeek": "96.09%",
+    "uptimeDay": "93.63%",
+    "uptimeWeek": "96.08%",
     "uptimeMonth": "99.10%",
-    "uptimeYear": "99.93%",
-    "time": 346,
-    "timeDay": 2622,
-    "timeWeek": 875,
-    "timeMonth": 674,
-    "timeYear": 352,
+    "uptimeYear": "99.92%",
+    "time": 350,
+    "timeDay": 2656,
+    "timeWeek": 890,
+    "timeMonth": 686,
+    "timeYear": 356,
     "dailyMinutesDown": {
       "2026-11-14": 27,
       "2026-11-15": 115,
       "2026-11-16": 83,
       "2026-11-17": 96,
-      "2026-11-18": 78
+      "2026-11-18": 79
     }
   },
   {
