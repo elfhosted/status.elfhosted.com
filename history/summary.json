@@ -732,8 +732,8 @@
     "uptimeMonth": "99.08%",
     "uptimeYear": "99.92%",
     "time": 510,
-    "timeDay": 2606,
-    "timeWeek": 1345,
+    "timeDay": 2660,
+    "timeWeek": 1353,
     "timeMonth": 1059,
     "timeYear": 535,
     "dailyMinutesDown": {
@@ -1190,17 +1190,17 @@
     "url": "$ORI_URL",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "ori",
-    "status": "down",
-    "uptime": "97.57%",
-    "uptimeDay": "99.89%",
-    "uptimeWeek": "99.91%",
-    "uptimeMonth": "97.57%",
-    "uptimeYear": "97.57%",
-    "time": 1050,
-    "timeDay": 390,
-    "timeWeek": 438,
-    "timeMonth": 1050,
-    "timeYear": 1050,
+    "status": "up",
+    "uptime": "97.54%",
+    "uptimeDay": "99.31%",
+    "uptimeWeek": "99.82%",
+    "uptimeMonth": "97.54%",
+    "uptimeYear": "97.54%",
+    "time": 1034,
+    "timeDay": 462,
+    "timeWeek": 449,
+    "timeMonth": 1034,
+    "timeYear": 1034,
     "dailyMinutesDown": {
       "2026-11-04": 0,
       "2026-11-07": 2,
@@ -1208,7 +1208,7 @@
       "2026-11-12": 534,
       "2026-11-17": 5,
       "2026-11-19": 3,
-      "2026-11-21": 2
+      "2026-11-21": 10
     }
   }
 ]
