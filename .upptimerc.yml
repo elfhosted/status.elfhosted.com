@@ -192,6 +192,20 @@ sites:
     - funkypenguin
     expectedStatusCodes:
       - 200      
+  - name: Speed Test Endpoint US-OR
+    url: https://speed-backend.elfhosted.beer/empty.php
+    maxResponseTime: 5000
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200
+  - name: Speed Test Endpoint US-VA
+    url: https://speed-backend.elfhosted.bar/empty.php
+    maxResponseTime: 5000
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200
   # The store's Cloudflare edge answers some GitHub runner IPs on the homepage
   # with a 403 block page, even with a User-Agent, so a homepage check flapped
   # down without the store ever being down. /wp-json/ is exempt from that
