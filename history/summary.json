@@ -766,22 +766,21 @@
     "slug": "store-account-management-platform",
     "status": "up",
     "uptime": "99.94%",
-    "uptimeDay": "89.52%",
-    "uptimeWeek": "95.24%",
+    "uptimeDay": "89.48%",
+    "uptimeWeek": "95.25%",
     "uptimeMonth": "98.91%",
     "uptimeYear": "99.91%",
-    "time": 1047,
-    "timeDay": 6536,
-    "timeWeek": 3213,
-    "timeMonth": 2021,
+    "time": 1048,
+    "timeDay": 6403,
+    "timeWeek": 3201,
+    "timeMonth": 2019,
     "timeYear": 1101,
     "dailyMinutesDown": {
-      "2026-11-21": 3,
       "2026-11-22": 102,
       "2026-11-23": 73,
       "2026-11-24": 113,
       "2026-11-25": 140,
-      "2026-11-26": 47
+      "2026-11-26": 50
     }
   },
   {
