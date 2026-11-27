@@ -765,22 +765,22 @@
     "icon": "https://icons.duckduckgo.com/ip3/store.elfhosted.com.ico",
     "slug": "store-account-management-platform",
     "status": "down",
-    "uptime": "99.94%",
-    "uptimeDay": "93.26%",
-    "uptimeWeek": "95.19%",
+    "uptime": "99.93%",
+    "uptimeDay": "92.92%",
+    "uptimeWeek": "95.18%",
     "uptimeMonth": "98.89%",
     "uptimeYear": "99.91%",
-    "time": 1036,
-    "timeDay": 1163,
-    "timeWeek": 3212,
-    "timeMonth": 1975,
+    "time": 1037,
+    "timeDay": 1175,
+    "timeWeek": 3211,
+    "timeMonth": 1973,
     "timeYear": 1113,
     "dailyMinutesDown": {
-      "2026-11-23": 67,
+      "2026-11-23": 64,
       "2026-11-24": 113,
       "2026-11-25": 140,
       "2026-11-26": 94,
-      "2026-11-27": 74
+      "2026-11-27": 79
     }
   },
   {
