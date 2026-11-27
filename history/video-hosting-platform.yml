@@ -1,7 +1,7 @@
 url: https://video.elfhosted.com
-status: up
-code: 200
-responseTime: 879
-lastUpdated: 2026-11-26T23:07:43.934Z
+status: down
+code: 502
+responseTime: 449
+lastUpdated: 2026-11-27T05:35:59.977Z
 startTime: 2025-06-27T05:02:51.038Z
 generator: Upptime <https://github.com/upptime/upptime>
